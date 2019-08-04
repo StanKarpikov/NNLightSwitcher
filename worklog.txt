@@ -1,0 +1,83 @@
+﻿*MEMS microphone 
+MP34DT05-A
+ICS-40300
+IM69D130
+
+*esp32
+ESP32-D0WD (без памяти) внешняя только до 8Мб
+GD25Q32C - Flash
+W25Q32
+lyontek LY68S3200 - RAM
+or ESP-PSRAM32 (esp32 wrover)
+23lc1024 (Micron 23A1024)
+N01S830HA (ON ) - только 20 МГц и 1Мбит
+
+*STM32WB55 - только BLE
+
+*
+Модули:
+WiKi статья
+
+STM32 + ATWINC1500,ATWILC3000
+Photon (STM32+BCM43362)
+
+TI CC3200
+
+Cypress CYW43012 BCM43362
+
+XMC4800 Infineon
+
+LM832 LM technologies
+
+BX3100 Sierra
+
+RTL8710
+
+LPC54018
+
+EMW3165
+-----------------
+CC3235SF - но нет внешней RAM памяти.
+
+Zynq-7000 SoC
+XC7Z007S-1CLG225C
+
+eMMC - только 3.. , но подходят некоторые 4.1
+eMMC - MTFC серия Micron
+MTFC4GMVEA-1M - большая
+MTFC4GLDDQ-4M - ОК 100-LBGA (14x18)
+
+Xilinx <-> Micron
+file:///C:/Users/Stan/Downloads/xilinx_compatibility_guide%20(2).pdf
+
+ZynqBerry
+
+Память DDR3 1.35V FBGA 96 ball
+
+MT41K64M16
+IM4G16D3FAB
+Micron MT41K256M16HA, MT41K256M16RE, SK Hynix H5TC4G63MFR, H5TC4G63AFR, H5TC4G63BFR, Samsung K4B4G1646Q, K4B4G1646B, K4B4G1646D
+-----------------
+nRF52 NFC
+nRF52832 QFN
+NFC Antenna Seed
+-----------------
+Debug:
+Waveshare Platform Cable USB for Zynq
+J-link for nRF52 and CC3235SF
+-----------------
+AC/DC
+
+NCP1055
+UCC28722 (PMP9594 - 85-265VACin, 5V/1.5A AC/DC)
+
+900uH Transformer, Discontinuous Mode Flyback, 900uH, TH 17x15x16mm
+
+https://www.power.com/sites/default/files/product-docs/lnk302_304-306.pdf
+https://www.onsemi.com/pub/Collateral/AND8099-D.PDF
+
+https://www.fujielectric.com/products/semiconductor/model/power_supply/technical/box/pdf/Fly-Back_transformer_Design_Rev_1_0_E.pdf
+
+----------------
+https://github.com/nlbutts/tflite_zynq
+github.com/danielholanda/LeFlow
