@@ -71,6 +71,8 @@ AC/DC
 NCP1055
 UCC28722 (PMP9594 - 85-265VACin, 5V/1.5A AC/DC)
 
+LM2733 5V -> 12V or transformer?
+
 900uH Transformer, Discontinuous Mode Flyback, 900uH, TH 17x15x16mm
 
 https://www.power.com/sites/default/files/product-docs/lnk302_304-306.pdf
