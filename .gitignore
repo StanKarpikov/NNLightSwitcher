@@ -52,3 +52,10 @@ Mkfile.old
 dkms.conf
 
 *.odg#
+
+#Altium ignores
+**/History
+**/*/History
+/__Previews/*
+**/__Previews/*
+**/*/__Previews/*
