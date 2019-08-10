@@ -59,3 +59,4 @@ dkms.conf
 /__Previews/*
 **/__Previews/*
 **/*/__Previews/*
+**/Project logs*
