@@ -60,3 +60,6 @@ dkms.conf
 **/__Previews/*
 **/*/__Previews/*
 **/Project logs*
+
+#Custom
+Info/*
