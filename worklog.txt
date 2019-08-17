@@ -83,3 +83,10 @@ https://www.fujielectric.com/products/semiconductor/model/power_supply/technical
 ----------------
 https://github.com/nlbutts/tflite_zynq
 github.com/danielholanda/LeFlow
+----------------
+LG V10 
+LG G5
+Samsung A7100 
+A8000
+Samsung Galaxy J5 LTE (SM-J530F)
+Samsung Galaxy J7 LTE (SM-J730F) 
