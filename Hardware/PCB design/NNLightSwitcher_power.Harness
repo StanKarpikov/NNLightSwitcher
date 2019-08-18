@@ -1,1 +1,1 @@
-Controls reset=nRST,POR_B
+Controls reset=Reset,POR B
