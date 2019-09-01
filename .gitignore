@@ -66,3 +66,7 @@ Info/*
 Hardware/PCB design/NNLightSwitcher.IntLib
 
 *.bak
+
+*.html
+
+*.drc
