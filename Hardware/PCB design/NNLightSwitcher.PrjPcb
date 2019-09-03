@@ -2471,6 +2471,127 @@ SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
 
+[NetInfos]
+Net1=NetName=DQU3 DDR3|NetColor=$00FF9900
+Net2=NetName=DQU6 DDR3|NetColor=$00FF9900
+Net3=NetName=DQL4 DDR3|NetColor=$00993300
+Net4=NetName=*A3 DDR3|NetColor=$000099FF
+Net5=NetName=DDR3.A11|NetColor=$000099FF
+Net6=NetName=*A8 DDR3|NetColor=$000099FF
+Net7=NetName=DDR3.DQU6|NetColor=$00FF9900
+Net8=NetName=DDR3.nDQSU|NetColor=$006EFF6E
+Net9=NetName=DDR3.DQSL|NetColor=$0033CC33
+Net10=NetName=ODT DDR3|NetColor=$00996633
+Net11=NetName=DQU5 DDR3|NetColor=$00FF9900
+Net12=NetName=DDR3.A8|NetColor=$000099FF
+Net13=NetName=CKE DDR3|NetColor=$00FF9999
+Net14=NetName=DDR3.BA1|NetColor=$00996633
+Net15=NetName=*A4 DDR3|NetColor=$000099FF
+Net16=NetName=DDR3.A3|NetColor=$000099FF
+Net17=NetName=DQU4 DDR3|NetColor=$00FF9900
+Net18=NetName=nRAS DDR3|NetColor=$00996633
+Net19=NetName=*nCAS DDR3|NetColor=$00996633
+Net20=NetName=DQL6 DDR3|NetColor=$00993300
+Net21=NetName=A10 DDR3|NetColor=$000099FF
+Net22=NetName=DQL1 DDR3|NetColor=$00993300
+Net23=NetName=*A13 DDR3|NetColor=$000099FF
+Net24=NetName=*A2 DDR3|NetColor=$000099FF
+Net25=NetName=DDR3.DML|NetColor=$006600CC
+Net26=NetName=DQL5 DDR3|NetColor=$00993300
+Net27=NetName=DDR3.A5|NetColor=$000099FF
+Net28=NetName=A4 DDR3|NetColor=$000099FF
+Net29=NetName=DDR3.nCK|NetColor=$00FF6699
+Net30=NetName=DDR3.nWE|NetColor=$00996633
+Net31=NetName=DDR3.nRAS|NetColor=$00996633
+Net32=NetName=DQL7 DDR3|NetColor=$00993300
+Net33=NetName=*BA2 DDR3|NetColor=$00996633
+Net34=NetName=DQL0 DDR3|NetColor=$00993300
+Net35=NetName=DDR3.DQL4|NetColor=$00993300
+Net36=NetName=DDR3.DQU4|NetColor=$00FF9900
+Net37=NetName=A8 DDR3|NetColor=$000099FF
+Net38=NetName=BA1 DDR3|NetColor=$00996633
+Net39=NetName=*BA0 DDR3|NetColor=$00996633
+Net40=NetName=DDR3.A1|NetColor=$000099FF
+Net41=NetName=A12 DDR3|NetColor=$000099FF
+Net42=NetName=DDR3.DQL5|NetColor=$00993300
+Net43=NetName=*A14 DDR3|NetColor=$000099FF
+Net44=NetName=*A0 DDR3|NetColor=$000099FF
+Net45=NetName=*nWE DDR3|NetColor=$00996633
+Net46=NetName=A13 DDR3|NetColor=$000099FF
+Net47=NetName=A7 DDR3|NetColor=$000099FF
+Net48=NetName=A11 DDR3|NetColor=$000099FF
+Net49=NetName=nCAS DDR3|NetColor=$00996633
+Net50=NetName=DML DDR3|NetColor=$006600CC
+Net51=NetName=nWE DDR3|NetColor=$00996633
+Net52=NetName=A2 DDR3|NetColor=$000099FF
+Net53=NetName=A0 DDR3|NetColor=$000099FF
+Net54=NetName=DQSU DDR3_N|NetColor=$006EFF6E
+Net55=NetName=DDR3.nDQSL|NetColor=$0033CC33
+Net56=NetName=DDR3.DQL2|NetColor=$00993300
+Net57=NetName=DDR3.nCAS|NetColor=$00996633
+Net58=NetName=CK DDR3_N|NetColor=$00FF6699
+Net59=NetName=A6 DDR3|NetColor=$000099FF
+Net60=NetName=DDR3.DQL0|NetColor=$00993300
+Net61=NetName=DDR3.DQU3|NetColor=$00FF9900
+Net62=NetName=DQU1 DDR3|NetColor=$00FF9900
+Net63=NetName=DQU2 DDR3|NetColor=$00FF9900
+Net64=NetName=DQU0 DDR3|NetColor=$00FF9900
+Net65=NetName=DDR3.DQU2|NetColor=$00FF9900
+Net66=NetName=DDR3.A4|NetColor=$000099FF
+Net67=NetName=*A1 DDR3|NetColor=$000099FF
+Net68=NetName=DDR3.BA0|NetColor=$00996633
+Net69=NetName=DDR3.A12|NetColor=$000099FF
+Net70=NetName=DDR3.A15|NetColor=$000099FF
+Net71=NetName=A14 DDR3|NetColor=$000099FF
+Net72=NetName=*A15 DDR3|NetColor=$000099FF
+Net73=NetName=DDR3.DQL3|NetColor=$00993300
+Net74=NetName=DDR3.A14|NetColor=$000099FF
+Net75=NetName=A15 DDR3|NetColor=$000099FF
+Net76=NetName=DDR3.A13|NetColor=$000099FF
+Net77=NetName=DDR3.DQSU|NetColor=$006EFF6E
+Net78=NetName=DDR3.CKE|NetColor=$00FF9999
+Net79=NetName=DDR3.A9|NetColor=$000099FF
+Net80=NetName=*A9 DDR3|NetColor=$000099FF
+Net81=NetName=A1 DDR3|NetColor=$000099FF
+Net82=NetName=A5 DDR3|NetColor=$000099FF
+Net83=NetName=DDR3.DQL7|NetColor=$00993300
+Net84=NetName=DQSL DDR3_P|NetColor=$0033CC33
+Net85=NetName=*BA1 DDR3|NetColor=$00996633
+Net86=NetName=DDR3.DQU0|NetColor=$00FF9900
+Net87=NetName=*ODT DDR3|NetColor=$00996633
+Net88=NetName=DQL3 DDR3|NetColor=$00993300
+Net89=NetName=DDR3.DMU|NetColor=$00CC66FF
+Net90=NetName=DQSL DDR3_N|NetColor=$0033CC33
+Net91=NetName=DDR3.A10|NetColor=$000099FF
+Net92=NetName=*nRAS DDR3|NetColor=$00996633
+Net93=NetName=*A7 DDR3|NetColor=$000099FF
+Net94=NetName=DMU DDR3|NetColor=$00CC66FF
+Net95=NetName=DDR3.DQU5|NetColor=$00FF9900
+Net96=NetName=DDR3.A7|NetColor=$000099FF
+Net97=NetName=BA0 DDR3|NetColor=$00996633
+Net98=NetName=*A11 DDR3|NetColor=$000099FF
+Net99=NetName=DDR3.A0|NetColor=$000099FF
+Net100=NetName=DDR3.A2|NetColor=$000099FF
+Net101=NetName=DDR3.DQU7|NetColor=$00FF9900
+Net102=NetName=DDR3.DQU1|NetColor=$00FF9900
+Net103=NetName=DDR3.A6|NetColor=$000099FF
+Net104=NetName=DDR3.DQL1|NetColor=$00993300
+Net105=NetName=DDR3.CK|NetColor=$00FF6699
+Net106=NetName=DDR3.BA2|NetColor=$00996633
+Net107=NetName=A9 DDR3|NetColor=$000099FF
+Net108=NetName=CK DDR3_P|NetColor=$00FF6699
+Net109=NetName=DQU7 DDR3|NetColor=$00FF9900
+Net110=NetName=DQL2 DDR3|NetColor=$00993300
+Net111=NetName=DDR3.ODT|NetColor=$00996633
+Net112=NetName=BA2 DDR3|NetColor=$00996633
+Net113=NetName=A3 DDR3|NetColor=$000099FF
+Net114=NetName=*A12 DDR3|NetColor=$000099FF
+Net115=NetName=*A10 DDR3|NetColor=$000099FF
+Net116=NetName=DDR3.DQL6|NetColor=$00993300
+Net117=NetName=*A6 DDR3|NetColor=$000099FF
+Net118=NetName=DQSU DDR3_P|NetColor=$006EFF6E
+Net119=NetName=*A5 DDR3|NetColor=$000099FF
+
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
