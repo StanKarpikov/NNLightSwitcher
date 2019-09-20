@@ -564,6 +564,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document32]
+DocumentPath=..\..\..\Board_array.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RILJFQLW
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - NNLightSwitcher.html
 DItemRevisionGUID=
