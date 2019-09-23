@@ -602,106 +602,114 @@ DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTL
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GM8
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTO
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GM9
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTS
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.LDP
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.REP
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.RUL
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.TXT
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.REP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - Board_array.html
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - NNLightSwitcher.html
+DocumentPath=Project Outputs for NNLightSwitcher\Board_array.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.DRR
+DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - Board_array.html
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.EXTREP
+DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - NNLightSwitcher.html
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G1
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G2
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G3
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G1
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G4
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G2
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBL
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G3
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBO
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G4
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBS
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GM2
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTL
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTO
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTS
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.LDP
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.REP
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.RUL
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.REP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.TXT
 DItemRevisionGUID=
 
@@ -827,7 +835,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=doPDF 9
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -965,7 +973,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=doPDF 9
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -1068,12 +1076,12 @@ OutputName3=Report Board Stack
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType4=Test Points
 OutputName4=Test Point Report
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType5=Gerber X2
 OutputName5=Gerber X2 Files
 OutputDocumentPath5=
@@ -1110,11 +1118,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=Test Points
-OutputName11=Test Point Report
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -1123,7 +1132,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16777220~1,16777218~1,16777219~1,16777221~1,16842751~1,16973835~1,16908290~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16908297~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
