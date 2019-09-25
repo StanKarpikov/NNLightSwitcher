@@ -564,140 +564,75 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
-DocumentPath=..\..\..\Board_array.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RILJFQLW
-
 [GeneratedDocument1]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GM9
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.REP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for NNLightSwitcher\Board_array.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument13]
 DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - NNLightSwitcher.html
 DItemRevisionGUID=
 
-[GeneratedDocument14]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G1
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G2
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G3
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.G4
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.REP
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument30]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for NNLightSwitcher\NNLightSwitcher.TXT
 DItemRevisionGUID=
 
@@ -717,7 +652,7 @@ StartProcName=EditScript1.pas>CreateAViaObject
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -823,7 +758,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=doPDF 9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -911,35 +846,29 @@ OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=PDF3D MBA
-OutputName8=PDF3D MBA
+OutputType8=Report Print
+OutputName8=Report Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Report Print
-OutputName9=Report Prints
+OutputType9=Schematic Print
+OutputName9=Schematic Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Schematic Print
-OutputName10=Schematic Prints
+OutputType10=SimView Print
+OutputName10=SimView Prints
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=SimView Print
-OutputName11=SimView Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -961,7 +890,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=doPDF 9
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -1120,12 +1049,12 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16908297~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16777220~1,16777218~1,16777219~1,16777221~1,16842751~1,16973835~1,16973831~1,16908290~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1162,7 +1091,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1342,7 +1271,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -1386,7 +1315,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1447,7 +1376,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Brother DCP-J525W Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1808,7 +1737,6 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=0
-UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=NNLightSwitcher.SchLib
@@ -1853,209 +1781,208 @@ ModelUpdate1=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=*A0 DDR3|NetColor=$000099FF
-Net2=NetName=*A1 DDR3|NetColor=$000099FF
-Net3=NetName=*A10 DDR3|NetColor=$000099FF
-Net4=NetName=*A11 DDR3|NetColor=$000099FF
-Net5=NetName=*A12 DDR3|NetColor=$000099FF
-Net6=NetName=*A13 DDR3|NetColor=$000099FF
-Net7=NetName=*A14 DDR3|NetColor=$000099FF
-Net8=NetName=*A15 DDR3|NetColor=$000099FF
-Net9=NetName=*A2 DDR3|NetColor=$000099FF
-Net10=NetName=*A3 DDR3|NetColor=$000099FF
-Net11=NetName=*A4 DDR3|NetColor=$000099FF
-Net12=NetName=*A5 DDR3|NetColor=$000099FF
-Net13=NetName=*A6 DDR3|NetColor=$000099FF
-Net14=NetName=*A7 DDR3|NetColor=$000099FF
-Net15=NetName=*A8 DDR3|NetColor=$000099FF
-Net16=NetName=*A9 DDR3|NetColor=$000099FF
-Net17=NetName=*BA0 DDR3|NetColor=$00996633
-Net18=NetName=*BA1 DDR3|NetColor=$00996633
-Net19=NetName=*BA2 DDR3|NetColor=$00996633
-Net20=NetName=*nCAS DDR3|NetColor=$00996633
-Net21=NetName=*nRAS DDR3|NetColor=$00996633
-Net22=NetName=*nWE DDR3|NetColor=$00996633
-Net23=NetName=*ODT DDR3|NetColor=$00996633
-Net24=NetName=A0 DDR3|NetColor=$000099FF
-Net25=NetName=A1 DDR3|NetColor=$000099FF
-Net26=NetName=A10 DDR3|NetColor=$000099FF
-Net27=NetName=A11 DDR3|NetColor=$000099FF
-Net28=NetName=A12 DDR3|NetColor=$000099FF
-Net29=NetName=A13 DDR3|NetColor=$000099FF
-Net30=NetName=A14 DDR3|NetColor=$000099FF
-Net31=NetName=A15 DDR3|NetColor=$000099FF
-Net32=NetName=A2 DDR3|NetColor=$000099FF
-Net33=NetName=A3 DDR3|NetColor=$000099FF
-Net34=NetName=A4 DDR3|NetColor=$000099FF
-Net35=NetName=A5 DDR3|NetColor=$000099FF
-Net36=NetName=A6 DDR3|NetColor=$000099FF
-Net37=NetName=A7 DDR3|NetColor=$000099FF
-Net38=NetName=A8 DDR3|NetColor=$000099FF
-Net39=NetName=A9 DDR3|NetColor=$000099FF
-Net40=NetName=BA0 DDR3|NetColor=$00996633
-Net41=NetName=BA1 DDR3|NetColor=$00996633
-Net42=NetName=BA2 DDR3|NetColor=$00996633
-Net43=NetName=CK DDR3_N|NetColor=$00FF6699
-Net44=NetName=CK DDR3_P|NetColor=$00FF6699
-Net45=NetName=CKE DDR3|NetColor=$00FF9999
-Net46=NetName=DDR3.A0|NetColor=$000099FF
-Net47=NetName=DDR3.A1|NetColor=$000099FF
-Net48=NetName=DDR3.A10|NetColor=$000099FF
-Net49=NetName=DDR3.A11|NetColor=$000099FF
-Net50=NetName=DDR3.A12|NetColor=$000099FF
-Net51=NetName=DDR3.A13|NetColor=$000099FF
-Net52=NetName=DDR3.A14|NetColor=$000099FF
-Net53=NetName=DDR3.A15|NetColor=$000099FF
-Net54=NetName=DDR3.A2|NetColor=$000099FF
-Net55=NetName=DDR3.A3|NetColor=$000099FF
-Net56=NetName=DDR3.A4|NetColor=$000099FF
-Net57=NetName=DDR3.A5|NetColor=$000099FF
-Net58=NetName=DDR3.A6|NetColor=$000099FF
-Net59=NetName=DDR3.A7|NetColor=$000099FF
-Net60=NetName=DDR3.A8|NetColor=$000099FF
-Net61=NetName=DDR3.A9|NetColor=$000099FF
-Net62=NetName=DDR3.BA0|NetColor=$00996633
-Net63=NetName=DDR3.BA1|NetColor=$00996633
-Net64=NetName=DDR3.BA2|NetColor=$00996633
-Net65=NetName=DDR3.CK|NetColor=$00FF6699
-Net66=NetName=DDR3.CKE|NetColor=$00FF9999
-Net67=NetName=DDR3.DML|NetColor=$006600CC
-Net68=NetName=DDR3.DMU|NetColor=$00CC66FF
-Net69=NetName=DDR3.DQL0|NetColor=$00993300
-Net70=NetName=DDR3.DQL1|NetColor=$00993300
-Net71=NetName=DDR3.DQL2|NetColor=$00993300
-Net72=NetName=DDR3.DQL3|NetColor=$00993300
-Net73=NetName=DDR3.DQL4|NetColor=$00993300
-Net74=NetName=DDR3.DQL5|NetColor=$00993300
-Net75=NetName=DDR3.DQL6|NetColor=$00993300
-Net76=NetName=DDR3.DQL7|NetColor=$00993300
-Net77=NetName=DDR3.DQSL|NetColor=$0033CC33
-Net78=NetName=DDR3.DQSU|NetColor=$006EFF6E
-Net79=NetName=DDR3.DQU0|NetColor=$00FF9900
-Net80=NetName=DDR3.DQU1|NetColor=$00FF9900
-Net81=NetName=DDR3.DQU2|NetColor=$00FF9900
-Net82=NetName=DDR3.DQU3|NetColor=$00FF9900
-Net83=NetName=DDR3.DQU4|NetColor=$00FF9900
-Net84=NetName=DDR3.DQU5|NetColor=$00FF9900
-Net85=NetName=DDR3.DQU6|NetColor=$00FF9900
-Net86=NetName=DDR3.DQU7|NetColor=$00FF9900
-Net87=NetName=DDR3.nCAS|NetColor=$00996633
-Net88=NetName=DDR3.nCK|NetColor=$00FF6699
-Net89=NetName=DDR3.nDQSL|NetColor=$0033CC33
-Net90=NetName=DDR3.nDQSU|NetColor=$006EFF6E
-Net91=NetName=DDR3.nRAS|NetColor=$00996633
-Net92=NetName=DDR3.nWE|NetColor=$00996633
-Net93=NetName=DDR3.ODT|NetColor=$00996633
-Net94=NetName=DML DDR3|NetColor=$006600CC
-Net95=NetName=DMU DDR3|NetColor=$00CC66FF
-Net96=NetName=DQL0 DDR3|NetColor=$00993300
-Net97=NetName=DQL1 DDR3|NetColor=$00993300
-Net98=NetName=DQL2 DDR3|NetColor=$00993300
-Net99=NetName=DQL3 DDR3|NetColor=$00993300
-Net100=NetName=DQL4 DDR3|NetColor=$00993300
-Net101=NetName=DQL5 DDR3|NetColor=$00993300
-Net102=NetName=DQL6 DDR3|NetColor=$00993300
-Net103=NetName=DQL7 DDR3|NetColor=$00993300
-Net104=NetName=DQSL DDR3_N|NetColor=$0033CC33
-Net105=NetName=DQSL DDR3_P|NetColor=$0033CC33
-Net106=NetName=DQSU DDR3_N|NetColor=$006EFF6E
-Net107=NetName=DQSU DDR3_P|NetColor=$006EFF6E
-Net108=NetName=DQU0 DDR3|NetColor=$00FF9900
-Net109=NetName=DQU1 DDR3|NetColor=$00FF9900
-Net110=NetName=DQU2 DDR3|NetColor=$00FF9900
-Net111=NetName=DQU3 DDR3|NetColor=$00FF9900
-Net112=NetName=DQU4 DDR3|NetColor=$00FF9900
-Net113=NetName=DQU5 DDR3|NetColor=$00FF9900
-Net114=NetName=DQU6 DDR3|NetColor=$00FF9900
-Net115=NetName=DQU7 DDR3|NetColor=$00FF9900
-Net116=NetName=GPIO_PL_0|NetColor=$0033CC33
-Net117=NetName=GPIO_PL_1|NetColor=$0033CC33
-Net118=NetName=GPIO_PL_2|NetColor=$0033CC33
-Net119=NetName=GPIO_PL_3|NetColor=$0033CC33
-Net120=NetName=GPIO_PL_4|NetColor=$0033CC33
-Net121=NetName=GPIO_PL_5|NetColor=$0033CC33
-Net122=NetName=GPIO_PL_6|NetColor=$0033CC33
-Net123=NetName=GPIO_PL_7|NetColor=$0033CC33
-Net124=NetName=GPIO_PL_8|NetColor=$0033CC33
-Net125=NetName=GPIO_PL_9|NetColor=$0033CC33
-Net126=NetName=GPIO10|NetColor=$0033CC33
-Net127=NetName=GPIO11|NetColor=$0033CC33
-Net128=NetName=GPIO12|NetColor=$0033CC33
-Net129=NetName=GPIO13|NetColor=$0033CC33
-Net130=NetName=GPIO14|NetColor=$0033CC33
-Net131=NetName=GPIO15|NetColor=$0033CC33
-Net132=NetName=GPIO16|NetColor=$0033CC33
-Net133=NetName=GPIO17|NetColor=$0033CC33
-Net134=NetName=GPIO18|NetColor=$0033CC33
-Net135=NetName=GPIO19|NetColor=$0033CC33
-Net136=NetName=GPIO2|NetColor=$0033CC33
-Net137=NetName=GPIO20|NetColor=$0033CC33
-Net138=NetName=GPIO21|NetColor=$0033CC33
-Net139=NetName=GPIO22|NetColor=$0033CC33
-Net140=NetName=GPIO23|NetColor=$0033CC33
-Net141=NetName=GPIO24|NetColor=$0033CC33
-Net142=NetName=GPIO25|NetColor=$0033CC33
-Net143=NetName=GPIO26|NetColor=$0033CC33
-Net144=NetName=GPIO27|NetColor=$0033CC33
-Net145=NetName=GPIO3|NetColor=$0033CC33
-Net146=NetName=GPIO4|NetColor=$0033CC33
-Net147=NetName=GPIO5|NetColor=$0033CC33
-Net148=NetName=GPIO6|NetColor=$0033CC33
-Net149=NetName=GPIO7|NetColor=$0033CC33
-Net150=NetName=GPIO8|NetColor=$0033CC33
-Net151=NetName=GPIO9|NetColor=$0033CC33
-Net152=NetName=I/O 0.GPIO2|NetColor=$0033CC33
-Net153=NetName=I/O 0.GPIO3|NetColor=$0033CC33
-Net154=NetName=I/O 0.GPIO4|NetColor=$0033CC33
-Net155=NetName=I/O 0.GPIO5|NetColor=$0033CC33
-Net156=NetName=I/O 0.GPIO6|NetColor=$0033CC33
-Net157=NetName=I/O 0.GPIO7|NetColor=$0033CC33
-Net158=NetName=I/O 1.GPIO0|NetColor=$0033CC33
-Net159=NetName=I/O 1.GPIO1|NetColor=$0033CC33
-Net160=NetName=I/O 1.GPIO2|NetColor=$0033CC33
-Net161=NetName=I/O 1.GPIO3|NetColor=$0033CC33
-Net162=NetName=I/O 1.GPIO4|NetColor=$0033CC33
-Net163=NetName=I/O 1.GPIO5|NetColor=$0033CC33
-Net164=NetName=I/O 1.GPIO6|NetColor=$0033CC33
-Net165=NetName=I/O 1.GPIO7|NetColor=$0033CC33
-Net166=NetName=I/O 2.GPIO0|NetColor=$0033CC33
-Net167=NetName=I/O 2.GPIO1|NetColor=$0033CC33
-Net168=NetName=I/O 2.GPIO2|NetColor=$0033CC33
-Net169=NetName=I/O 2.GPIO3|NetColor=$0033CC33
-Net170=NetName=I/O 2.GPIO4|NetColor=$0033CC33
-Net171=NetName=I/O 2.GPIO5|NetColor=$0033CC33
-Net172=NetName=I/O 2.GPIO6|NetColor=$0033CC33
-Net173=NetName=I/O 2.GPIO7|NetColor=$0033CC33
-Net174=NetName=I/O 3.GPIO0|NetColor=$0033CC33
-Net175=NetName=I/O 3.GPIO1|NetColor=$0033CC33
-Net176=NetName=I/O 3.GPIO2|NetColor=$0033CC33
-Net177=NetName=I/O 3.GPIO3|NetColor=$0033CC33
-Net178=NetName=I/O 3.GPIO6|NetColor=$0033CC33
-Net179=NetName=I/O 3.GPIO7|NetColor=$0033CC33
-Net180=NetName=I/O 4.GPIO2|NetColor=$0000BE00
-Net181=NetName=I/O 4.GPIO3|NetColor=$0000BE00
-Net182=NetName=I/O 4.GPIO4|NetColor=$0000BE00
-Net183=NetName=I/O 4.GPIO5|NetColor=$0000BE00
-Net184=NetName=I/O 5.GPIO0|NetColor=$0033CC33
-Net185=NetName=I/O 5.GPIO1|NetColor=$0033CC33
-Net186=NetName=I/O 5.GPIO2|NetColor=$0033CC33
-Net187=NetName=I/O 5.GPIO3|NetColor=$0033CC33
-Net188=NetName=I/O 5.GPIO4|NetColor=$0033CC33
-Net189=NetName=I/O 5.GPIO5|NetColor=$0033CC33
-Net190=NetName=I/O 5.GPIO6|NetColor=$0033CC33
-Net191=NetName=I/O 5.GPIO7|NetColor=$0033CC33
-Net192=NetName=MIO34|NetColor=$0000BE00
-Net193=NetName=MIO35|NetColor=$0000BE00
-Net194=NetName=MIO36|NetColor=$0000BE00
-Net195=NetName=MIO9|NetColor=$0000BE00
-Net196=NetName=nCAS DDR3|NetColor=$00996633
-Net197=NetName=nRAS DDR3|NetColor=$00996633
-Net198=NetName=nWE DDR3|NetColor=$00996633
-Net199=NetName=ODT DDR3|NetColor=$00996633
+Net1=NetName=DQU3 DDR3|NetColor=$00FF9900
+Net2=NetName=DQU6 DDR3|NetColor=$00FF9900
+Net3=NetName=DQL4 DDR3|NetColor=$00993300
+Net4=NetName=*A3 DDR3|NetColor=$000099FF
+Net5=NetName=DDR3.A11|NetColor=$000099FF
+Net6=NetName=I/O 3.GPIO7|NetColor=$0033CC33
+Net7=NetName=DDR3.DQU6|NetColor=$00FF9900
+Net8=NetName=DDR3.DQSL|NetColor=$0033CC33
+Net9=NetName=DDR3.nDQSU|NetColor=$006EFF6E
+Net10=NetName=GPIO24|NetColor=$0033CC33
+Net11=NetName=ODT DDR3|NetColor=$00996633
+Net12=NetName=DQU5 DDR3|NetColor=$00FF9900
+Net13=NetName=*A4 DDR3|NetColor=$000099FF
+Net14=NetName=nRAS DDR3|NetColor=$00996633
+Net15=NetName=I/O 4.GPIO5|NetColor=$0000BE00
+Net16=NetName=GPIO10|NetColor=$0033CC33
+Net17=NetName=A10 DDR3|NetColor=$000099FF
+Net18=NetName=*A13 DDR3|NetColor=$000099FF
+Net19=NetName=DDR3.DML|NetColor=$006600CC
+Net20=NetName=A4 DDR3|NetColor=$000099FF
+Net21=NetName=DDR3.nWE|NetColor=$00996633
+Net22=NetName=I/O 1.GPIO4|NetColor=$0033CC33
+Net23=NetName=GPIO14|NetColor=$0033CC33
+Net24=NetName=GPIO20|NetColor=$0033CC33
+Net25=NetName=I/O 3.GPIO3|NetColor=$0033CC33
+Net26=NetName=*BA2 DDR3|NetColor=$00996633
+Net27=NetName=I/O 4.GPIO2|NetColor=$0000BE00
+Net28=NetName=DQL0 DDR3|NetColor=$00993300
+Net29=NetName=GPIO8|NetColor=$0033CC33
+Net30=NetName=DDR3.DQU4|NetColor=$00FF9900
+Net31=NetName=GPIO7|NetColor=$0033CC33
+Net32=NetName=I/O 2.GPIO3|NetColor=$0033CC33
+Net33=NetName=DDR3.DQL5|NetColor=$00993300
+Net34=NetName=*A14 DDR3|NetColor=$000099FF
+Net35=NetName=GPIO2|NetColor=$0033CC33
+Net36=NetName=*nWE DDR3|NetColor=$00996633
+Net37=NetName=I/O 1.GPIO7|NetColor=$0033CC33
+Net38=NetName=I/O 1.GPIO0|NetColor=$0033CC33
+Net39=NetName=GPIO21|NetColor=$0033CC33
+Net40=NetName=A7 DDR3|NetColor=$000099FF
+Net41=NetName=nCAS DDR3|NetColor=$00996633
+Net42=NetName=nWE DDR3|NetColor=$00996633
+Net43=NetName=A2 DDR3|NetColor=$000099FF
+Net44=NetName=I/O 2.GPIO6|NetColor=$0033CC33
+Net45=NetName=DDR3.nDQSL|NetColor=$0033CC33
+Net46=NetName=DDR3.DQL2|NetColor=$00993300
+Net47=NetName=DDR3.nCAS|NetColor=$00996633
+Net48=NetName=CK DDR3_N|NetColor=$00FF6699
+Net49=NetName=A6 DDR3|NetColor=$000099FF
+Net50=NetName=DDR3.DQL0|NetColor=$00993300
+Net51=NetName=DDR3.DQU3|NetColor=$00FF9900
+Net52=NetName=GPIO16|NetColor=$0033CC33
+Net53=NetName=DDR3.DQU2|NetColor=$00FF9900
+Net54=NetName=DDR3.A4|NetColor=$000099FF
+Net55=NetName=*A1 DDR3|NetColor=$000099FF
+Net56=NetName=I/O 1.GPIO5|NetColor=$0033CC33
+Net57=NetName=DDR3.A12|NetColor=$000099FF
+Net58=NetName=DDR3.A15|NetColor=$000099FF
+Net59=NetName=I/O 2.GPIO7|NetColor=$0033CC33
+Net60=NetName=A14 DDR3|NetColor=$000099FF
+Net61=NetName=*A15 DDR3|NetColor=$000099FF
+Net62=NetName=DDR3.DQL3|NetColor=$00993300
+Net63=NetName=A15 DDR3|NetColor=$000099FF
+Net64=NetName=DDR3.A14|NetColor=$000099FF
+Net65=NetName=DDR3.DQSU|NetColor=$006EFF6E
+Net66=NetName=I/O 5.GPIO7|NetColor=$0033CC33
+Net67=NetName=DQSL DDR3_P|NetColor=$0033CC33
+Net68=NetName=A1 DDR3|NetColor=$000099FF
+Net69=NetName=I/O 3.GPIO2|NetColor=$0033CC33
+Net70=NetName=*ODT DDR3|NetColor=$00996633
+Net71=NetName=I/O 5.GPIO1|NetColor=$0033CC33
+Net72=NetName=DQL3 DDR3|NetColor=$00993300
+Net73=NetName=I/O 3.GPIO1|NetColor=$0033CC33
+Net74=NetName=I/O 0.GPIO6|NetColor=$0033CC33
+Net75=NetName=GPIO_PL_6|NetColor=$0033CC33
+Net76=NetName=DQSL DDR3_N|NetColor=$0033CC33
+Net77=NetName=DDR3.A10|NetColor=$000099FF
+Net78=NetName=GPIO9|NetColor=$0033CC33
+Net79=NetName=I/O 4.GPIO4|NetColor=$0000BE00
+Net80=NetName=GPIO_PL_0|NetColor=$0033CC33
+Net81=NetName=*A7 DDR3|NetColor=$000099FF
+Net82=NetName=GPIO3|NetColor=$0033CC33
+Net83=NetName=DDR3.DQU5|NetColor=$00FF9900
+Net84=NetName=BA0 DDR3|NetColor=$00996633
+Net85=NetName=*A11 DDR3|NetColor=$000099FF
+Net86=NetName=GPIO_PL_2|NetColor=$0033CC33
+Net87=NetName=DDR3.A2|NetColor=$000099FF
+Net88=NetName=DDR3.DQU7|NetColor=$00FF9900
+Net89=NetName=DDR3.DQU1|NetColor=$00FF9900
+Net90=NetName=DDR3.CK|NetColor=$00FF6699
+Net91=NetName=DDR3.BA2|NetColor=$00996633
+Net92=NetName=GPIO_PL_1|NetColor=$0033CC33
+Net93=NetName=A9 DDR3|NetColor=$000099FF
+Net94=NetName=CK DDR3_P|NetColor=$00FF6699
+Net95=NetName=I/O 0.GPIO7|NetColor=$0033CC33
+Net96=NetName=I/O 5.GPIO0|NetColor=$0033CC33
+Net97=NetName=DQSU DDR3_P|NetColor=$006EFF6E
+Net98=NetName=GPIO_PL_7|NetColor=$0033CC33
+Net99=NetName=I/O 1.GPIO1|NetColor=$0033CC33
+Net100=NetName=*A8 DDR3|NetColor=$000099FF
+Net101=NetName=DDR3.A8|NetColor=$000099FF
+Net102=NetName=CKE DDR3|NetColor=$00FF9999
+Net103=NetName=DDR3.BA1|NetColor=$00996633
+Net104=NetName=I/O 0.GPIO3|NetColor=$0033CC33
+Net105=NetName=DDR3.A3|NetColor=$000099FF
+Net106=NetName=DQU4 DDR3|NetColor=$00FF9900
+Net107=NetName=GPIO15|NetColor=$0033CC33
+Net108=NetName=*nCAS DDR3|NetColor=$00996633
+Net109=NetName=MIO35|NetColor=$0000BE00
+Net110=NetName=I/O 1.GPIO3|NetColor=$0033CC33
+Net111=NetName=DQL6 DDR3|NetColor=$00993300
+Net112=NetName=I/O 0.GPIO2|NetColor=$0033CC33
+Net113=NetName=DQL1 DDR3|NetColor=$00993300
+Net114=NetName=I/O 2.GPIO1|NetColor=$0033CC33
+Net115=NetName=*A2 DDR3|NetColor=$000099FF
+Net116=NetName=DQL5 DDR3|NetColor=$00993300
+Net117=NetName=DDR3.A5|NetColor=$000099FF
+Net118=NetName=DDR3.nCK|NetColor=$00FF6699
+Net119=NetName=I/O 3.GPIO6|NetColor=$0033CC33
+Net120=NetName=GPIO19|NetColor=$0033CC33
+Net121=NetName=DDR3.nRAS|NetColor=$00996633
+Net122=NetName=DQL7 DDR3|NetColor=$00993300
+Net123=NetName=GPIO_PL_9|NetColor=$0033CC33
+Net124=NetName=GPIO4|NetColor=$0033CC33
+Net125=NetName=I/O 2.GPIO0|NetColor=$0033CC33
+Net126=NetName=DDR3.DQL4|NetColor=$00993300
+Net127=NetName=MIO36|NetColor=$0000BE00
+Net128=NetName=A8 DDR3|NetColor=$000099FF
+Net129=NetName=BA1 DDR3|NetColor=$00996633
+Net130=NetName=*BA0 DDR3|NetColor=$00996633
+Net131=NetName=GPIO6|NetColor=$0033CC33
+Net132=NetName=DDR3.A1|NetColor=$000099FF
+Net133=NetName=A12 DDR3|NetColor=$000099FF
+Net134=NetName=GPIO5|NetColor=$0033CC33
+Net135=NetName=*A0 DDR3|NetColor=$000099FF
+Net136=NetName=A13 DDR3|NetColor=$000099FF
+Net137=NetName=MIO9|NetColor=$0000BE00
+Net138=NetName=A11 DDR3|NetColor=$000099FF
+Net139=NetName=DML DDR3|NetColor=$006600CC
+Net140=NetName=GPIO_PL_4|NetColor=$0033CC33
+Net141=NetName=A0 DDR3|NetColor=$000099FF
+Net142=NetName=DQSU DDR3_N|NetColor=$006EFF6E
+Net143=NetName=GPIO_PL_8|NetColor=$0033CC33
+Net144=NetName=GPIO23|NetColor=$0033CC33
+Net145=NetName=GPIO22|NetColor=$0033CC33
+Net146=NetName=DQU1 DDR3|NetColor=$00FF9900
+Net147=NetName=I/O 2.GPIO2|NetColor=$0033CC33
+Net148=NetName=DQU2 DDR3|NetColor=$00FF9900
+Net149=NetName=I/O 5.GPIO3|NetColor=$0033CC33
+Net150=NetName=DQU0 DDR3|NetColor=$00FF9900
+Net151=NetName=I/O 5.GPIO5|NetColor=$0033CC33
+Net152=NetName=I/O 5.GPIO4|NetColor=$0033CC33
+Net153=NetName=GPIO25|NetColor=$0033CC33
+Net154=NetName=GPIO17|NetColor=$0033CC33
+Net155=NetName=DDR3.BA0|NetColor=$00996633
+Net156=NetName=GPIO27|NetColor=$0033CC33
+Net157=NetName=I/O 1.GPIO2|NetColor=$0033CC33
+Net158=NetName=I/O 1.GPIO6|NetColor=$0033CC33
+Net159=NetName=DDR3.CKE|NetColor=$00FF9999
+Net160=NetName=DDR3.A13|NetColor=$000099FF
+Net161=NetName=GPIO13|NetColor=$0033CC33
+Net162=NetName=I/O 5.GPIO2|NetColor=$0033CC33
+Net163=NetName=DDR3.A9|NetColor=$000099FF
+Net164=NetName=*A9 DDR3|NetColor=$000099FF
+Net165=NetName=*BA1 DDR3|NetColor=$00996633
+Net166=NetName=A5 DDR3|NetColor=$000099FF
+Net167=NetName=DDR3.DQL7|NetColor=$00993300
+Net168=NetName=GPIO12|NetColor=$0033CC33
+Net169=NetName=DDR3.DQU0|NetColor=$00FF9900
+Net170=NetName=I/O 0.GPIO4|NetColor=$0033CC33
+Net171=NetName=DDR3.DMU|NetColor=$00CC66FF
+Net172=NetName=MIO34|NetColor=$0000BE00
+Net173=NetName=I/O 0.GPIO5|NetColor=$0033CC33
+Net174=NetName=*nRAS DDR3|NetColor=$00996633
+Net175=NetName=DMU DDR3|NetColor=$00CC66FF
+Net176=NetName=I/O 2.GPIO4|NetColor=$0033CC33
+Net177=NetName=I/O 3.GPIO0|NetColor=$0033CC33
+Net178=NetName=DDR3.A7|NetColor=$000099FF
+Net179=NetName=DDR3.A0|NetColor=$000099FF
+Net180=NetName=I/O 2.GPIO5|NetColor=$0033CC33
+Net181=NetName=DDR3.DQL1|NetColor=$00993300
+Net182=NetName=DDR3.A6|NetColor=$000099FF
+Net183=NetName=GPIO26|NetColor=$0033CC33
+Net184=NetName=GPIO_PL_5|NetColor=$0033CC33
+Net185=NetName=GPIO_PL_3|NetColor=$0033CC33
+Net186=NetName=I/O 5.GPIO6|NetColor=$0033CC33
+Net187=NetName=DQU7 DDR3|NetColor=$00FF9900
+Net188=NetName=DQL2 DDR3|NetColor=$00993300
+Net189=NetName=GPIO11|NetColor=$0033CC33
+Net190=NetName=DDR3.ODT|NetColor=$00996633
+Net191=NetName=BA2 DDR3|NetColor=$00996633
+Net192=NetName=A3 DDR3|NetColor=$000099FF
+Net193=NetName=*A12 DDR3|NetColor=$000099FF
+Net194=NetName=*A10 DDR3|NetColor=$000099FF
+Net195=NetName=DDR3.DQL6|NetColor=$00993300
+Net196=NetName=I/O 4.GPIO3|NetColor=$0000BE00
+Net197=NetName=*A6 DDR3|NetColor=$000099FF
+Net198=NetName=*A5 DDR3|NetColor=$000099FF
+Net199=NetName=GPIO18|NetColor=$0033CC33
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
