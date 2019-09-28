@@ -564,6 +564,396 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document32]
+DocumentPath=NNLightSwitcher_assembly.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=5ED06BB1-1267-4CE2-9023-8CBBC132C904
+Description=BGA place
+AllowFabrication=0
+ParameterCount=0
+VariationCount=365
+Variation1=Designator=Shield1|UniqueId=\IYWNILCO\EFLFPPYE|Kind=1|AlternatePart= 
+Variation2=Designator=C1|UniqueId=\IYWNILCO\EWPEMOGE|Kind=1|AlternatePart= 
+Variation3=Designator=C2|UniqueId=\IYWNILCO\DIFVCOBI|Kind=1|AlternatePart= 
+Variation4=Designator=C52|UniqueId=\VQAZEXJV\OCVWEPJQ|Kind=1|AlternatePart= 
+Variation5=Designator=C51|UniqueId=\VQAZEXJV\MPZXNHTT|Kind=1|AlternatePart= 
+Variation6=Designator=C50|UniqueId=\VQAZEXJV\GRPTEMSE|Kind=1|AlternatePart= 
+Variation7=Designator=C49|UniqueId=\VQAZEXJV\JONIODUO|Kind=1|AlternatePart= 
+Variation8=Designator=C48|UniqueId=\VQAZEXJV\SDAIKTYC|Kind=1|AlternatePart= 
+Variation9=Designator=C47|UniqueId=\VQAZEXJV\SIBAEHRY|Kind=1|AlternatePart= 
+Variation10=Designator=C46|UniqueId=\VQAZEXJV\HSMIZMJL|Kind=1|AlternatePart= 
+Variation11=Designator=C45|UniqueId=\VQAZEXJV\ELVMXWTR|Kind=1|AlternatePart= 
+Variation12=Designator=C44|UniqueId=\VQAZEXJV\SNLKQAFW|Kind=1|AlternatePart= 
+Variation13=Designator=C43|UniqueId=\VQAZEXJV\EPAYRZVI|Kind=1|AlternatePart= 
+Variation14=Designator=C42|UniqueId=\VQAZEXJV\BIDNUOVQ|Kind=1|AlternatePart= 
+Variation15=Designator=C41|UniqueId=\VQAZEXJV\NGFSBLAR|Kind=1|AlternatePart= 
+Variation16=Designator=C40|UniqueId=\VQAZEXJV\UZNOQIRJ|Kind=1|AlternatePart= 
+Variation17=Designator=C39|UniqueId=\FPKOLVAD\UEBEMTCU|Kind=1|AlternatePart= 
+Variation18=Designator=C38|UniqueId=\FPKOLVAD\EKCJJBRV|Kind=1|AlternatePart= 
+Variation19=Designator=C37|UniqueId=\FPKOLVAD\ACMSDIWK|Kind=1|AlternatePart= 
+Variation20=Designator=C36|UniqueId=\FPKOLVAD\JTYINMZR|Kind=1|AlternatePart= 
+Variation21=Designator=C35|UniqueId=\IYWNILCO\RMLQSMTX|Kind=1|AlternatePart= 
+Variation22=Designator=C34|UniqueId=\IYWNILCO\RZKRYCVO|Kind=1|AlternatePart= 
+Variation23=Designator=C33|UniqueId=\IYWNILCO\JWPCMHKZ|Kind=1|AlternatePart= 
+Variation24=Designator=C32|UniqueId=\IYWNILCO\LRTASKUY|Kind=1|AlternatePart= 
+Variation25=Designator=C31|UniqueId=\IYWNILCO\GEXBMZYH|Kind=1|AlternatePart= 
+Variation26=Designator=C30|UniqueId=\IYWNILCO\IRFRPWOU|Kind=1|AlternatePart= 
+Variation27=Designator=C29|UniqueId=\IYWNILCO\YYXOZFNC|Kind=1|AlternatePart= 
+Variation28=Designator=C28|UniqueId=\IYWNILCO\NZRYZYTZ|Kind=1|AlternatePart= 
+Variation29=Designator=C27|UniqueId=\IYWNILCO\QZVQCXXE|Kind=1|AlternatePart= 
+Variation30=Designator=C26|UniqueId=\IYWNILCO\DKKFZWOS|Kind=1|AlternatePart= 
+Variation31=Designator=C25|UniqueId=\IYWNILCO\BSRHPZPU|Kind=1|AlternatePart= 
+Variation32=Designator=C24|UniqueId=\IYWNILCO\NLBNDBAK|Kind=1|AlternatePart= 
+Variation33=Designator=C23|UniqueId=\IYWNILCO\URFGVLUB|Kind=1|AlternatePart= 
+Variation34=Designator=C22|UniqueId=\IYWNILCO\QJPZUEKP|Kind=1|AlternatePart= 
+Variation35=Designator=C21|UniqueId=\IYWNILCO\DPGOJGED|Kind=1|AlternatePart= 
+Variation36=Designator=C20|UniqueId=\IYWNILCO\YNBPHWZG|Kind=1|AlternatePart= 
+Variation37=Designator=C19|UniqueId=\IYWNILCO\DBBVGIQM|Kind=1|AlternatePart= 
+Variation38=Designator=C18|UniqueId=\IYWNILCO\MOOELOGZ|Kind=1|AlternatePart= 
+Variation39=Designator=C17|UniqueId=\IYWNILCO\UYTDWSGM|Kind=1|AlternatePart= 
+Variation40=Designator=C16|UniqueId=\IYWNILCO\PXTYNACF|Kind=1|AlternatePart= 
+Variation41=Designator=C15|UniqueId=\IYWNILCO\NVSOSNUD|Kind=1|AlternatePart= 
+Variation42=Designator=C14|UniqueId=\IYWNILCO\MCROYNWY|Kind=1|AlternatePart= 
+Variation43=Designator=C13|UniqueId=\IYWNILCO\YVNZXKFH|Kind=1|AlternatePart= 
+Variation44=Designator=C12|UniqueId=\IYWNILCO\DEDNXBXR|Kind=1|AlternatePart= 
+Variation45=Designator=C11|UniqueId=\IYWNILCO\XOSAQHWN|Kind=1|AlternatePart= 
+Variation46=Designator=C10|UniqueId=\IYWNILCO\AMYORNBS|Kind=1|AlternatePart= 
+Variation47=Designator=C9|UniqueId=\IYWNILCO\DXUZNYPS|Kind=1|AlternatePart= 
+Variation48=Designator=C8|UniqueId=\IYWNILCO\ABMARIKG|Kind=1|AlternatePart= 
+Variation49=Designator=C7|UniqueId=\IYWNILCO\PAUSICAY|Kind=1|AlternatePart= 
+Variation50=Designator=C6|UniqueId=\IYWNILCO\SMJERLFG|Kind=1|AlternatePart= 
+Variation51=Designator=C5|UniqueId=\IYWNILCO\AWANVBAG|Kind=1|AlternatePart= 
+Variation52=Designator=C4|UniqueId=\IYWNILCO\EEPDRUOQ|Kind=1|AlternatePart= 
+Variation53=Designator=C3|UniqueId=\IYWNILCO\TFXPUQVY|Kind=1|AlternatePart= 
+Variation54=Designator=TP50|UniqueId=\WMSNNMAK\CVFFPFXY|Kind=1|AlternatePart= 
+Variation55=Designator=TP49|UniqueId=\QXHZYTYT\CJOAYLLN|Kind=1|AlternatePart= 
+Variation56=Designator=TP48|UniqueId=\QXHZYTYT\OWCKHQIG|Kind=1|AlternatePart= 
+Variation57=Designator=TP47|UniqueId=\QXHZYTYT\VKIOTQQN|Kind=1|AlternatePart= 
+Variation58=Designator=TP46|UniqueId=\QXHZYTYT\FTPTQKWY|Kind=1|AlternatePart= 
+Variation59=Designator=TP45|UniqueId=\QXHZYTYT\PDIWBKLV|Kind=1|AlternatePart= 
+Variation60=Designator=TP44|UniqueId=\QXHZYTYT\QNXVAUYA|Kind=1|AlternatePart= 
+Variation61=Designator=TP43|UniqueId=\QXHZYTYT\RRIAYORZ|Kind=1|AlternatePart= 
+Variation62=Designator=TP42|UniqueId=\QXHZYTYT\ZAVBWEBT|Kind=1|AlternatePart= 
+Variation63=Designator=TP41|UniqueId=\QXHZYTYT\DHPPOOUR|Kind=1|AlternatePart= 
+Variation64=Designator=TP40|UniqueId=\QXHZYTYT\CLFCWWJE|Kind=1|AlternatePart= 
+Variation65=Designator=TP39|UniqueId=\QXHZYTYT\FQBNTROB|Kind=1|AlternatePart= 
+Variation66=Designator=TP38|UniqueId=\QXHZYTYT\ZQZVRSWT|Kind=1|AlternatePart= 
+Variation67=Designator=TP37|UniqueId=\QXHZYTYT\QHZOMWHK|Kind=1|AlternatePart= 
+Variation68=Designator=TP36|UniqueId=\QXHZYTYT\KCWPVYMS|Kind=1|AlternatePart= 
+Variation69=Designator=TP35|UniqueId=\QXHZYTYT\XFKGQEDT|Kind=1|AlternatePart= 
+Variation70=Designator=TP34|UniqueId=\QXHZYTYT\CNRFKGIM|Kind=1|AlternatePart= 
+Variation71=Designator=TP33|UniqueId=\QXHZYTYT\VYYQQBAL|Kind=1|AlternatePart= 
+Variation72=Designator=TP32|UniqueId=\QXHZYTYT\RLZZSOXQ|Kind=1|AlternatePart= 
+Variation73=Designator=TP31|UniqueId=\QXHZYTYT\FMEZGQKV|Kind=1|AlternatePart= 
+Variation74=Designator=TP30|UniqueId=\QXHZYTYT\XAEZIEGK|Kind=1|AlternatePart= 
+Variation75=Designator=TP29|UniqueId=\QXHZYTYT\BAAGBWQG|Kind=1|AlternatePart= 
+Variation76=Designator=TP28|UniqueId=\QXHZYTYT\XRGMKNEC|Kind=1|AlternatePart= 
+Variation77=Designator=TP27|UniqueId=\QXHZYTYT\JTWNIRXU|Kind=1|AlternatePart= 
+Variation78=Designator=TP26|UniqueId=\QXHZYTYT\UVYVCPRV|Kind=1|AlternatePart= 
+Variation79=Designator=TP25|UniqueId=\QXHZYTYT\PGGEZKDG|Kind=1|AlternatePart= 
+Variation80=Designator=TP24|UniqueId=\QXHZYTYT\IGCMQWRI|Kind=1|AlternatePart= 
+Variation81=Designator=TP23|UniqueId=\QXHZYTYT\JHHIIDYL|Kind=1|AlternatePart= 
+Variation82=Designator=TP22|UniqueId=\QXHZYTYT\XTLNTUZP|Kind=1|AlternatePart= 
+Variation83=Designator=TP21|UniqueId=\QXHZYTYT\GTTZMPNJ|Kind=1|AlternatePart= 
+Variation84=Designator=TP20|UniqueId=\HVFKAQTV\UIXCOCQL|Kind=1|AlternatePart= 
+Variation85=Designator=TP19|UniqueId=\HVFKAQTV\TERHXCRH|Kind=1|AlternatePart= 
+Variation86=Designator=TP18|UniqueId=\HVFKAQTV\UDWCGJKY|Kind=1|AlternatePart= 
+Variation87=Designator=TP17|UniqueId=\HVFKAQTV\FZEXJOWZ|Kind=1|AlternatePart= 
+Variation88=Designator=TP16|UniqueId=\HVFKAQTV\ALWGKYLM|Kind=1|AlternatePart= 
+Variation89=Designator=TP15|UniqueId=\HVFKAQTV\NFTYLOZS|Kind=1|AlternatePart= 
+Variation90=Designator=TP14|UniqueId=\HVFKAQTV\RAHCXAFT|Kind=1|AlternatePart= 
+Variation91=Designator=TP13|UniqueId=\VDIZBTVC\AAGOFGFF|Kind=1|AlternatePart= 
+Variation92=Designator=TP12|UniqueId=\VDIZBTVC\EBWIHSCV|Kind=1|AlternatePart= 
+Variation93=Designator=TP11|UniqueId=\VDIZBTVC\CYBHFZJU|Kind=1|AlternatePart= 
+Variation94=Designator=TP10|UniqueId=\VDIZBTVC\IRXNNVKZ|Kind=1|AlternatePart= 
+Variation95=Designator=TP9|UniqueId=\VDIZBTVC\SSVKXVLY|Kind=1|AlternatePart= 
+Variation96=Designator=TP8|UniqueId=\VDIZBTVC\VAAFWJBY|Kind=1|AlternatePart= 
+Variation97=Designator=TP7|UniqueId=\VDIZBTVC\OLICVLOR|Kind=1|AlternatePart= 
+Variation98=Designator=TP6|UniqueId=\FPKOLVAD\YBUFFJTR|Kind=1|AlternatePart= 
+Variation99=Designator=TP5|UniqueId=\FPKOLVAD\FVTBIHRY|Kind=1|AlternatePart= 
+Variation100=Designator=TP4|UniqueId=\FPKOLVAD\GQLUXZAE|Kind=1|AlternatePart= 
+Variation101=Designator=TP3|UniqueId=\FPKOLVAD\JNZTAZNC|Kind=1|AlternatePart= 
+Variation102=Designator=TP2|UniqueId=\IYWNILCO\GVLIEKZA|Kind=1|AlternatePart= 
+Variation103=Designator=TP1|UniqueId=\IYWNILCO\IIMVTAYT|Kind=1|AlternatePart= 
+Variation104=Designator=S1|UniqueId=\VDIZBTVC\EOFFDHPZ|Kind=1|AlternatePart= 
+Variation105=Designator=RN27|UniqueId=\QXHZYTYT\ZAZKOOTV|Kind=1|AlternatePart= 
+Variation106=Designator=RN26|UniqueId=\UHNJOLPP\ZSKDVLER|Kind=1|AlternatePart= 
+Variation107=Designator=RN25|UniqueId=\UHNJOLPP\SMCHSUMC|Kind=1|AlternatePart= 
+Variation108=Designator=RN3|UniqueId=\VQAZEXJV\KUHLXWFU|Kind=1|AlternatePart= 
+Variation109=Designator=RN2|UniqueId=\VQAZEXJV\YXIHQMIE|Kind=1|AlternatePart= 
+Variation110=Designator=RN1|UniqueId=\VQAZEXJV\OXTMNVCV|Kind=1|AlternatePart= 
+Variation111=Designator=R131|UniqueId=\AXRVXXJG\DIQKMLJT|Kind=1|AlternatePart= 
+Variation112=Designator=R130|UniqueId=\AXRVXXJG\EAARGMMB|Kind=1|AlternatePart= 
+Variation113=Designator=R129|UniqueId=\AXRVXXJG\BAFZPVNH|Kind=1|AlternatePart= 
+Variation114=Designator=R128|UniqueId=\AXRVXXJG\XEZCDPZB|Kind=1|AlternatePart= 
+Variation115=Designator=R127|UniqueId=\AXRVXXJG\LORRJHUG|Kind=1|AlternatePart= 
+Variation116=Designator=R126|UniqueId=\AXRVXXJG\CIMSLFPM|Kind=1|AlternatePart= 
+Variation117=Designator=R125|UniqueId=\QIRUGJGI\EDHUEWQU|Kind=1|AlternatePart= 
+Variation118=Designator=R124|UniqueId=\WMSNNMAK\YOGVJBLE|Kind=1|AlternatePart= 
+Variation119=Designator=R123|UniqueId=\WMSNNMAK\FMENPXHJ|Kind=1|AlternatePart= 
+Variation120=Designator=R122|UniqueId=\WMSNNMAK\EHJQWUWP|Kind=1|AlternatePart= 
+Variation121=Designator=R121|UniqueId=\WMSNNMAK\WIXFZLJE|Kind=1|AlternatePart= 
+Variation122=Designator=R120|UniqueId=\WMSNNMAK\FIMFSVIN|Kind=1|AlternatePart= 
+Variation123=Designator=R119|UniqueId=\AXRVXXJG\KLPBWWYI|Kind=1|AlternatePart= 
+Variation124=Designator=R118|UniqueId=\AXRVXXJG\SJNRBDYT|Kind=1|AlternatePart= 
+Variation125=Designator=R117|UniqueId=\AXRVXXJG\ZNAEMKLF|Kind=1|AlternatePart= 
+Variation126=Designator=R116|UniqueId=\AXRVXXJG\VUUGNXRR|Kind=1|AlternatePart= 
+Variation127=Designator=R115|UniqueId=\AXRVXXJG\MZSUUNYM|Kind=1|AlternatePart= 
+Variation128=Designator=R114|UniqueId=\AXRVXXJG\DITWPSBK|Kind=1|AlternatePart= 
+Variation129=Designator=R113|UniqueId=\AXRVXXJG\WKCUOUKD|Kind=1|AlternatePart= 
+Variation130=Designator=R112|UniqueId=\AXRVXXJG\FLRWQKZM|Kind=1|AlternatePart= 
+Variation131=Designator=R111|UniqueId=\AXRVXXJG\DMDICJUH|Kind=1|AlternatePart= 
+Variation132=Designator=R110|UniqueId=\AXRVXXJG\ERTUBJYY|Kind=1|AlternatePart= 
+Variation133=Designator=R109|UniqueId=\AXRVXXJG\VLBJFZXH|Kind=1|AlternatePart= 
+Variation134=Designator=R108|UniqueId=\QIRUGJGI\UBIMZFSC|Kind=1|AlternatePart= 
+Variation135=Designator=R107|UniqueId=\QIRUGJGI\UZOUVJFF|Kind=1|AlternatePart= 
+Variation136=Designator=R106|UniqueId=\QIRUGJGI\URTSCZDM|Kind=1|AlternatePart= 
+Variation137=Designator=R105|UniqueId=\QIRUGJGI\TJWWQMOZ|Kind=1|AlternatePart= 
+Variation138=Designator=Y1|UniqueId=\IYWNILCO\XJNWCQBT|Kind=1|AlternatePart= 
+Variation139=Designator=VD1|UniqueId=\HVFKAQTV\IMVHRANL|Kind=1|AlternatePart= 
+Variation140=Designator=U21|UniqueId=\AXRVXXJG\QHMLPXMP|Kind=1|AlternatePart= 
+Variation141=Designator=U20|UniqueId=\AXRVXXJG\ESJSOUJE|Kind=1|AlternatePart= 
+Variation142=Designator=U19|UniqueId=\AXRVXXJG\VOZLNOOO|Kind=1|AlternatePart= 
+Variation143=Designator=U18|UniqueId=\QIRUGJGI\PVXBEBGN|Kind=1|AlternatePart= 
+Variation144=Designator=U17|UniqueId=\WMSNNMAK\AJRWPXBZ|Kind=1|AlternatePart= 
+Variation145=Designator=U16|UniqueId=\WMSNNMAK\QOTEPZWU|Kind=1|AlternatePart= 
+Variation146=Designator=U15|UniqueId=\WMSNNMAK\HHTFWYMF|Kind=1|AlternatePart= 
+Variation147=Designator=U14|UniqueId=\QXHZYTYT\HQGFTURK|Kind=1|AlternatePart= 
+Variation148=Designator=U13|UniqueId=\QXHZYTYT\ZAIFJVPL|Kind=1|AlternatePart= 
+Variation149=Designator=U12|UniqueId=\HVFKAQTV\KEXPXRNK|Kind=1|AlternatePart= 
+Variation150=Designator=U11|UniqueId=\KAYZFOIZ\FYKQUQLW|Kind=1|AlternatePart= 
+Variation151=Designator=U10|UniqueId=\VDIZBTVC\BNLOMNIS|Kind=1|AlternatePart= 
+Variation152=Designator=U9|UniqueId=\VDIZBTVC\KJIDTQQQ|Kind=1|AlternatePart= 
+Variation153=Designator=U8|UniqueId=\VDIZBTVC\DWYQHBQA|Kind=1|AlternatePart= 
+Variation154=Designator=U7|UniqueId=\VDIZBTVC\LYBSTBDL|Kind=1|AlternatePart= 
+Variation155=Designator=U6|UniqueId=\VDIZBTVC\SXFRKYEV|Kind=1|AlternatePart= 
+Variation156=Designator=U3|UniqueId=\FPKOLVAD\OVPYZGXQ|Kind=1|AlternatePart= 
+Variation157=Designator=U2|UniqueId=\IYWNILCO\PRPLIMKA|Kind=1|AlternatePart= 
+Variation158=Designator=TP72|UniqueId=\IYWNILCO\VUNBDBAE|Kind=1|AlternatePart= 
+Variation159=Designator=TP71|UniqueId=\IYWNILCO\PYNRNRRH|Kind=1|AlternatePart= 
+Variation160=Designator=TP70|UniqueId=\WMSNNMAK\POBESKJJ|Kind=1|AlternatePart= 
+Variation161=Designator=TP67|UniqueId=\WMSNNMAK\TGRRRMHT|Kind=1|AlternatePart= 
+Variation162=Designator=TP66|UniqueId=\UHNJOLPP\SYUTINPL|Kind=1|AlternatePart= 
+Variation163=Designator=TP65|UniqueId=\WMSNNMAK\KXUGDGSW|Kind=1|AlternatePart= 
+Variation164=Designator=TP64|UniqueId=\WMSNNMAK\JPFJAFOO|Kind=1|AlternatePart= 
+Variation165=Designator=TP63|UniqueId=\WMSNNMAK\VIQHTEMS|Kind=1|AlternatePart= 
+Variation166=Designator=TP62|UniqueId=\AXRVXXJG\ZQCMVWQV|Kind=1|AlternatePart= 
+Variation167=Designator=TP61|UniqueId=\AXRVXXJG\MAJHPVNZ|Kind=1|AlternatePart= 
+Variation168=Designator=TP60|UniqueId=\AXRVXXJG\VPXAYBAG|Kind=1|AlternatePart= 
+Variation169=Designator=TP59|UniqueId=\QIRUGJGI\RZCWVLNH|Kind=1|AlternatePart= 
+Variation170=Designator=TP58|UniqueId=\QIRUGJGI\GDVCFRXI|Kind=1|AlternatePart= 
+Variation171=Designator=TP57|UniqueId=\QIRUGJGI\IWMLISWE|Kind=1|AlternatePart= 
+Variation172=Designator=TP56|UniqueId=\QIRUGJGI\NDZLIDKE|Kind=1|AlternatePart= 
+Variation173=Designator=TP55|UniqueId=\WMSNNMAK\TAXHJWEG|Kind=1|AlternatePart= 
+Variation174=Designator=TP54|UniqueId=\WMSNNMAK\YIHYTUIA|Kind=1|AlternatePart= 
+Variation175=Designator=TP53|UniqueId=\WMSNNMAK\EWFORZSQ|Kind=1|AlternatePart= 
+Variation176=Designator=TP52|UniqueId=\WMSNNMAK\AEDIXEWX|Kind=1|AlternatePart= 
+Variation177=Designator=TP51|UniqueId=\WMSNNMAK\TQGYAXWW|Kind=1|AlternatePart= 
+Variation178=Designator=R14|UniqueId=\FPKOLVAD\ELVAEJNU|Kind=1|AlternatePart= 
+Variation179=Designator=R13|UniqueId=\FPKOLVAD\NNTEFCZP|Kind=1|AlternatePart= 
+Variation180=Designator=R12|UniqueId=\FPKOLVAD\XXCKUDDN|Kind=1|AlternatePart= 
+Variation181=Designator=R11|UniqueId=\IYWNILCO\NXNFFVNM|Kind=1|AlternatePart= 
+Variation182=Designator=R10|UniqueId=\IYWNILCO\YTKGZTEF|Kind=1|AlternatePart= 
+Variation183=Designator=R9|UniqueId=\IYWNILCO\JKSPVHVU|Kind=1|AlternatePart= 
+Variation184=Designator=R8|UniqueId=\IYWNILCO\ZFEQQWWR|Kind=1|AlternatePart= 
+Variation185=Designator=R7|UniqueId=\IYWNILCO\BMTYCLZW|Kind=1|AlternatePart= 
+Variation186=Designator=R6|UniqueId=\IYWNILCO\QFGTJHYG|Kind=1|AlternatePart= 
+Variation187=Designator=R5|UniqueId=\IYWNILCO\OWFJISSE|Kind=1|AlternatePart= 
+Variation188=Designator=R4|UniqueId=\IYWNILCO\IVBIKHAA|Kind=1|AlternatePart= 
+Variation189=Designator=R3|UniqueId=\IYWNILCO\SHGHVWFM|Kind=1|AlternatePart= 
+Variation190=Designator=R2|UniqueId=\IYWNILCO\SFCUFDDN|Kind=1|AlternatePart= 
+Variation191=Designator=R1|UniqueId=\IYWNILCO\OJRVDURU|Kind=1|AlternatePart= 
+Variation192=Designator=Q3|UniqueId=\AXRVXXJG\KNQIQRUN|Kind=1|AlternatePart= 
+Variation193=Designator=Q2|UniqueId=\AXRVXXJG\EAWRPBFJ|Kind=1|AlternatePart= 
+Variation194=Designator=Q1|UniqueId=\AXRVXXJG\OGOIYNPR|Kind=1|AlternatePart= 
+Variation195=Designator=MK2|UniqueId=\FPKOLVAD\COMDGSKO|Kind=1|AlternatePart= 
+Variation196=Designator=MK1|UniqueId=\FPKOLVAD\TQPBYHTA|Kind=1|AlternatePart= 
+Variation197=Designator=L8|UniqueId=\AXRVXXJG\UPIDLTLO|Kind=1|AlternatePart= 
+Variation198=Designator=L7|UniqueId=\QXHZYTYT\FNZQGQIV|Kind=1|AlternatePart= 
+Variation199=Designator=L5|UniqueId=\UHNJOLPP\YYDEMUUY|Kind=1|AlternatePart= 
+Variation200=Designator=L4|UniqueId=\IYWNILCO\LIDDNXON|Kind=1|AlternatePart= 
+Variation201=Designator=L3|UniqueId=\IYWNILCO\XWIQQOYR|Kind=1|AlternatePart= 
+Variation202=Designator=L2|UniqueId=\IYWNILCO\SNWPGHUB|Kind=1|AlternatePart= 
+Variation203=Designator=L1|UniqueId=\IYWNILCO\MGQXKMSE|Kind=1|AlternatePart= 
+Variation204=Designator=J7|UniqueId=\WMSNNMAK\PTDUBCZZ|Kind=1|AlternatePart= 
+Variation205=Designator=J6|UniqueId=\WMSNNMAK\LUSKOUGL|Kind=1|AlternatePart= 
+Variation206=Designator=J5|UniqueId=\WMSNNMAK\YDOYZXPS|Kind=1|AlternatePart= 
+Variation207=Designator=J4|UniqueId=\WMSNNMAK\MDYGIQLY|Kind=1|AlternatePart= 
+Variation208=Designator=J3|UniqueId=\QXHZYTYT\QJIQIMMY|Kind=1|AlternatePart= 
+Variation209=Designator=J2|UniqueId=\HVFKAQTV\IDRWCYPU|Kind=1|AlternatePart= 
+Variation210=Designator=J1|UniqueId=\UHNJOLPP\PFFPZKXA|Kind=1|AlternatePart= 
+Variation211=Designator=FB1|UniqueId=\WMSNNMAK\FWWHFPRS|Kind=1|AlternatePart= 
+Variation212=Designator=E1|UniqueId=\QXHZYTYT\JBWVUYQZ|Kind=1|AlternatePart= 
+Variation213=Designator=D8|UniqueId=\QIRUGJGI\EGXQLJOM|Kind=1|AlternatePart= 
+Variation214=Designator=D7|UniqueId=\WMSNNMAK\PQSBBGKW|Kind=1|AlternatePart= 
+Variation215=Designator=D6|UniqueId=\WMSNNMAK\PHXYOPZF|Kind=1|AlternatePart= 
+Variation216=Designator=D5|UniqueId=\WMSNNMAK\NNDMTFPP|Kind=1|AlternatePart= 
+Variation217=Designator=D4|UniqueId=\WMSNNMAK\BJIPRTCI|Kind=1|AlternatePart= 
+Variation218=Designator=D3|UniqueId=\VDIZBTVC\HJGWRMCK|Kind=1|AlternatePart= 
+Variation219=Designator=D2|UniqueId=\QIRUGJGI\WXUYXODF|Kind=1|AlternatePart= 
+Variation220=Designator=D1|UniqueId=\QIRUGJGI\SZCWSMBM|Kind=1|AlternatePart= 
+Variation221=Designator=C119|UniqueId=\QXHZYTYT\KHJUIVCU|Kind=1|AlternatePart= 
+Variation222=Designator=C118|UniqueId=\QXHZYTYT\ATVZMLGL|Kind=1|AlternatePart= 
+Variation223=Designator=C115|UniqueId=\AXRVXXJG\WYYXRPGL|Kind=1|AlternatePart= 
+Variation224=Designator=C114|UniqueId=\AXRVXXJG\ILHNBOGC|Kind=1|AlternatePart= 
+Variation225=Designator=C113|UniqueId=\AXRVXXJG\MCAGKKSL|Kind=1|AlternatePart= 
+Variation226=Designator=C112|UniqueId=\AXRVXXJG\VQNQSEIQ|Kind=1|AlternatePart= 
+Variation227=Designator=C111|UniqueId=\AXRVXXJG\TVBZXIDU|Kind=1|AlternatePart= 
+Variation228=Designator=C110|UniqueId=\AXRVXXJG\KGYOOUCR|Kind=1|AlternatePart= 
+Variation229=Designator=C109|UniqueId=\AXRVXXJG\FRTDFYJL|Kind=1|AlternatePart= 
+Variation230=Designator=C108|UniqueId=\QIRUGJGI\BKDISBFL|Kind=1|AlternatePart= 
+Variation231=Designator=C107|UniqueId=\QIRUGJGI\ISQSKXZM|Kind=1|AlternatePart= 
+Variation232=Designator=C106|UniqueId=\QIRUGJGI\LYRRJQQE|Kind=1|AlternatePart= 
+Variation233=Designator=C105|UniqueId=\QIRUGJGI\DVZELRTS|Kind=1|AlternatePart= 
+Variation234=Designator=C104|UniqueId=\QIRUGJGI\CRUZEMBO|Kind=1|AlternatePart= 
+Variation235=Designator=C103|UniqueId=\QIRUGJGI\ZDHXXJJO|Kind=1|AlternatePart= 
+Variation236=Designator=C102|UniqueId=\QIRUGJGI\EJEXPJAT|Kind=1|AlternatePart= 
+Variation237=Designator=C101|UniqueId=\QIRUGJGI\UFBQVUZG|Kind=1|AlternatePart= 
+Variation238=Designator=C100|UniqueId=\QIRUGJGI\CCLDYALQ|Kind=1|AlternatePart= 
+Variation239=Designator=C99|UniqueId=\QIRUGJGI\PCNBIRJM|Kind=1|AlternatePart= 
+Variation240=Designator=C98|UniqueId=\QIRUGJGI\XREFDZUB|Kind=1|AlternatePart= 
+Variation241=Designator=C97|UniqueId=\QIRUGJGI\CXWOLSGI|Kind=1|AlternatePart= 
+Variation242=Designator=C96|UniqueId=\QIRUGJGI\UGZIJGOK|Kind=1|AlternatePart= 
+Variation243=Designator=C95|UniqueId=\QIRUGJGI\XYQXWBUI|Kind=1|AlternatePart= 
+Variation244=Designator=C94|UniqueId=\WMSNNMAK\ESPNNXTE|Kind=1|AlternatePart= 
+Variation245=Designator=C93|UniqueId=\QXHZYTYT\WIGOXKUS|Kind=1|AlternatePart= 
+Variation246=Designator=C92|UniqueId=\QXHZYTYT\IXHTCNZV|Kind=1|AlternatePart= 
+Variation247=Designator=C91|UniqueId=\QXHZYTYT\KJKEHSCV|Kind=1|AlternatePart= 
+Variation248=Designator=C90|UniqueId=\QXHZYTYT\LSRFKBKK|Kind=1|AlternatePart= 
+Variation249=Designator=C89|UniqueId=\QXHZYTYT\OJGNEQZC|Kind=1|AlternatePart= 
+Variation250=Designator=C86|UniqueId=\QXHZYTYT\QYDHZSVO|Kind=1|AlternatePart= 
+Variation251=Designator=C85|UniqueId=\QXHZYTYT\LJIFYQVC|Kind=1|AlternatePart= 
+Variation252=Designator=C84|UniqueId=\QXHZYTYT\QSZQABVV|Kind=1|AlternatePart= 
+Variation253=Designator=C83|UniqueId=\QXHZYTYT\RESBSCPI|Kind=1|AlternatePart= 
+Variation254=Designator=C82|UniqueId=\QXHZYTYT\EZAAEZED|Kind=1|AlternatePart= 
+Variation255=Designator=C81|UniqueId=\QXHZYTYT\YWQOCMYP|Kind=1|AlternatePart= 
+Variation256=Designator=C77|UniqueId=\HVFKAQTV\GQSOBVUC|Kind=1|AlternatePart= 
+Variation257=Designator=C76|UniqueId=\HVFKAQTV\QAXDBMNL|Kind=1|AlternatePart= 
+Variation258=Designator=C75|UniqueId=\HVFKAQTV\EBVEHJOM|Kind=1|AlternatePart= 
+Variation259=Designator=C74|UniqueId=\HVFKAQTV\GEFVIZHV|Kind=1|AlternatePart= 
+Variation260=Designator=C73|UniqueId=\HVFKAQTV\NZEIVWXP|Kind=1|AlternatePart= 
+Variation261=Designator=C72|UniqueId=\HVFKAQTV\EAERRGEY|Kind=1|AlternatePart= 
+Variation262=Designator=C71|UniqueId=\HVFKAQTV\LKZVHNAU|Kind=1|AlternatePart= 
+Variation263=Designator=C70|UniqueId=\HVFKAQTV\OUAEWORY|Kind=1|AlternatePart= 
+Variation264=Designator=C69|UniqueId=\KAYZFOIZ\VRSVVYOS|Kind=1|AlternatePart= 
+Variation265=Designator=C68|UniqueId=\VDIZBTVC\JRQLFZDJ|Kind=1|AlternatePart= 
+Variation266=Designator=C67|UniqueId=\VDIZBTVC\UISPILVU|Kind=1|AlternatePart= 
+Variation267=Designator=C66|UniqueId=\VDIZBTVC\LULPNYOM|Kind=1|AlternatePart= 
+Variation268=Designator=C65|UniqueId=\VDIZBTVC\CMCLTZQP|Kind=1|AlternatePart= 
+Variation269=Designator=C64|UniqueId=\VDIZBTVC\BGNYMRPH|Kind=1|AlternatePart= 
+Variation270=Designator=C63|UniqueId=\VDIZBTVC\MVTQZDVE|Kind=1|AlternatePart= 
+Variation271=Designator=C62|UniqueId=\VDIZBTVC\OUDTXWPK|Kind=1|AlternatePart= 
+Variation272=Designator=C61|UniqueId=\VDIZBTVC\HOCUJSJF|Kind=1|AlternatePart= 
+Variation273=Designator=C60|UniqueId=\UHNJOLPP\TJWCANRV|Kind=1|AlternatePart= 
+Variation274=Designator=C59|UniqueId=\UHNJOLPP\UYTDIRUT|Kind=1|AlternatePart= 
+Variation275=Designator=C58|UniqueId=\UHNJOLPP\GCWMJONN|Kind=1|AlternatePart= 
+Variation276=Designator=C57|UniqueId=\UHNJOLPP\OLORJTBV|Kind=1|AlternatePart= 
+Variation277=Designator=C56|UniqueId=\UHNJOLPP\CDTOOJDX|Kind=1|AlternatePart= 
+Variation278=Designator=C55|UniqueId=\UHNJOLPP\UNXWOVUC|Kind=1|AlternatePart= 
+Variation279=Designator=C54|UniqueId=\UHNJOLPP\CDYSZNTE|Kind=1|AlternatePart= 
+Variation280=Designator=C53|UniqueId=\VQAZEXJV\VXQFWYPG|Kind=1|AlternatePart= 
+Variation281=Designator=R104|UniqueId=\QIRUGJGI\EEGVYBVN|Kind=1|AlternatePart= 
+Variation282=Designator=R103|UniqueId=\QIRUGJGI\GCTVRYWU|Kind=1|AlternatePart= 
+Variation283=Designator=R102|UniqueId=\QIRUGJGI\ARJVRUGN|Kind=1|AlternatePart= 
+Variation284=Designator=R101|UniqueId=\VDIZBTVC\ZTYMYEMH|Kind=1|AlternatePart= 
+Variation285=Designator=R100|UniqueId=\WMSNNMAK\ATBJLWKD|Kind=1|AlternatePart= 
+Variation286=Designator=R99|UniqueId=\WMSNNMAK\XEIPUYKN|Kind=1|AlternatePart= 
+Variation287=Designator=R98|UniqueId=\WMSNNMAK\FDROZYLR|Kind=1|AlternatePart= 
+Variation288=Designator=R97|UniqueId=\WMSNNMAK\RJDGHMKR|Kind=1|AlternatePart= 
+Variation289=Designator=R96|UniqueId=\QXHZYTYT\MRSUSVBO|Kind=1|AlternatePart= 
+Variation290=Designator=R95|UniqueId=\QXHZYTYT\ZTIDBAWO|Kind=1|AlternatePart= 
+Variation291=Designator=R94|UniqueId=\QXHZYTYT\ZEMGVEFI|Kind=1|AlternatePart= 
+Variation292=Designator=R93|UniqueId=\QXHZYTYT\WWXEBIEI|Kind=1|AlternatePart= 
+Variation293=Designator=R92|UniqueId=\QXHZYTYT\YKOSHHJI|Kind=1|AlternatePart= 
+Variation294=Designator=R91|UniqueId=\QXHZYTYT\AFFOPLEG|Kind=1|AlternatePart= 
+Variation295=Designator=R90|UniqueId=\QXHZYTYT\QAFDLVDP|Kind=1|AlternatePart= 
+Variation296=Designator=R89|UniqueId=\QXHZYTYT\TCEXKFNC|Kind=1|AlternatePart= 
+Variation297=Designator=R88|UniqueId=\QXHZYTYT\WHPGAUMO|Kind=1|AlternatePart= 
+Variation298=Designator=R87|UniqueId=\QXHZYTYT\XDEEGTII|Kind=1|AlternatePart= 
+Variation299=Designator=R86|UniqueId=\QXHZYTYT\DVAGBROM|Kind=1|AlternatePart= 
+Variation300=Designator=R85|UniqueId=\QXHZYTYT\GPCZLXMM|Kind=1|AlternatePart= 
+Variation301=Designator=R84|UniqueId=\QXHZYTYT\WYBTWGYG|Kind=1|AlternatePart= 
+Variation302=Designator=R83|UniqueId=\QXHZYTYT\ZVIARLMU|Kind=1|AlternatePart= 
+Variation303=Designator=R82|UniqueId=\QXHZYTYT\HWEKHPWN|Kind=1|AlternatePart= 
+Variation304=Designator=R81|UniqueId=\QXHZYTYT\NPCYCLOW|Kind=1|AlternatePart= 
+Variation305=Designator=R80|UniqueId=\QXHZYTYT\BMAKXJLV|Kind=1|AlternatePart= 
+Variation306=Designator=R79|UniqueId=\QXHZYTYT\MCCLGQFT|Kind=1|AlternatePart= 
+Variation307=Designator=R78|UniqueId=\QXHZYTYT\SAZXSNFK|Kind=1|AlternatePart= 
+Variation308=Designator=R77|UniqueId=\QXHZYTYT\BRVBKAGS|Kind=1|AlternatePart= 
+Variation309=Designator=R76|UniqueId=\QXHZYTYT\GQADOJBZ|Kind=1|AlternatePart= 
+Variation310=Designator=R75|UniqueId=\QXHZYTYT\WMRTSCJH|Kind=1|AlternatePart= 
+Variation311=Designator=R74|UniqueId=\QXHZYTYT\FNNVGEYN|Kind=1|AlternatePart= 
+Variation312=Designator=R73|UniqueId=\QXHZYTYT\GQNRNFAM|Kind=1|AlternatePart= 
+Variation313=Designator=R71|UniqueId=\QXHZYTYT\QQXCPOPC|Kind=1|AlternatePart= 
+Variation314=Designator=R70|UniqueId=\QXHZYTYT\LHMSZKKQ|Kind=1|AlternatePart= 
+Variation315=Designator=R69|UniqueId=\QXHZYTYT\UWMCOUAB|Kind=1|AlternatePart= 
+Variation316=Designator=R68|UniqueId=\QXHZYTYT\SBGBKJRM|Kind=1|AlternatePart= 
+Variation317=Designator=R67|UniqueId=\QXHZYTYT\NJIUPYSI|Kind=1|AlternatePart= 
+Variation318=Designator=R63|UniqueId=\HVFKAQTV\LSZQLOEK|Kind=1|AlternatePart= 
+Variation319=Designator=R62|UniqueId=\HVFKAQTV\FELFFOQM|Kind=1|AlternatePart= 
+Variation320=Designator=R61|UniqueId=\HVFKAQTV\LWRJGTML|Kind=1|AlternatePart= 
+Variation321=Designator=R60|UniqueId=\HVFKAQTV\IAEQBWGH|Kind=1|AlternatePart= 
+Variation322=Designator=R59|UniqueId=\HVFKAQTV\NUAJXBTY|Kind=1|AlternatePart= 
+Variation323=Designator=R58|UniqueId=\HVFKAQTV\KOYNMZNW|Kind=1|AlternatePart= 
+Variation324=Designator=R57|UniqueId=\HVFKAQTV\YTISKOSY|Kind=1|AlternatePart= 
+Variation325=Designator=R56|UniqueId=\HVFKAQTV\BPGPPWLP|Kind=1|AlternatePart= 
+Variation326=Designator=R55|UniqueId=\HVFKAQTV\AWAVMIFI|Kind=1|AlternatePart= 
+Variation327=Designator=R54|UniqueId=\HVFKAQTV\FSTOVVKJ|Kind=1|AlternatePart= 
+Variation328=Designator=R53|UniqueId=\HVFKAQTV\ZDPOHLSY|Kind=1|AlternatePart= 
+Variation329=Designator=R52|UniqueId=\KAYZFOIZ\YLVOUJMZ|Kind=1|AlternatePart= 
+Variation330=Designator=R51|UniqueId=\KAYZFOIZ\NERZOUFS|Kind=1|AlternatePart= 
+Variation331=Designator=R50|UniqueId=\KAYZFOIZ\NPJBYZTP|Kind=1|AlternatePart= 
+Variation332=Designator=R49|UniqueId=\KAYZFOIZ\PSFSREPX|Kind=1|AlternatePart= 
+Variation333=Designator=R48|UniqueId=\KAYZFOIZ\OXZVLLFS|Kind=1|AlternatePart= 
+Variation334=Designator=R47|UniqueId=\KAYZFOIZ\EJEBFLGS|Kind=1|AlternatePart= 
+Variation335=Designator=R46|UniqueId=\KAYZFOIZ\RTCGTIMR|Kind=1|AlternatePart= 
+Variation336=Designator=R45|UniqueId=\KAYZFOIZ\HNGWDQRB|Kind=1|AlternatePart= 
+Variation337=Designator=R44|UniqueId=\VDIZBTVC\DCKUQQFM|Kind=1|AlternatePart= 
+Variation338=Designator=R43|UniqueId=\VDIZBTVC\MNBNDMXQ|Kind=1|AlternatePart= 
+Variation339=Designator=R42|UniqueId=\VDIZBTVC\KADHBHZC|Kind=1|AlternatePart= 
+Variation340=Designator=R41|UniqueId=\VDIZBTVC\GWMKPPGU|Kind=1|AlternatePart= 
+Variation341=Designator=R40|UniqueId=\VDIZBTVC\LUWOPXWB|Kind=1|AlternatePart= 
+Variation342=Designator=R39|UniqueId=\VDIZBTVC\XCTILTHH|Kind=1|AlternatePart= 
+Variation343=Designator=R38|UniqueId=\VDIZBTVC\FYFLBYLS|Kind=1|AlternatePart= 
+Variation344=Designator=R37|UniqueId=\VDIZBTVC\MVNDHQEV|Kind=1|AlternatePart= 
+Variation345=Designator=R36|UniqueId=\VDIZBTVC\HRKCOZEX|Kind=1|AlternatePart= 
+Variation346=Designator=R35|UniqueId=\VDIZBTVC\EPWECZXP|Kind=1|AlternatePart= 
+Variation347=Designator=R34|UniqueId=\VDIZBTVC\GWMRFEFT|Kind=1|AlternatePart= 
+Variation348=Designator=R33|UniqueId=\VDIZBTVC\JPAWYCYD|Kind=1|AlternatePart= 
+Variation349=Designator=R32|UniqueId=\VDIZBTVC\ZPXLMMZN|Kind=1|AlternatePart= 
+Variation350=Designator=R31|UniqueId=\UHNJOLPP\ZWJFHLJL|Kind=1|AlternatePart= 
+Variation351=Designator=R30|UniqueId=\UHNJOLPP\YAGGNXIE|Kind=1|AlternatePart= 
+Variation352=Designator=R29|UniqueId=\UHNJOLPP\SKYJVANT|Kind=1|AlternatePart= 
+Variation353=Designator=R28|UniqueId=\UHNJOLPP\HPTJBPOO|Kind=1|AlternatePart= 
+Variation354=Designator=R26|UniqueId=\UHNJOLPP\PRRFFQUS|Kind=1|AlternatePart= 
+Variation355=Designator=R25|UniqueId=\UHNJOLPP\HXWXJJYF|Kind=1|AlternatePart= 
+Variation356=Designator=R24|UniqueId=\UHNJOLPP\PWFCLPBE|Kind=1|AlternatePart= 
+Variation357=Designator=R23|UniqueId=\UHNJOLPP\YOIOBIKC|Kind=1|AlternatePart= 
+Variation358=Designator=R22|UniqueId=\VQAZEXJV\OWVCKXYS|Kind=1|AlternatePart= 
+Variation359=Designator=R21|UniqueId=\VQAZEXJV\HYXBHVXD|Kind=1|AlternatePart= 
+Variation360=Designator=R20|UniqueId=\VQAZEXJV\HJMHDAAW|Kind=1|AlternatePart= 
+Variation361=Designator=R19|UniqueId=\VQAZEXJV\YZJJTWRQ|Kind=1|AlternatePart= 
+Variation362=Designator=R18|UniqueId=\VQAZEXJV\EVMGGMML|Kind=1|AlternatePart= 
+Variation363=Designator=R17|UniqueId=\FPKOLVAD\GHWCHOAE|Kind=1|AlternatePart= 
+Variation364=Designator=R16|UniqueId=\FPKOLVAD\MLCNLRQB|Kind=1|AlternatePart= 
+Variation365=Designator=R15|UniqueId=\FPKOLVAD\UHQXJZWH|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for NNLightSwitcher\Design Rule Check - NNLightSwitcher.html
 DItemRevisionGUID=
@@ -758,7 +1148,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=doPDF 9
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -864,6 +1254,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1737,6 +2133,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=0
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=NNLightSwitcher.SchLib
@@ -1781,208 +2178,209 @@ ModelUpdate1=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=DQU3 DDR3|NetColor=$00FF9900
-Net2=NetName=DQU6 DDR3|NetColor=$00FF9900
-Net3=NetName=DQL4 DDR3|NetColor=$00993300
-Net4=NetName=*A3 DDR3|NetColor=$000099FF
-Net5=NetName=DDR3.A11|NetColor=$000099FF
-Net6=NetName=I/O 3.GPIO7|NetColor=$0033CC33
-Net7=NetName=DDR3.DQU6|NetColor=$00FF9900
-Net8=NetName=DDR3.DQSL|NetColor=$0033CC33
-Net9=NetName=DDR3.nDQSU|NetColor=$006EFF6E
-Net10=NetName=GPIO24|NetColor=$0033CC33
-Net11=NetName=ODT DDR3|NetColor=$00996633
-Net12=NetName=DQU5 DDR3|NetColor=$00FF9900
-Net13=NetName=*A4 DDR3|NetColor=$000099FF
-Net14=NetName=nRAS DDR3|NetColor=$00996633
-Net15=NetName=I/O 4.GPIO5|NetColor=$0000BE00
-Net16=NetName=GPIO10|NetColor=$0033CC33
-Net17=NetName=A10 DDR3|NetColor=$000099FF
-Net18=NetName=*A13 DDR3|NetColor=$000099FF
-Net19=NetName=DDR3.DML|NetColor=$006600CC
-Net20=NetName=A4 DDR3|NetColor=$000099FF
-Net21=NetName=DDR3.nWE|NetColor=$00996633
-Net22=NetName=I/O 1.GPIO4|NetColor=$0033CC33
-Net23=NetName=GPIO14|NetColor=$0033CC33
-Net24=NetName=GPIO20|NetColor=$0033CC33
-Net25=NetName=I/O 3.GPIO3|NetColor=$0033CC33
-Net26=NetName=*BA2 DDR3|NetColor=$00996633
-Net27=NetName=I/O 4.GPIO2|NetColor=$0000BE00
-Net28=NetName=DQL0 DDR3|NetColor=$00993300
-Net29=NetName=GPIO8|NetColor=$0033CC33
-Net30=NetName=DDR3.DQU4|NetColor=$00FF9900
-Net31=NetName=GPIO7|NetColor=$0033CC33
-Net32=NetName=I/O 2.GPIO3|NetColor=$0033CC33
-Net33=NetName=DDR3.DQL5|NetColor=$00993300
-Net34=NetName=*A14 DDR3|NetColor=$000099FF
-Net35=NetName=GPIO2|NetColor=$0033CC33
-Net36=NetName=*nWE DDR3|NetColor=$00996633
-Net37=NetName=I/O 1.GPIO7|NetColor=$0033CC33
-Net38=NetName=I/O 1.GPIO0|NetColor=$0033CC33
-Net39=NetName=GPIO21|NetColor=$0033CC33
-Net40=NetName=A7 DDR3|NetColor=$000099FF
-Net41=NetName=nCAS DDR3|NetColor=$00996633
-Net42=NetName=nWE DDR3|NetColor=$00996633
-Net43=NetName=A2 DDR3|NetColor=$000099FF
-Net44=NetName=I/O 2.GPIO6|NetColor=$0033CC33
-Net45=NetName=DDR3.nDQSL|NetColor=$0033CC33
-Net46=NetName=DDR3.DQL2|NetColor=$00993300
-Net47=NetName=DDR3.nCAS|NetColor=$00996633
-Net48=NetName=CK DDR3_N|NetColor=$00FF6699
-Net49=NetName=A6 DDR3|NetColor=$000099FF
-Net50=NetName=DDR3.DQL0|NetColor=$00993300
-Net51=NetName=DDR3.DQU3|NetColor=$00FF9900
-Net52=NetName=GPIO16|NetColor=$0033CC33
-Net53=NetName=DDR3.DQU2|NetColor=$00FF9900
-Net54=NetName=DDR3.A4|NetColor=$000099FF
-Net55=NetName=*A1 DDR3|NetColor=$000099FF
-Net56=NetName=I/O 1.GPIO5|NetColor=$0033CC33
-Net57=NetName=DDR3.A12|NetColor=$000099FF
-Net58=NetName=DDR3.A15|NetColor=$000099FF
-Net59=NetName=I/O 2.GPIO7|NetColor=$0033CC33
-Net60=NetName=A14 DDR3|NetColor=$000099FF
-Net61=NetName=*A15 DDR3|NetColor=$000099FF
-Net62=NetName=DDR3.DQL3|NetColor=$00993300
-Net63=NetName=A15 DDR3|NetColor=$000099FF
-Net64=NetName=DDR3.A14|NetColor=$000099FF
-Net65=NetName=DDR3.DQSU|NetColor=$006EFF6E
-Net66=NetName=I/O 5.GPIO7|NetColor=$0033CC33
-Net67=NetName=DQSL DDR3_P|NetColor=$0033CC33
-Net68=NetName=A1 DDR3|NetColor=$000099FF
-Net69=NetName=I/O 3.GPIO2|NetColor=$0033CC33
-Net70=NetName=*ODT DDR3|NetColor=$00996633
-Net71=NetName=I/O 5.GPIO1|NetColor=$0033CC33
-Net72=NetName=DQL3 DDR3|NetColor=$00993300
-Net73=NetName=I/O 3.GPIO1|NetColor=$0033CC33
-Net74=NetName=I/O 0.GPIO6|NetColor=$0033CC33
-Net75=NetName=GPIO_PL_6|NetColor=$0033CC33
-Net76=NetName=DQSL DDR3_N|NetColor=$0033CC33
-Net77=NetName=DDR3.A10|NetColor=$000099FF
-Net78=NetName=GPIO9|NetColor=$0033CC33
-Net79=NetName=I/O 4.GPIO4|NetColor=$0000BE00
-Net80=NetName=GPIO_PL_0|NetColor=$0033CC33
-Net81=NetName=*A7 DDR3|NetColor=$000099FF
-Net82=NetName=GPIO3|NetColor=$0033CC33
-Net83=NetName=DDR3.DQU5|NetColor=$00FF9900
-Net84=NetName=BA0 DDR3|NetColor=$00996633
-Net85=NetName=*A11 DDR3|NetColor=$000099FF
-Net86=NetName=GPIO_PL_2|NetColor=$0033CC33
-Net87=NetName=DDR3.A2|NetColor=$000099FF
-Net88=NetName=DDR3.DQU7|NetColor=$00FF9900
-Net89=NetName=DDR3.DQU1|NetColor=$00FF9900
-Net90=NetName=DDR3.CK|NetColor=$00FF6699
-Net91=NetName=DDR3.BA2|NetColor=$00996633
-Net92=NetName=GPIO_PL_1|NetColor=$0033CC33
-Net93=NetName=A9 DDR3|NetColor=$000099FF
-Net94=NetName=CK DDR3_P|NetColor=$00FF6699
-Net95=NetName=I/O 0.GPIO7|NetColor=$0033CC33
-Net96=NetName=I/O 5.GPIO0|NetColor=$0033CC33
-Net97=NetName=DQSU DDR3_P|NetColor=$006EFF6E
-Net98=NetName=GPIO_PL_7|NetColor=$0033CC33
-Net99=NetName=I/O 1.GPIO1|NetColor=$0033CC33
-Net100=NetName=*A8 DDR3|NetColor=$000099FF
-Net101=NetName=DDR3.A8|NetColor=$000099FF
-Net102=NetName=CKE DDR3|NetColor=$00FF9999
-Net103=NetName=DDR3.BA1|NetColor=$00996633
-Net104=NetName=I/O 0.GPIO3|NetColor=$0033CC33
-Net105=NetName=DDR3.A3|NetColor=$000099FF
-Net106=NetName=DQU4 DDR3|NetColor=$00FF9900
-Net107=NetName=GPIO15|NetColor=$0033CC33
-Net108=NetName=*nCAS DDR3|NetColor=$00996633
-Net109=NetName=MIO35|NetColor=$0000BE00
-Net110=NetName=I/O 1.GPIO3|NetColor=$0033CC33
-Net111=NetName=DQL6 DDR3|NetColor=$00993300
-Net112=NetName=I/O 0.GPIO2|NetColor=$0033CC33
-Net113=NetName=DQL1 DDR3|NetColor=$00993300
-Net114=NetName=I/O 2.GPIO1|NetColor=$0033CC33
-Net115=NetName=*A2 DDR3|NetColor=$000099FF
-Net116=NetName=DQL5 DDR3|NetColor=$00993300
-Net117=NetName=DDR3.A5|NetColor=$000099FF
-Net118=NetName=DDR3.nCK|NetColor=$00FF6699
-Net119=NetName=I/O 3.GPIO6|NetColor=$0033CC33
-Net120=NetName=GPIO19|NetColor=$0033CC33
-Net121=NetName=DDR3.nRAS|NetColor=$00996633
-Net122=NetName=DQL7 DDR3|NetColor=$00993300
-Net123=NetName=GPIO_PL_9|NetColor=$0033CC33
-Net124=NetName=GPIO4|NetColor=$0033CC33
-Net125=NetName=I/O 2.GPIO0|NetColor=$0033CC33
-Net126=NetName=DDR3.DQL4|NetColor=$00993300
-Net127=NetName=MIO36|NetColor=$0000BE00
-Net128=NetName=A8 DDR3|NetColor=$000099FF
-Net129=NetName=BA1 DDR3|NetColor=$00996633
-Net130=NetName=*BA0 DDR3|NetColor=$00996633
-Net131=NetName=GPIO6|NetColor=$0033CC33
-Net132=NetName=DDR3.A1|NetColor=$000099FF
-Net133=NetName=A12 DDR3|NetColor=$000099FF
-Net134=NetName=GPIO5|NetColor=$0033CC33
-Net135=NetName=*A0 DDR3|NetColor=$000099FF
-Net136=NetName=A13 DDR3|NetColor=$000099FF
-Net137=NetName=MIO9|NetColor=$0000BE00
-Net138=NetName=A11 DDR3|NetColor=$000099FF
-Net139=NetName=DML DDR3|NetColor=$006600CC
-Net140=NetName=GPIO_PL_4|NetColor=$0033CC33
-Net141=NetName=A0 DDR3|NetColor=$000099FF
-Net142=NetName=DQSU DDR3_N|NetColor=$006EFF6E
-Net143=NetName=GPIO_PL_8|NetColor=$0033CC33
-Net144=NetName=GPIO23|NetColor=$0033CC33
-Net145=NetName=GPIO22|NetColor=$0033CC33
-Net146=NetName=DQU1 DDR3|NetColor=$00FF9900
-Net147=NetName=I/O 2.GPIO2|NetColor=$0033CC33
-Net148=NetName=DQU2 DDR3|NetColor=$00FF9900
-Net149=NetName=I/O 5.GPIO3|NetColor=$0033CC33
-Net150=NetName=DQU0 DDR3|NetColor=$00FF9900
-Net151=NetName=I/O 5.GPIO5|NetColor=$0033CC33
-Net152=NetName=I/O 5.GPIO4|NetColor=$0033CC33
-Net153=NetName=GPIO25|NetColor=$0033CC33
-Net154=NetName=GPIO17|NetColor=$0033CC33
-Net155=NetName=DDR3.BA0|NetColor=$00996633
-Net156=NetName=GPIO27|NetColor=$0033CC33
-Net157=NetName=I/O 1.GPIO2|NetColor=$0033CC33
-Net158=NetName=I/O 1.GPIO6|NetColor=$0033CC33
-Net159=NetName=DDR3.CKE|NetColor=$00FF9999
-Net160=NetName=DDR3.A13|NetColor=$000099FF
-Net161=NetName=GPIO13|NetColor=$0033CC33
-Net162=NetName=I/O 5.GPIO2|NetColor=$0033CC33
-Net163=NetName=DDR3.A9|NetColor=$000099FF
-Net164=NetName=*A9 DDR3|NetColor=$000099FF
-Net165=NetName=*BA1 DDR3|NetColor=$00996633
-Net166=NetName=A5 DDR3|NetColor=$000099FF
-Net167=NetName=DDR3.DQL7|NetColor=$00993300
-Net168=NetName=GPIO12|NetColor=$0033CC33
-Net169=NetName=DDR3.DQU0|NetColor=$00FF9900
-Net170=NetName=I/O 0.GPIO4|NetColor=$0033CC33
-Net171=NetName=DDR3.DMU|NetColor=$00CC66FF
-Net172=NetName=MIO34|NetColor=$0000BE00
-Net173=NetName=I/O 0.GPIO5|NetColor=$0033CC33
-Net174=NetName=*nRAS DDR3|NetColor=$00996633
-Net175=NetName=DMU DDR3|NetColor=$00CC66FF
-Net176=NetName=I/O 2.GPIO4|NetColor=$0033CC33
-Net177=NetName=I/O 3.GPIO0|NetColor=$0033CC33
-Net178=NetName=DDR3.A7|NetColor=$000099FF
-Net179=NetName=DDR3.A0|NetColor=$000099FF
-Net180=NetName=I/O 2.GPIO5|NetColor=$0033CC33
-Net181=NetName=DDR3.DQL1|NetColor=$00993300
-Net182=NetName=DDR3.A6|NetColor=$000099FF
-Net183=NetName=GPIO26|NetColor=$0033CC33
-Net184=NetName=GPIO_PL_5|NetColor=$0033CC33
-Net185=NetName=GPIO_PL_3|NetColor=$0033CC33
-Net186=NetName=I/O 5.GPIO6|NetColor=$0033CC33
-Net187=NetName=DQU7 DDR3|NetColor=$00FF9900
-Net188=NetName=DQL2 DDR3|NetColor=$00993300
-Net189=NetName=GPIO11|NetColor=$0033CC33
-Net190=NetName=DDR3.ODT|NetColor=$00996633
-Net191=NetName=BA2 DDR3|NetColor=$00996633
-Net192=NetName=A3 DDR3|NetColor=$000099FF
-Net193=NetName=*A12 DDR3|NetColor=$000099FF
-Net194=NetName=*A10 DDR3|NetColor=$000099FF
-Net195=NetName=DDR3.DQL6|NetColor=$00993300
-Net196=NetName=I/O 4.GPIO3|NetColor=$0000BE00
-Net197=NetName=*A6 DDR3|NetColor=$000099FF
-Net198=NetName=*A5 DDR3|NetColor=$000099FF
-Net199=NetName=GPIO18|NetColor=$0033CC33
+Net1=NetName=*A0 DDR3|NetColor=$000099FF
+Net2=NetName=*A1 DDR3|NetColor=$000099FF
+Net3=NetName=*A10 DDR3|NetColor=$000099FF
+Net4=NetName=*A11 DDR3|NetColor=$000099FF
+Net5=NetName=*A12 DDR3|NetColor=$000099FF
+Net6=NetName=*A13 DDR3|NetColor=$000099FF
+Net7=NetName=*A14 DDR3|NetColor=$000099FF
+Net8=NetName=*A15 DDR3|NetColor=$000099FF
+Net9=NetName=*A2 DDR3|NetColor=$000099FF
+Net10=NetName=*A3 DDR3|NetColor=$000099FF
+Net11=NetName=*A4 DDR3|NetColor=$000099FF
+Net12=NetName=*A5 DDR3|NetColor=$000099FF
+Net13=NetName=*A6 DDR3|NetColor=$000099FF
+Net14=NetName=*A7 DDR3|NetColor=$000099FF
+Net15=NetName=*A8 DDR3|NetColor=$000099FF
+Net16=NetName=*A9 DDR3|NetColor=$000099FF
+Net17=NetName=*BA0 DDR3|NetColor=$00996633
+Net18=NetName=*BA1 DDR3|NetColor=$00996633
+Net19=NetName=*BA2 DDR3|NetColor=$00996633
+Net20=NetName=*nCAS DDR3|NetColor=$00996633
+Net21=NetName=*nRAS DDR3|NetColor=$00996633
+Net22=NetName=*nWE DDR3|NetColor=$00996633
+Net23=NetName=*ODT DDR3|NetColor=$00996633
+Net24=NetName=A0 DDR3|NetColor=$000099FF
+Net25=NetName=A1 DDR3|NetColor=$000099FF
+Net26=NetName=A10 DDR3|NetColor=$000099FF
+Net27=NetName=A11 DDR3|NetColor=$000099FF
+Net28=NetName=A12 DDR3|NetColor=$000099FF
+Net29=NetName=A13 DDR3|NetColor=$000099FF
+Net30=NetName=A14 DDR3|NetColor=$000099FF
+Net31=NetName=A15 DDR3|NetColor=$000099FF
+Net32=NetName=A2 DDR3|NetColor=$000099FF
+Net33=NetName=A3 DDR3|NetColor=$000099FF
+Net34=NetName=A4 DDR3|NetColor=$000099FF
+Net35=NetName=A5 DDR3|NetColor=$000099FF
+Net36=NetName=A6 DDR3|NetColor=$000099FF
+Net37=NetName=A7 DDR3|NetColor=$000099FF
+Net38=NetName=A8 DDR3|NetColor=$000099FF
+Net39=NetName=A9 DDR3|NetColor=$000099FF
+Net40=NetName=BA0 DDR3|NetColor=$00996633
+Net41=NetName=BA1 DDR3|NetColor=$00996633
+Net42=NetName=BA2 DDR3|NetColor=$00996633
+Net43=NetName=CK DDR3_N|NetColor=$00FF6699
+Net44=NetName=CK DDR3_P|NetColor=$00FF6699
+Net45=NetName=CKE DDR3|NetColor=$00FF9999
+Net46=NetName=DDR3.A0|NetColor=$000099FF
+Net47=NetName=DDR3.A1|NetColor=$000099FF
+Net48=NetName=DDR3.A10|NetColor=$000099FF
+Net49=NetName=DDR3.A11|NetColor=$000099FF
+Net50=NetName=DDR3.A12|NetColor=$000099FF
+Net51=NetName=DDR3.A13|NetColor=$000099FF
+Net52=NetName=DDR3.A14|NetColor=$000099FF
+Net53=NetName=DDR3.A15|NetColor=$000099FF
+Net54=NetName=DDR3.A2|NetColor=$000099FF
+Net55=NetName=DDR3.A3|NetColor=$000099FF
+Net56=NetName=DDR3.A4|NetColor=$000099FF
+Net57=NetName=DDR3.A5|NetColor=$000099FF
+Net58=NetName=DDR3.A6|NetColor=$000099FF
+Net59=NetName=DDR3.A7|NetColor=$000099FF
+Net60=NetName=DDR3.A8|NetColor=$000099FF
+Net61=NetName=DDR3.A9|NetColor=$000099FF
+Net62=NetName=DDR3.BA0|NetColor=$00996633
+Net63=NetName=DDR3.BA1|NetColor=$00996633
+Net64=NetName=DDR3.BA2|NetColor=$00996633
+Net65=NetName=DDR3.CK|NetColor=$00FF6699
+Net66=NetName=DDR3.CKE|NetColor=$00FF9999
+Net67=NetName=DDR3.DML|NetColor=$006600CC
+Net68=NetName=DDR3.DMU|NetColor=$00CC66FF
+Net69=NetName=DDR3.DQL0|NetColor=$00993300
+Net70=NetName=DDR3.DQL1|NetColor=$00993300
+Net71=NetName=DDR3.DQL2|NetColor=$00993300
+Net72=NetName=DDR3.DQL3|NetColor=$00993300
+Net73=NetName=DDR3.DQL4|NetColor=$00993300
+Net74=NetName=DDR3.DQL5|NetColor=$00993300
+Net75=NetName=DDR3.DQL6|NetColor=$00993300
+Net76=NetName=DDR3.DQL7|NetColor=$00993300
+Net77=NetName=DDR3.DQSL|NetColor=$0033CC33
+Net78=NetName=DDR3.DQSU|NetColor=$006EFF6E
+Net79=NetName=DDR3.DQU0|NetColor=$00FF9900
+Net80=NetName=DDR3.DQU1|NetColor=$00FF9900
+Net81=NetName=DDR3.DQU2|NetColor=$00FF9900
+Net82=NetName=DDR3.DQU3|NetColor=$00FF9900
+Net83=NetName=DDR3.DQU4|NetColor=$00FF9900
+Net84=NetName=DDR3.DQU5|NetColor=$00FF9900
+Net85=NetName=DDR3.DQU6|NetColor=$00FF9900
+Net86=NetName=DDR3.DQU7|NetColor=$00FF9900
+Net87=NetName=DDR3.nCAS|NetColor=$00996633
+Net88=NetName=DDR3.nCK|NetColor=$00FF6699
+Net89=NetName=DDR3.nDQSL|NetColor=$0033CC33
+Net90=NetName=DDR3.nDQSU|NetColor=$006EFF6E
+Net91=NetName=DDR3.nRAS|NetColor=$00996633
+Net92=NetName=DDR3.nWE|NetColor=$00996633
+Net93=NetName=DDR3.ODT|NetColor=$00996633
+Net94=NetName=DML DDR3|NetColor=$006600CC
+Net95=NetName=DMU DDR3|NetColor=$00CC66FF
+Net96=NetName=DQL0 DDR3|NetColor=$00993300
+Net97=NetName=DQL1 DDR3|NetColor=$00993300
+Net98=NetName=DQL2 DDR3|NetColor=$00993300
+Net99=NetName=DQL3 DDR3|NetColor=$00993300
+Net100=NetName=DQL4 DDR3|NetColor=$00993300
+Net101=NetName=DQL5 DDR3|NetColor=$00993300
+Net102=NetName=DQL6 DDR3|NetColor=$00993300
+Net103=NetName=DQL7 DDR3|NetColor=$00993300
+Net104=NetName=DQSL DDR3_N|NetColor=$0033CC33
+Net105=NetName=DQSL DDR3_P|NetColor=$0033CC33
+Net106=NetName=DQSU DDR3_N|NetColor=$006EFF6E
+Net107=NetName=DQSU DDR3_P|NetColor=$006EFF6E
+Net108=NetName=DQU0 DDR3|NetColor=$00FF9900
+Net109=NetName=DQU1 DDR3|NetColor=$00FF9900
+Net110=NetName=DQU2 DDR3|NetColor=$00FF9900
+Net111=NetName=DQU3 DDR3|NetColor=$00FF9900
+Net112=NetName=DQU4 DDR3|NetColor=$00FF9900
+Net113=NetName=DQU5 DDR3|NetColor=$00FF9900
+Net114=NetName=DQU6 DDR3|NetColor=$00FF9900
+Net115=NetName=DQU7 DDR3|NetColor=$00FF9900
+Net116=NetName=GPIO_PL_0|NetColor=$0033CC33
+Net117=NetName=GPIO_PL_1|NetColor=$0033CC33
+Net118=NetName=GPIO_PL_2|NetColor=$0033CC33
+Net119=NetName=GPIO_PL_3|NetColor=$0033CC33
+Net120=NetName=GPIO_PL_4|NetColor=$0033CC33
+Net121=NetName=GPIO_PL_5|NetColor=$0033CC33
+Net122=NetName=GPIO_PL_6|NetColor=$0033CC33
+Net123=NetName=GPIO_PL_7|NetColor=$0033CC33
+Net124=NetName=GPIO_PL_8|NetColor=$0033CC33
+Net125=NetName=GPIO_PL_9|NetColor=$0033CC33
+Net126=NetName=GPIO10|NetColor=$0033CC33
+Net127=NetName=GPIO11|NetColor=$0033CC33
+Net128=NetName=GPIO12|NetColor=$0033CC33
+Net129=NetName=GPIO13|NetColor=$0033CC33
+Net130=NetName=GPIO14|NetColor=$0033CC33
+Net131=NetName=GPIO15|NetColor=$0033CC33
+Net132=NetName=GPIO16|NetColor=$0033CC33
+Net133=NetName=GPIO17|NetColor=$0033CC33
+Net134=NetName=GPIO18|NetColor=$0033CC33
+Net135=NetName=GPIO19|NetColor=$0033CC33
+Net136=NetName=GPIO2|NetColor=$0033CC33
+Net137=NetName=GPIO20|NetColor=$0033CC33
+Net138=NetName=GPIO21|NetColor=$0033CC33
+Net139=NetName=GPIO22|NetColor=$0033CC33
+Net140=NetName=GPIO23|NetColor=$0033CC33
+Net141=NetName=GPIO24|NetColor=$0033CC33
+Net142=NetName=GPIO25|NetColor=$0033CC33
+Net143=NetName=GPIO26|NetColor=$0033CC33
+Net144=NetName=GPIO27|NetColor=$0033CC33
+Net145=NetName=GPIO3|NetColor=$0033CC33
+Net146=NetName=GPIO4|NetColor=$0033CC33
+Net147=NetName=GPIO5|NetColor=$0033CC33
+Net148=NetName=GPIO6|NetColor=$0033CC33
+Net149=NetName=GPIO7|NetColor=$0033CC33
+Net150=NetName=GPIO8|NetColor=$0033CC33
+Net151=NetName=GPIO9|NetColor=$0033CC33
+Net152=NetName=I/O 0.GPIO2|NetColor=$0033CC33
+Net153=NetName=I/O 0.GPIO3|NetColor=$0033CC33
+Net154=NetName=I/O 0.GPIO4|NetColor=$0033CC33
+Net155=NetName=I/O 0.GPIO5|NetColor=$0033CC33
+Net156=NetName=I/O 0.GPIO6|NetColor=$0033CC33
+Net157=NetName=I/O 0.GPIO7|NetColor=$0033CC33
+Net158=NetName=I/O 1.GPIO0|NetColor=$0033CC33
+Net159=NetName=I/O 1.GPIO1|NetColor=$0033CC33
+Net160=NetName=I/O 1.GPIO2|NetColor=$0033CC33
+Net161=NetName=I/O 1.GPIO3|NetColor=$0033CC33
+Net162=NetName=I/O 1.GPIO4|NetColor=$0033CC33
+Net163=NetName=I/O 1.GPIO5|NetColor=$0033CC33
+Net164=NetName=I/O 1.GPIO6|NetColor=$0033CC33
+Net165=NetName=I/O 1.GPIO7|NetColor=$0033CC33
+Net166=NetName=I/O 2.GPIO0|NetColor=$0033CC33
+Net167=NetName=I/O 2.GPIO1|NetColor=$0033CC33
+Net168=NetName=I/O 2.GPIO2|NetColor=$0033CC33
+Net169=NetName=I/O 2.GPIO3|NetColor=$0033CC33
+Net170=NetName=I/O 2.GPIO4|NetColor=$0033CC33
+Net171=NetName=I/O 2.GPIO5|NetColor=$0033CC33
+Net172=NetName=I/O 2.GPIO6|NetColor=$0033CC33
+Net173=NetName=I/O 2.GPIO7|NetColor=$0033CC33
+Net174=NetName=I/O 3.GPIO0|NetColor=$0033CC33
+Net175=NetName=I/O 3.GPIO1|NetColor=$0033CC33
+Net176=NetName=I/O 3.GPIO2|NetColor=$0033CC33
+Net177=NetName=I/O 3.GPIO3|NetColor=$0033CC33
+Net178=NetName=I/O 3.GPIO6|NetColor=$0033CC33
+Net179=NetName=I/O 3.GPIO7|NetColor=$0033CC33
+Net180=NetName=I/O 4.GPIO2|NetColor=$0000BE00
+Net181=NetName=I/O 4.GPIO3|NetColor=$0000BE00
+Net182=NetName=I/O 4.GPIO4|NetColor=$0000BE00
+Net183=NetName=I/O 4.GPIO5|NetColor=$0000BE00
+Net184=NetName=I/O 5.GPIO0|NetColor=$0033CC33
+Net185=NetName=I/O 5.GPIO1|NetColor=$0033CC33
+Net186=NetName=I/O 5.GPIO2|NetColor=$0033CC33
+Net187=NetName=I/O 5.GPIO3|NetColor=$0033CC33
+Net188=NetName=I/O 5.GPIO4|NetColor=$0033CC33
+Net189=NetName=I/O 5.GPIO5|NetColor=$0033CC33
+Net190=NetName=I/O 5.GPIO6|NetColor=$0033CC33
+Net191=NetName=I/O 5.GPIO7|NetColor=$0033CC33
+Net192=NetName=MIO34|NetColor=$0000BE00
+Net193=NetName=MIO35|NetColor=$0000BE00
+Net194=NetName=MIO36|NetColor=$0000BE00
+Net195=NetName=MIO9|NetColor=$0000BE00
+Net196=NetName=nCAS DDR3|NetColor=$00996633
+Net197=NetName=nRAS DDR3|NetColor=$00996633
+Net198=NetName=nWE DDR3|NetColor=$00996633
+Net199=NetName=ODT DDR3|NetColor=$00996633
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
