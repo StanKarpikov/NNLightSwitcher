@@ -50,3 +50,33 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+*.odg#
+
+#Altium ignores
+**/History
+**/*/History
+/__Previews/*
+**/__Previews/*
+**/*/__Previews/*
+**/Project logs*
+
+#Custom
+Info/*
+Hardware/PCB design/NNLightSwitcher.IntLib
+
+*.bak
+
+*.html
+
+*.drc
+
+*.htm
+
+Hardware/PCB design/3D/
+
+Hardware/Expander/Project Outputs for Expander/
+
+Hardware/PCB design/Project Outputs for NNLightSwitcher/
+
+Software/
