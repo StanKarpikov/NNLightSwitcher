@@ -23,3 +23,8 @@ Immersion gold plating (ENIG) is used to ensure surface quality for the BGA chip
 **Enclosure** folder includes STL models for the 3D printed enclosure.
 
 **Software** is in progress. 
+
+<center><img src="IMAG7088_.jpg"></center>
+<center><img src="IMAG7093_.jpg"></center>
+<center><img src="PCB_.jpg"></center>
+
