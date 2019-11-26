@@ -9,18 +9,18 @@ Main components on the board:
 - QSPI Configuration memory (W25Q32JVZPIQ)
 - Qi, WPC 1.1 wireless charger 5W (BQ51013BRHLT)
 - Battery powering and charging unit (LTC4155EUFD)
-- WLAN(11a/b/g/n/ac)+BT/BLE(BT5.0) combo SIP module Murata Type1MW with Cypress CYW43455 with chip dual band antenna
+- WiFi WLAN(11a/b/g/n/ac) dual band 2.4/5Ghz +BT/BLE(BT5.0) combo SIP module Murata Type1MW with Cypress CYW43455 with chip antenna
 - Connectors: USB Type-C (UART), HDMI
 - Two MEMS microphones (ICS-40300)
 
 **Hardware** folder includes Altium Designer project for the PCB and schematic.
-Board dimensions: 68 x 42 mm
-Board layers: 6
-Minimum hole: 0.2 mm
-Minimum trace width/gap: 0.1/0.1 mm
-Immersion gold plating (ENIG) is used to ensure surface quality for the BGA chips.
+- Board dimensions: 68 x 42 mm
+- Board layers: 6
+- Minimum hole: 0.2 mm
+- Minimum trace width/gap: 0.1/0.1 mm
+- Immersion gold plating (ENIG) is used to ensure surface quality for the BGA chips.
 
-**Enclosure** folder includes STL models for the 3D printed enclosure.
+**Enclosure** folder includes STL models for the 3D printed enclosure (made in Blender).
 
 **Software** is in progress. 
 
