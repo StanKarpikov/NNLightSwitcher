@@ -1,0 +1,3 @@
+[submodule "Software/uboot"]
+	path = Software/uboot
+	url = https://github.com/Xilinx/u-boot-xlnx.git
