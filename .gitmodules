@@ -1,0 +1,3 @@
+[submodule "software/u-bool-xlnx"]
+	path = software/u-bool-xlnx
+	url = https://github.com/StanKarpikov/u-boot-xlnx
