@@ -1,3 +1,0 @@
-[submodule "Software/uboot"]
-	path = Software/uboot
-	url = https://github.com/StanKarpikov/u-boot-xlnx.git
