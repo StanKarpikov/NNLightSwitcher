@@ -1,0 +1,151 @@
+// SPDX-License-Identifier: GPL-2.0+
+/*
+ *  Copyright (C) 2011 - 2015 Xilinx
+ *  Copyright (C) 2012 National Instruments Corp.
+ */
+ 
+ /*
+ Device tree for U-Boot
+ */
+ 
+/dts-v1/;
+/include/ "zynq-7000.dtsi"
+
+/ {
+	model = "Xilinx zc7010 board";
+	compatible = "xlnx,zynq-zc7010", "xlnx,zynq-7000";
+
+	aliases {
+		serial0 = &uart0;
+		spi0 = &qspi;
+		mmc0 = &sdhci1;
+	};
+
+	memory@0 {
+		device_type = "memory";
+		reg = <0x0 0x20000000>;
+	};
+
+	chosen {
+		bootargs = "";
+		stdout-path = "serial0:921600n8";
+	};
+
+	leds {
+		compatible = "gpio-leds";
+
+		status_1 {
+			label = "status_1";
+			gpios = <&gpio0 34 0>;
+			linux,default-trigger = "heartbeat";
+		};
+		status_2 {
+			label = "status_2";
+			gpios = <&gpio0 35 0>;
+		};
+	};
+};
+
+&amba {
+	ocm: sram@fffc0000 {
+		compatible = "mmio-sram";
+		reg = <0xfffc0000 0x10000>;
+	};
+};
+
+&clkc {
+	ps-clk-frequency = <33333333>;
+};
+
+
+&gpio0 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&pinctrl_gpio0_default>;
+};
+
+&pinctrl0 {
+
+	pinctrl_gpio0_default: gpio0-default {
+		mux {
+			function = "gpio0";
+			groups = "gpio0_34_grp", "gpio0_35_grp";
+		};
+
+		conf {
+			groups = "gpio0_34_grp", "gpio0_35_grp";
+			slew-rate = <0>;
+			io-standard = <1>;
+		};
+	};
+	
+	pinctrl_sdhci1_default: sdhci1-default {
+		mux {
+			groups = "sdio1_0_grp";
+			function = "sdio1";
+		};
+
+		conf {
+			groups = "sdio1_0_grp";
+			slew-rate = <0>;
+			io-standard = <1>;
+			bias-disable;
+		};
+	};
+
+	pinctrl_uart0_default: uart0-default {
+		mux {
+			groups = "uart0_10_grp";
+			function = "uart0";
+		};
+
+		conf {
+			groups = "uart0_10_grp";
+			slew-rate = <0>;
+			io-standard = <1>;
+		};
+
+		conf-rx {
+			pins = "MIO38";
+			bias-high-impedance;
+		};
+
+		conf-tx {
+			pins = "MIO39";
+			bias-disable;
+		};
+	};
+};
+
+&qspi {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+	is-dual = <0>;
+	num-cs = <1>;
+	flash@0 {
+		compatible = "w25q32a11";
+		reg = <0x0>;
+		spi-tx-bus-width = <1>;
+		spi-rx-bus-width = <4>;
+		spi-max-frequency = <50000000>;
+		#address-cells = <1>;
+		#size-cells = <1>;
+		partition@qspi-fsbl-uboot {
+			label = "qspi-fsbl-uboot";
+			reg = <0x0 0x300000>;
+		};
+	};
+};
+
+&sdhci1 {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&pinctrl_sdhci1_default>;
+};
+
+&uart0 {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+	pinctrl-names = "default";
+	pinctrl-0 = <&pinctrl_uart0_default>;
+};

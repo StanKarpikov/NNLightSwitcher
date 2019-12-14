@@ -1,7 +1,4 @@
-#
-# Automatically generated file; DO NOT EDIT.
-# U-Boot 2019.01 Configuration
-#
+
 CONFIG_CREATE_ARCH_SYMLINK=y
 # CONFIG_ARC is not set
 CONFIG_ARM=y
