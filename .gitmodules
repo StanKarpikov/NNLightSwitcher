@@ -1,3 +1,3 @@
 [submodule "software/u-boot-xlnx"]
 	path = software/u-boot-xlnx
-	url = https://github.com/StanKarpikov/u-boot-xlnx
+	url = https://github.com/Xilinx/u-boot-xlnx
