@@ -122,14 +122,14 @@ saveenv
 
 ### Useful links:
 
-1. (SD controller sennings in Zynq SoC)[https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842090/SD+controller#SDcontroller-Zynq.2]
-2. (U-Boot SD card booting)[https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/]
+1. [SD controller sennings in Zynq SoC](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842090/SD+controller#SDcontroller-Zynq.2)
+2. [U-Boot SD card booting](https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/)
 3. For device tree bindings refer to `linux-xlnx/Documentation/devicetree/bindings/pinctrl/xlnx,zynqmp-pinctrl.txt` in Xilinx-linux GitHub repository
-4. (Xilinx Zynq 7000 technical reference)[https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf]
-5. (Forum: Boot linux from U-Boot)[https://forums.xilinx.com/t5/Embedded-Linux/Mount-filesystem-from-sd-card/td-p/834164]
-6. (Example device tree)[https://github.com/enclustra-bsp/xilinx-linux/blob/dc056197b7fe3e05292ffdce2ae4a06c89bee294/arch/arm/boot/dts/zynq-cosmos-xzq10.dts]
-7. (How to program Xilinx Zynq from IDE)[https://dzone.com/articles/create-a-bootbin-program-an-sd-card-and-boot-a-zc7]
-8. (Simple program on Xilinx Zynq)[https://www.centennialsoftwaresolutions.com/post/run-hello-world-on-a-zc702]
+4. [Xilinx Zynq 7000 technical reference](https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf)
+5. [Forum: Boot linux from U-Boot](https://forums.xilinx.com/t5/Embedded-Linux/Mount-filesystem-from-sd-card/td-p/834164)
+6. [Example device tree](https://github.com/enclustra-bsp/xilinx-linux/blob/dc056197b7fe3e05292ffdce2ae4a06c89bee294/arch/arm/boot/dts/zynq-cosmos-xzq10.dts)
+7. [How to program Xilinx Zynq from IDE](https://dzone.com/articles/create-a-bootbin-program-an-sd-card-and-boot-a-zc7)
+8. [Simple program on Xilinx Zynq](https://www.centennialsoftwaresolutions.com/post/run-hello-world-on-a-zc702)
 
 
 
