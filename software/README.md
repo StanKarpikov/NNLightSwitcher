@@ -13,15 +13,20 @@ Significant changes:
 
 Steps:
 
-1. Place `u-boot-config/zynq-zc7010.dts` device tree file to `u-boot-xlnx/arch/arm/dts` folder.
-2. Place `u-boot-config/zynq_zc7010_defconfig` confuguration to `u-boot-xlnx/configs/` folder.
-3. Go to `u-boot-xlnx/` folder and run 
+1. Configure build environment
+```bash
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export ARCH=arm
+```
+2. Place `u-boot-config/zynq-zc7010.dts` device tree file to `u-boot-xlnx/arch/arm/dts` folder.
+3. Place `u-boot-config/zynq_zc7010_defconfig` confuguration to `u-boot-xlnx/configs/` folder.
+4. Go to `u-boot-xlnx/` folder and run 
 ```bash
 make zynq_zc7010_defconfig
 ```
-4. Run `make`
+5. Run `make`
 > NOTE: One must run `make clear` before each reconfiguration and (may be) reproduce steps from 1.
-5. Get compiled image `u-boot.elf` and use it to generate flash image for Quad SPI in Xilinx SDK.
+6. Get compiled image `u-boot.elf` and use it to generate flash image for Quad SPI in Xilinx SDK.
 
 ## Buildroot confuguration
 
@@ -49,6 +54,10 @@ This tools then save full configuration to `.config` file.
 3. From configuration GUI open `buildroot-config/linux_zynq_def.config` file and load configuration.
 4. Chack settings and then save the configuration. The tool creates file `buildroot/output/build/linux-custom/.config`.
 5. Put device tree file `buildroot-config/zynq-zc7010.dts`  to `buildroot/output/build/linux-custom/arch/arm/boot/dts` folder.
+One can also use this command to compile the device tree to dtb file (useful then to update it on the eMMC without updating the Kernel image):
+```bash
+dtc -O dtb -o zynq-zc7010.dtb zynq-zc7010.dts -@
+```
 6. Check `uClibc-ng.config` from `buildroot/package/uclibc` to match with `buildroot/uClibc-ng.config`. (I had an issue with widechar support here)
 7. Replace `buildroot/board/zynq` folder content with files `buildroot-config/genimage`.
 
@@ -79,6 +88,7 @@ mmc erase 0x0 0x90400
 # Copy 288 Mb image from RAM memory 0x1000000 to eMMC
 mmc write 0x1000000 0x0 0x90400
 ```
+One can use Teraterm to send binary file.
 
 11. Linux then can be started manually from U-Boot:
 
@@ -109,6 +119,17 @@ saveenv
 ```
 
 12. Optional. One can use `vmlinux` file with symbols from `buildroot/output/build/linux-custom/` folder to debug the Kernel.
+
+### Useful links:
+
+1. (SD controller sennings in Zynq SoC)[https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842090/SD+controller#SDcontroller-Zynq.2]
+2. (U-Boot SD card booting)[https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/]
+3. For device tree bindings refer to `linux-xlnx/Documentation/devicetree/bindings/pinctrl/xlnx,zynqmp-pinctrl.txt` in Xilinx-linux GitHub repository
+4. (Xilinx Zynq 7000 technical reference)[https://www.xilinx.com/support/documentation/user_guides/ug585-Zynq-7000-TRM.pdf]
+5. (Forum: Boot linux from U-Boot)[https://forums.xilinx.com/t5/Embedded-Linux/Mount-filesystem-from-sd-card/td-p/834164]
+6. (Example device tree)[https://github.com/enclustra-bsp/xilinx-linux/blob/dc056197b7fe3e05292ffdce2ae4a06c89bee294/arch/arm/boot/dts/zynq-cosmos-xzq10.dts]
+7. (How to program Xilinx Zynq from IDE)[https://dzone.com/articles/create-a-bootbin-program-an-sd-card-and-boot-a-zc7]
+8. (Simple program on Xilinx Zynq)[https://www.centennialsoftwaresolutions.com/post/run-hello-world-on-a-zc702]
 
 
 
