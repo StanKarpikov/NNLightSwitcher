@@ -120,6 +120,18 @@ saveenv
 
 12. Optional. One can use `vmlinux` file with symbols from `buildroot/output/build/linux-custom/` folder to debug the Kernel.
 
+13. To update device tree one can use U-Boot commands:
+```bash
+# Load devicetree.dtb file to RAM
+loady 0x1000000
+## Ready for binary (ymodem) download to 0x01000000 at 921600 bps...
+CCxyzModem - CRC mode, 2(SOH)/14(STX)/0(CAN) packets, 5 retries
+## Total Size      = 0x0000353d = 13629 Bytes
+
+# Write file to FAT partition, 0x0000353d - size of the file
+fatwrite mmc 0:1 0x1000000 devicetree.dtb 0x0000353d
+```
+
 ### Useful links:
 
 1. [SD controller sennings in Zynq SoC](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842090/SD+controller#SDcontroller-Zynq.2)
