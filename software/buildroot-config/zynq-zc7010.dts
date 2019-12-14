@@ -73,14 +73,7 @@
 			io-standard = <1>;
 		};
 	};
-	
-	/*
-	#define IO_STANDARD_LVCMOS33      0
-	#define IO_STANDARD_LVCMOS18      1
 
-	#define SLEW_RATE_FAST            0
-	#define SLEW_RATE_SLOW            1
-	*/
 	pinctrl_sdhci1_default: sdhci1-default {
 		mux {
 			function = "sdio1";
@@ -90,8 +83,8 @@
 		conf {
 			groups = "sdio1_0_grp";
 			slew-rate = <0>;
-			io-standard = <0>;
-			bias-pull-up;/*bias-disable;*/
+			io-standard = <1>;
+			bias-pull-up;
 		};
 	};
 	
@@ -104,7 +97,7 @@
 		conf {
 			groups = "sdio1_1_grp";
 			slew-rate = <0>;
-			io-standard = <0>;
+			io-standard = <1>;
 			bias-pull-up;
 		};
 	};
@@ -132,14 +125,14 @@
 		};
 	};
 	
-	pinctrl_uart1_default: uart0-default {
+	pinctrl_uart1_default: uart1-default {
 		mux {
-			groups = "uart1_12_grp";
+			groups = "uart1_11_grp";
 			function = "uart1";
 		};
 
 		conf {
-			groups = "uart1_12_grp";
+			groups = "uart1_11_grp";
 			slew-rate = <0>;
 			io-standard = <1>;
 		};
@@ -182,7 +175,7 @@
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_sdhci1_default>;
 	disable-wp;
-	/*bus-width = <8>;*/
+	/*bus-width = <8>;*/ /*TODO: Check 8bit configuration */
 	/*max-frequency = <25000000>;*/
     xlnx,mio_bank = <0>;
     non-removable;
