@@ -1,3 +1,8 @@
 [submodule "software/buildroot"]
 	path = software/buildroot
 	url = git://git.busybox.net/buildroot
+
+[submodule "software/u-boot-xlnx"]
+	path = software/u-boot-xlnx
+	url = git://github.com/Xilinx/u-boot-xlnx
+

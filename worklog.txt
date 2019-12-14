@@ -1,4 +1,4 @@
-﻿*MEMS microphone 
+*MEMS microphone 
 MP34DT05-A
 ICS-40300
 IM69D130
@@ -24,6 +24,11 @@ Photon (STM32+BCM43362)
 TI CC3200
 
 Cypress CYW43012 BCM43362
+
+
+yum install openssl-devel.x86_64
+sudo apt-get install libssl-dev
+
 
 XMC4800 Infineon
 
