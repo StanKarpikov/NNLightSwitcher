@@ -90,3 +90,12 @@ Samsung A7100
 A8000
 Samsung Galaxy J5 LTE (SM-J530F)
 Samsung Galaxy J7 LTE (SM-J730F) 
+
+-------------------------------------
+https://www.centennialsoftwaresolutions.com/post/run-hello-world-on-a-zc702
+
+https://dzone.com/articles/create-a-bootbin-program-an-sd-card-and-boot-a-zc7
+
+https://www.xilinx.com/html_docs/xilinx2019_1/SDK_Doc/SDK_references/sdk_u_program_flash.html
+--------------------------------------
+pull up for eMMC

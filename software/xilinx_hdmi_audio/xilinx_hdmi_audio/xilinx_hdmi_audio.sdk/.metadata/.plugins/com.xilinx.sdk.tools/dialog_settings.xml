@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="top_design_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="E:\REPO_GitHub\NNLightSwitcher\Software\Xilinx_pr1\Zynq10_pr1\Zynq10_pr1.sdk\custom_fsbl2\bootimage\BOOT.bin" key="top_design_wrapper_hw_platform_0-imgFile"/>
+	<item value="E:\REPO_GitHub\NNLightSwitcher\Software\Xilinx_pr1\Zynq10_pr1\Zynq10_pr1.sdk\custom_fsbl2\Debug\custom_fsbl2.elf" key="top_design_wrapper_hw_platform_0-fsblFile"/>
+	<item value="Local" key="top_design_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="top_design_wrapper_hw_platform_0-device"/>
+	<item value="false" key="top_design_wrapper_hw_platform_0-blankCheck"/>
+	<item value="qspi_single" key="top_design_wrapper_hw_platform_0-flashType"/>
+	<item value="" key="top_design_wrapper_hw_platform_0-offSet"/>
+	<item value="false" key="top_design_wrapper_hw_platform_0-verifyFlash"/>
+</section>
