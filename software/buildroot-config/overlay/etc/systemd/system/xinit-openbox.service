@@ -1,0 +1,11 @@
+[Unit]
+Description=Openbox
+After=multi-user.target
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/xinit openbox-session
+
+[Install]
+WantedBy=multi-user.target

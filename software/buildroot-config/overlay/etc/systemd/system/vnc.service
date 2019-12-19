@@ -1,0 +1,10 @@
+[Unit]
+Description=VNC Server
+After=multi-user.target network.target
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/x11vnc -forever -loop -noxdamage -repeat -rfbport 5900 -shared
+
+[Install]
+WantedBy=multi-user.target

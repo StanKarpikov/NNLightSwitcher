@@ -1,0 +1,13 @@
+[Unit]
+Description=Start Wireless Networking
+After=network.target
+Before=dropbear.service wpa_supplicant.service dhcpcd.service vnc.service xinit-openbox.service
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/sbin/ifconfig wlan0 up
+ExecStart=/usr/sbin/ip link set dev wlan0 up
+
+[Install]
+WantedBy=multi-user.target

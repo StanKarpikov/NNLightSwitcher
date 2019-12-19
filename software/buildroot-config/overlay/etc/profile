@@ -1,0 +1,20 @@
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+#if [ "$PS1" ]; then
+#        if [ "`id -u`" -eq 0 ]; then
+#                export PS1='# '
+#        else
+#                export PS1='$ '
+#        fi
+#fi
+export PS1='\e[1;32m$(whoami)@$(hostname)\e[0m:\e[34;1m$(pwd)\e[0m$ '
+
+export EDITOR='/bin/vi'
+
+# Source configuration files from /etc/profile.d
+for i in /etc/profile.d/*.sh ; do
+	if [ -r "$i" ]; then
+		. $i
+	fi
+done
+unset i
