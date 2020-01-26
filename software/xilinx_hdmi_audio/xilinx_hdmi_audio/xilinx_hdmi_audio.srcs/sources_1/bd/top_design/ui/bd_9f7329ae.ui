@@ -12,9 +12,9 @@ preplace inst i2s_to_pwm_0 -pg 1 -lvl 4 -y -20 -defaultsOSRD
 preplace inst axi_i2s_adi_0 -pg 1 -lvl 3 -y -40 -defaultsOSRD
 preplace netloc Conn1 1 0 1 NJ
 preplace netloc Conn2 1 0 3 -30 -110 N -110 N
-preplace netloc s_axi_aclk_1 1 0 4 -30J -500 N -500 540 90 810
+preplace netloc s_axi_aclk_1 1 0 4 -30J -500 N -500 540 80 810
 preplace netloc s_axi_aresetn_1 1 0 3 -20J -490 N -490 530
 levelinfo -pg 1 -50 130 410 680 990 1420 -top -680 -bot 360
 ",
 }
-
+0

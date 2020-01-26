@@ -1,0 +1,51 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port CLKWIZ_AXI -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port VDMA_AXI -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port VIDEO_OUT_AXI -pg 1 -lvl 5 -x 1420 -y 420 -defaultsOSRD
+preplace port VTC_AXI -pg 1 -lvl 0 -x 0 -y 90 -defaultsOSRD
+preplace port axi_aclk -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port hdmi_clk_n -pg 1 -lvl 5 -x 1420 -y 670 -defaultsOSRD
+preplace port hdmi_clk_p -pg 1 -lvl 5 -x 1420 -y 650 -defaultsOSRD
+preplace port ref_clk -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port tx_dma_int -pg 1 -lvl 5 -x 1420 -y 730 -defaultsOSRD
+preplace portBus axi_int_aresetn -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace portBus axi_per_aresetn -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace portBus hdmi_data_n -pg 1 -lvl 5 -x 1420 -y 630 -defaultsOSRD
+preplace portBus hdmi_data_p -pg 1 -lvl 5 -x 1420 -y 610 -defaultsOSRD
+preplace inst Video_IO_2_HDMI_TMDS_0 -pg 1 -lvl 4 -x 1250 -y 640 -defaultsOSRD
+preplace inst axis_fb_conv_0 -pg 1 -lvl 2 -x 560 -y 450 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 4 -x 1250 -y 430 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 1 -x 200 -y 440 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 200 -y 250 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 3 -x 880 -y 210 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 2 -x 560 -y 170 -defaultsOSRD
+preplace netloc ARESETN_2 1 0 4 30J 10 NJ 10 NJ 10 1100J
+preplace netloc Video_IO_2_HDMI_TMDS_0_hdmi_clk_n 1 4 1 NJ 670
+preplace netloc Video_IO_2_HDMI_TMDS_0_hdmi_clk_p 1 4 1 NJ 650
+preplace netloc Video_IO_2_HDMI_TMDS_0_hdmi_data_n 1 4 1 NJ 630
+preplace netloc Video_IO_2_HDMI_TMDS_0_hdmi_data_p 1 4 1 NJ 610
+preplace netloc aclk_1 1 0 4 30 160 380 30 710 50 1090
+preplace netloc aresetn_1 1 0 4 20 340 400 330 730 350 1040
+preplace netloc axi_vdma_0_mm2s_introut 1 1 4 380J 550 NJ 550 NJ 550 1400J
+preplace netloc clk_in1_1 1 0 1 NJ 280
+preplace netloc clk_wiz_1_clk_out2 1 1 3 410J 310 690J 60 1070
+preplace netloc clk_wiz_1_locked 1 1 3 370J 370 NJ 370 1030
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 1 3 410 20 NJ 20 1030
+preplace netloc video_clk_in_1 1 1 3 390 320 700 70 1060J
+preplace netloc v_tc_0_vtiming_out 1 2 1 N 150
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 3 1 1050 150n
+preplace netloc axis_fb_conv_0_video_out 1 2 1 720 130n
+preplace netloc CLKWIZ_AXI_1 1 0 1 NJ 220
+preplace netloc Conn2 1 0 1 NJ 400
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 1 3 390 360 NJ 360 1080J
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 1 1 N 430
+preplace netloc Conn3 1 0 2 NJ 90 NJ
+preplace netloc Conn1 1 4 1 1400J 420n
+levelinfo -pg 1 0 200 560 880 1250 1420
+pagesize -pg 1 -db -bbox -sgen -180 0 1590 750
+"
+}
+
