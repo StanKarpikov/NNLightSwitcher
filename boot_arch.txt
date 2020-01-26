@@ -1,0 +1,173 @@
+tar -zxpf ArchLinuxARM-zedboard-latest.tar.gz -C /nproot
+
+
+setenv kernel_addr_r 0x2000000
+setenv fdt_addr_r 0x1f00000
+setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+
+ext4load mmc 0:2 ${fdt_addr_r} /boot/devicetree.dtb
+fdt addr ${fdt_addr_r}
+
+ext4load mmc 0:2 ${kernel_addr_r} /boot/uImage
+fatload mmc 0:1 ${kernel_addr_r} zImage
+
+bootm ${kernel_addr_r} - ${fdt_addr_r}
+
+ext4write mmc 0:2 0x1000000 /home/alarm/linux-armv7-5.4.5-1-armv7h.pkg.tar.xz ${filesize}
+fatwrite mmc 0:1 0x1000000 devicetree.dtb ${filesize}
+
+setenv bootcmd "fatload mmc 0 ${kernel_addr_r} zImage; fatload mmc 0 ${fdt_addr_r} devicetree.dtb; fdt addr ${fdt_addr_r}; bootz ${kernel_addr_r} - ${fdt_addr_r}"
+
+------------------------------
+
+loady 0x1000000
+ext4write mmc 0:2 0x1000000 /lib/firmware/brcm/brcmfmac43455-sdio.bin ${filesize}
+
+
+Change fstab
+brcm/brcmfmac43455-sdio.xlnx,zynq-zc7010.txt
+Install:
+firmware for 43455
+wpa_supplicant
+dhcpcd
+
+ip link set dev wlan0 up
+ip route add 192.168.0.0/24 dev wlan0
+route add default gw 192.168.0.1 wlan0
+
+su -
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+dhcpcd
+
+ systemctl restart nscd.service
+ resolvectl status
+ resolvectl query sigfail.verteiltesysteme.net
+ 
+ 
+echo "
+[Resolve]
+DNSSEC=false
+" > /etc/systemd/resolved.conf.d/dnssec.conf
+
+rm -R /etc/pacman.d/gnupg/
+rm -R /root/.gnupg/ 
+gpg --refresh-keys
+pacman-key --init && pacman-key --populate archlinuxarm
+
+
+pacman -S wireless_tools
+
+x11vnc -display :0
+-------------------------------------------
+/etc/systemd/system/wpa_supplicant.service
+systemctl enable wpa_supplicant.service
+
+[Unit]
+Description=WPA supplicant
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+systemctl enable vnc.service
+/etc/systemd/system/vnc.service
+
+[Unit]
+Description=VNC Server
+After=multi-user.target network.target graphical.target
+
+[Service]
+RestartSec=10
+Type=idle
+ExecStart=/usr/bin/x11vnc -forever -loop -noxdamage -repeat -rfbport 5900 -shareed
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+systemctl enable dhcpcd.service
+/etc/systemd/system/dhcpcd.service
+
+[Unit]
+Description=dhcpcd service
+After=wpa_supplicant.service
+
+[Service]
+ExecStart=dhcpcd wlan0
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+/etc/systemd/system/lxqt.service
+systemctl enable lxqt.service
+
+[Unit]
+Description=LXQT
+After=network.target
+
+[Service]
+Restart=always
+ExecStart=startx
+
+[Install]
+WantedBy=multi-user.target
+-------------------------------------------
+pacman -S lxqt openbox obconf xf86-video-fbdev xorg-server xorg-server-utils xorg-xinit mesa xf86-input-keyboard xf86-input-mouse xterm ttf-dejavu libxkbcommon libxkbcommon-x11
+
+xorg-apps
+xf86-input-libinput
+
+-------------------------------------------
+~/.xinitrc file:
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+
+xscreensaver &
+exec startlxqt
+-------------------------------------------
+
+/var/log/Xorg.0.log
+
+papirus-icon-theme
+arc-gtk-theme
+
+-------------------------------------------
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+export PS1='\e[1;32m$(whoami)@$(hostname)\e[0m:\e[34;1m$(pwd)\e[0m$ '
+export EDITOR='/bin/vim'
+
+echo "Check startx:"
+systemctl -q is-active graphical.target
+
+echo "Display = $DISPLAY"
+echo "XDG_VTNR = $XDG_VTNR"
+
+if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+	echo "-- StartX --"
+    exec startx&
+fi
+echo "-- Goto console --"
+-------------------------------------------
+#usermod -aG sudo alarm
+Sudo:
+visudo
+user  ALL=(ALL) ALL
+-------------------------------------------
+journalctl
+
+Autologin:
+/etc/systemd/system/serial-getty@ttyPS0.service.d/override.conf
+
+------------ Bluetooth -------------------------------
+sudo brcm_patchram_plus --patchram /lib/firmware/brcm/BCM4345C0.hcd --enable_hci --bd_addr 11:22:33:44:55:66 --no2bytes --tosleep 1000 /dev/ttyPS1
+
+sudo btattach -B /dev/ttyPS1 -P bcm -S 3000000
+

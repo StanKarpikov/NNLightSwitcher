@@ -1,0 +1,38 @@
+setenv kernel_addr_r 0x2000000
+setenv ramdisk_addr_r 0x4100000
+setenv fdt_addr_r 0x1f00000
+loady ${kernel_addr_r}
+loady ${ramdisk_addr_r}
+loady ${fdt_addr_r}
+setenv bootargs
+bootm ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
+
+export PS1='\e[1;32m$(whoami)@$(hostname)\e[0m:\e[34;1m$(pwd)\e[0m$ '
+
+modprobe brcmfmac -v
+ip link set wlan0 up
+ifconfig wlan0 up
+echo "ctrl_interface=/var/run/wpa_supplicant
+ap_scan=1
+update_config=1
+
+network={
+  ssid=\"EXCELLENCE\"
+  psk=\"Mtdp920dxf45\"
+}" > /etc/wpa_supplicant.conf
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+dhcpcd -T wlan0
+
+fdisk /dev/mmcblk1
+n
+7000000
+w
+mke2fs -j /dev/mmcblk1p1
+mkdir -p /np
+mount /dev/mmcblk1p1 /np
+df -hT
+
+cd /np
+wget 192.168.0.5/sdcard.img -c
+
+dd if=/np/sdcard.img of=/dev/mmcblk1 bs=4M conv=fsync

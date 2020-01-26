@@ -1,0 +1,213 @@
+loady 0x1000000
+## Ready for binary (ymodem) download to 0x01000000 at 921600 bps...
+CCCCCCCxyzModem - CRC mode, 1(SOH)/17133(STX)/0(CAN) packets, 23 retries
+## Total Size      = 0x010bb400 = 17544192 Bytes
+Zynq> mmc erase 0x0 0x10400
+
+MMC erase: dev # 0, block # 0, count 66560 ... sdhci_send_command: MMC: 0 busy timeout increasing to: 200 ms.
+sdhci_send_command: MMC: 0 busy timeout increasing to: 400 ms.
+66560 blocks erased: OK
+Zynq> mmc erase 0x0 0x10400
+
+MMC erase: dev # 0, block # 0, count 66560 ... 66560 blocks erased: OK
+Zynq> mmc write 0x1000000 0x0 0x10001
+
+MMC write: dev # 0, block # 0, count 65537 ... 65537 blocks written: OK
+Zynq> fatload mmc 0 0x3000000 uImage
+3794752 bytes read in 334 ms (10.8 MiB/s)
+Zynq> fatload mmc 0 0x2A00000 devicetree.dtb
+13901 bytes read in 16 ms (847.7 KiB/s)
+Zynq> fatload mmc 0 0x4000000 uramdisk.image.gz
+7763744 bytes read in 672 ms (11 MiB/s)
+Zynq> setenv bootargs
+Zynq> bootm 0x3000000 0x4000000 0x2A00000
+## Booting kernel from Legacy Image at 03000000 ...
+   Image Name:   Linux-4.19.0-xilinx
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3794688 Bytes = 3.6 MiB
+   Load Address: 00008000
+   Entry Point:  00008000
+   Verifying Checksum ... OK
+## Loading init Ramdisk from Legacy Image at 04000000 ...
+   Image Name:
+   Image Type:   ARM Linux RAMDisk Image (uncompressed)
+   Data Size:    7763680 Bytes = 7.4 MiB
+   Load Address: 00000000
+   Entry Point:  00000000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 02a00000
+   Booting using the fdt blob at 0x2a00000
+   Loading Kernel Image ... OK
+   Loading Ramdisk to 1e3d5000, end 1eb3c6e0 ... OK
+   Loading Device Tree to 1e3ce000, end 1e3d464c ... OK
+
+Starting kernel ...
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.19.0-xilinx (stanislav@stanislav-pc) (gcc version 8.3.0 (Buildroot 2019.11-rc3)) #1 SMP PREEMPT Sun Dec 15 16:21:00 MSK 2019
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] OF: fdt: Machine model: Xilinx zc7010 board
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] cma: Reserved 16 MiB at 0x1f000000
+[    0.000000] random: get_random_bytes called from start_kernel+0x80/0x3c8 with crng_init=0
+[    0.000000] percpu: Embedded 16 pages/cpu @(ptrval) s35916 r8192 d21428 u65536
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line:
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 485548K/524288K available (6144K kernel code, 182K rwdata, 1460K rodata, 1024K init, 129K bss, 22356K reserved, 16384K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (7136 kB)
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 183 kB)
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   ( 130 kB)
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000]  Tasks RCU enabled.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000000] efuse mapped to (ptrval)
+[    0.000000] slcr mapped to (ptrval)
+[    0.000000] L2C: platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C: DT/platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C-310 erratum 769419 enabled
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9
+[    0.000000] L2C-310 full line of zeros enabled for Cortex-A9
+[    0.000000] L2C-310 ID prefetch enabled, offset 1 lines
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled
+[    0.000000] L2C-310 cache controller enabled, 8 ways, 512 kB
+[    0.000000] L2C-310: CACHE_ID 0x410000c8, AUX_CTRL 0x76760001
+[    0.000000] zynq_clock_init: clkc starts at (ptrval)
+[    0.000000] Zynq clock init
+[    0.000011] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 4398046511103ns
+[    0.000035] clocksource: arm_global_timer: mask: 0xffffffffffffffff max_cycles: 0x4ce07af025, max_idle_ns: 440795209040 ns
+[    0.000066] Switching to timer-based delay loop, resolution 3ns
+[    0.000169] clocksource: ttc_clocksource: mask: 0xffff max_cycles: 0xffff, max_idle_ns: 537538477 ns
+[    0.000211] timer #0 at (ptrval), irq=17
+[    0.000635] Console: colour dummy device 80x30
+[    0.001414] console [tty0] enabled
+[    0.001449] Calibrating delay loop (skipped), value calculated using timer frequency.. 666.66 BogoMIPS (lpj=3333333)
+[    0.001493] pid_max: default: 32768 minimum: 301
+[    0.001693] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.001726] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.002391] CPU: Testing write buffer coherency: ok
+[    0.002441] CPU0: Spectre v2: using BPIALL workaround
+[    0.002672] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.060382] Setting up static identity map for 0x100000 - 0x100060
+[    0.080333] rcu: Hierarchical SRCU implementation.
+[    0.120330] smp: Bringing up secondary CPUs ...
+[    0.200701] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.200709] CPU1: Spectre v2: using BPIALL workaround
+[    0.200873] smp: Brought up 1 node, 2 CPUs
+[    0.200904] SMP: Total of 2 processors activated (1333.33 BogoMIPS).
+[    0.200928] CPU: All CPU(s) started in SVC mode.
+[    0.201901] devtmpfs: initialized
+[    0.204923] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.205388] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.205440] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.206507] pinctrl core: initialized pinctrl subsystem
+[    0.207497] NET: Registered protocol family 16
+[    0.212734] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.213958] cpuidle: using governor menu
+[    0.220643] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.220735] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.220885] zynq-ocm f800c000.ocmc: can't request region for resource [mem 0xfffc0000-0xffffffff]
+[    0.220935] zynq-ocm: probe of f800c000.ocmc failed with error -16
+[    0.221193] zynq-pinctrl 700.pinctrl: zynq pinctrl initialized
+[    0.221850] e0000000.serial: ttyPS0 at MMIO 0xe0000000 (irq = 25, base_baud = 6249999) is a xuartps
+[    0.282810] console [ttyPS0] enabled
+[    0.283813] xuartps e0001000.serial: No serial alias passed. Using the first free id
+[    0.284828] xuartps e0001000.serial: Checking id 0
+[    0.285604] e0001000.serial: ttyPS1 at MMIO 0xe0001000 (irq = 26, base_baud = 6249999) is a xuartps
+[    0.312228] vgaarb: loaded
+[    0.312939] SCSI subsystem initialized
+[    0.313676] media: Linux media interface: v0.10
+[    0.314326] videodev: Linux video capture interface: v2.00
+[    0.315101] pps_core: LinuxPPS API ver. 1 registered
+[    0.315751] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.316956] PTP clock support registered
+[    0.317527] EDAC MC: Ver: 3.0.0
+[    0.320737] FPGA manager framework
+[    0.322335] clocksource: Switched to clocksource arm_global_timer
+[    0.334709] NET: Registered protocol family 2
+[    0.336096] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes)
+[    0.337119] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.338075] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.338980] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.339875] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.340662] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.341634] NET: Registered protocol family 1
+[    0.352837] RPC: Registered named UNIX socket transport module.
+[    0.353619] RPC: Registered udp transport module.
+[    0.354230] RPC: Registered tcp transport module.
+[    0.354841] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.355886] Trying to unpack rootfs image as initramfs...
+[    0.972630] Freeing initrd memory: 7584K
+[    0.973354] hw perfevents: no interrupt-affinity property for /pmu@f8891000, guessing.
+[    0.974625] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+[    0.977219] Initialise system trusted keyrings
+[    0.977958] workingset: timestamp_bits=30 max_order=17 bucket_order=0
+[    0.979566] jffs2: version 2.2. (NAND) (SUMMARY)  Â© 2001-2006 Red Hat, Inc.
+[    0.981366] Key type asymmetric registered
+[    0.981911] Asymmetric key parser 'x509' registered
+[    0.982603] io scheduler noop registered
+[    0.983120] io scheduler deadline registered
+[    0.983725] io scheduler cfq registered (default)
+[    0.984340] io scheduler mq-deadline registered
+[    0.984930] io scheduler kyber registered
+[    0.987534] dma-pl330 f8003000.dmac: Loaded driver for PL330 DMAC-241330
+[    0.988424] dma-pl330 f8003000.dmac:         DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.999365] brd: module loaded
+[    1.005589] loop: module loaded
+[    1.008276] libphy: Fixed MDIO Bus: probed
+[    1.013242] i2c /dev entries driver
+[    1.015688] cdns-wdt f8005000.watchdog: Xilinx Watchdog Timer at (ptrval) with timeout 10s
+[    1.017125] EDAC MC: ECC not enabled
+[    1.017765] Xilinx Zynq CpuIdle Driver started
+[    1.018893] sdhci: Secure Digital Host Controller Interface driver
+[    1.019702] sdhci: Copyright(c) Pierre Ossman
+[    1.020269] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.044989] mmc0: SDHCI controller on e0100000.mmc [e0100000.mmc] using ADMA
+[    1.082127] mmc1: SDHCI controller on e0101000.mmc [e0101000.mmc] using ADMA
+[    1.083973] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.086963] fpga_manager fpga0: Xilinx Zynq FPGA Manager registered
+[    1.088894] NET: Registered protocol family 10
+[    1.090530] Segment Routing with IPv6
+[    1.091139] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    1.092935] NET: Registered protocol family 17
+[    1.093647] zynq_pm_remap_ocm: OCM pool is not available
+[    1.094367] zynq_pm_suspend_init: Unable to map OCM.
+[    1.095030] Registering SWP/SWPB emulation handler
+[    1.096325] Loading compiled-in X.509 certificates
+[    1.097245] of-fpga-region fpga-full: FPGA Region probed
+[    1.098165] hctosys: unable to open rtc device (rtc0)
+[    1.098829] of_cfs_init
+[    1.099216] of_cfs_init: OK
+[    1.103375] Freeing unused kernel memory: 1024K
+[    1.104243] Run /init as init process
+[    1.128945] mmc1: new high speed MMC card at address 0001
+[    1.130671] mmcblk1: mmc1:0001 Q2J55L 7.13 GiB
+[    1.132252] mmcblk1boot0: mmc1:0001 Q2J55L partition 1 2.00 MiB
+[    1.134111] mmcblk1boot1: mmc1:0001 Q2J55L partition 2 2.00 MiB
+[    1.135275] mmcblk1rpmb: mmc1:0001 Q2J55L partition 3 4.00 MiB, chardev (244:0)
+[    1.148075]  mmcblk1: p1
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Saving random seed: [    1.230736] random: dd: uninitialized urandom read (512 bytes read)
+OK
+Starting system message bus: [    1.253843] random: dbus-uuidgen: uninitialized urandom read (12 bytes read)
+[    1.254869] random: dbus-uuidgen: uninitialized urandom read (8 bytes read)
+done
+Starting network: OK
+
+Welcome to NNLightSwitcher
+lightsw login: root
+#

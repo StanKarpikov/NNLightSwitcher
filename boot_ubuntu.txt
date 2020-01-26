@@ -1,0 +1,45 @@
+loady 0x1000000
+fatwrite mmc 0:1 0x1000000 uImage ${filesize}
+loady 0x1000000
+fatwrite mmc 0:1 0x1000000 devicetree.dtb ${filesize}
+
+setenv kernel_addr_r 0x2000000
+setenv fdt_addr_r 0x1f00000
+setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+bootm ${kernel_addr_r} - ${fdt_addr_r}
+setenv bootcmd "fatload mmc 0 ${kernel_addr_r} uImage; fatload mmc 0 ${fdt_addr_r} devicetree.dtb; fdt addr ${fdt_addr_r}; bootm ${kernel_addr_r} - ${fdt_addr_r}"
+setenv uenvcmd "run bootcmd"
+
+-------------------------------------------------------
+# --------- BOOT with files ---------
+setenv kernel_addr_r 0x2000000
+setenv fdt_addr_r 0x1f00000
+fatload mmc 0 ${fdt_addr_r} devicetree.dtb
+fdt addr ${fdt_addr_r}
+fatload mmc 0 ${kernel_addr_r} uImage
+setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+bootm ${kernel_addr_r} - ${fdt_addr_r}
+# --------- BOOT with RAM ---------
+setenv kernel_addr_r 0x2000000
+setenv fdt_addr_r 0x1f00000
+loady ${kernel_addr_r}
+loady ${fdt_addr_r}
+setenv bootargs "nokaslr earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+bootm ${kernel_addr_r} - ${fdt_addr_r}
+
+loady 0x1000000
+ext4write mmc 0:2 0x1000000 /lib/modules/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko ${filesize}
+
+sudo depmod -a
+
+
+
+
+-------------------------
+Ubuntu 16.04.6 LTS
+Change kernel and add device tree
+
+Change password
+Install brcmfmac
+Install wpa_supplicant
+

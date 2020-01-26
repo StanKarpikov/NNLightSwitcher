@@ -1,0 +1,489 @@
+2019-12-08T19:21:50 (exposition 150s)
+----------------------------------------------------
+XSCT Console
+connect
+targets
+<choose target>
+target 4
+rst -system
+
+ln -s /usr/bin /usr/sbin/
+
+#wget -O /dev/mmcblk1 192.168.0.5/ubuntu.img
+#wget -O - 192.168.0.5/ubuntu.img | dd of=/dev/mmcblk1
+wget 192.168.0.5/ubuntu.img -c
+dd if=/np/ubuntu.img of=/dev/mmcblk1 bs=4M conv=fsync
+----------------------------------------------------
+setenv kernel_addr_r 0x2000000
+setenv ramdisk_addr_r 0x4100000
+setenv fdt_addr_r 0x1f00000
+loady ${kernel_addr_r}
+loady ${ramdisk_addr_r}
+loady ${fdt_addr_r}
+setenv bootargs
+bootm ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
+
+# Load filesystem image from file on eMMC
+wget 192.168.0.5/sdcard_21.img
+ext4load mmc 0:3 0x1000000 /sdcard_21.img
+mmc erase 0x0 0x86400
+mmc write 0x1000000 0x0 0x86001
+
+# Load image via Ymodem
+loady 0x1000000
+
+# Rewrite file in eMMC
+fatwrite mmc 0:1 0x1000000 devicetree.dtb ${filesize}
+fatwrite mmc 0:1 0x1000000 uImage ${filesize}
+
+ext4write mmc 0:2 0x1000000 /etc/systemd/system/wifi.service 0x00000224
+
+
+fatload mmc 0 ${fdt_addr_r} devicetree.dtb
+
+fatload mmc 0 0x5000000 uInitrd
+fatload mmc 0 0x3000000 uImage
+fatload mmc 0 0x2A00000 devicetree.dtb
+bootm 0x3000000 0x5000000 0x2A00000
+bootz 0x3000000 0x5000000 0x2A00000
+bootm 0x3000000 - 0x2A00000
+setenv bootargs "earlycon earlyprintk console=ttyPS0,921600 console=tty1 root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+
+# 8Mb
+mmc erase 0x0 0x4000
+mmc write 0x1000000 0x0 0x4000
+
+# 32Mb
+mmc erase 0x0 0x10400
+mmc write 0x1000000 0x0 0x10001
+mmc write 0x1000000 0x0 0x10196
+
+# 280Mb
+mmc erase 0x0 0x21800
+mmc write 0x1000000 0x0 0x2176C
+
+------ eMMC FS
+fatload mmc 0 0x3000000 uImage
+fatload mmc 0 0x2A00000 devicetree.dtb
+setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait selinux=0"
+bootm 0x3000000 - 0x2A00000
+
+setenv kernel_addr_r 0x3000000
+setenv fdt_addr_r 0x2A00000
+setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait"
+setenv bootcmd "fatload mmc 0 ${kernel_addr_r} uImage; fatload mmc 0 ${fdt_addr_r} devicetree.dtb; bootm ${kernel_addr_r} - ${fdt_addr_r}"
+setenv uenvcmd "run bootcmd"
+saveenv
+------- RAM FS
+setenv kernel_addr_r 0x2000000
+setenv ramdisk_addr_r 0x4100000
+setenv fdt_addr_r 0x1f00000
+
+fatload mmc 0 ${kernel_addr_r} uImage
+fatload mmc 0 ${fdt_addr_r} devicetree.dtb
+fatload mmc 0 ${ramdisk_addr_r} uramdisk.image.gz
+bootm ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
+setenv bootargs "root=ram0"
+
+fatload mmc 0 0x2A00000 devicetree.dtb
+fatload mmc 0 0x03000000 vmlinuz
+
+fatload mmc 0 0x3000000 uImage
+fatload mmc 0 0x2A00000 devicetree.dtb
+fatload mmc 0 0x4000000 uramdisk.image.gz
+bootm 0x3000000 0x4000000 0x2A00000
+bootz 0x3000000 - 0x2A00000
+setenv bootargs
+
+bootz 0x3000000
+------------------
+kernel_addr_r=0x4000000
+dt_addr_r=0x3A00000
+ramd_addr_r=0x2000000
+bootargs="root=/dev/mmcblk0p1 rw rootwait rootfs=fat"
+setenv bootcmd "fatload mmc 0 ${kernel_addr_r} uImage; fatload mmc 0 ${fdt_addr_r} devicetree.dtb; fatload mmc 0 ${ramdisk_addr_r} uramdisk.image.gz; bootm ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}"
+setenv uenvcmd "run bootcmd"
+
+setenv kernel_addr_r 0x4000000
+setenv dt_addr_r 0x3A00000
+setenv ramd_addr_r 0x2000000
+setenv bootargs "root=/dev/mmcblk0p1 rw rootwait rootfs=fat"
+setenv bootcmd "fatload mmc 0 ${kernel_addr_r} uImage; fatload mmc 0 ${dt_addr_r} devicetree.dtb; fatload mmc 0 ${ramd_addr_r} uramdisk.image.gz; bootm ${kernel_addr_r} ${ramd_addr_r} ${dt_addr_r}"
+setenv uenvcmd "run bootcmd"
+
+------------------
+export PS1='\e[1;32m$(whoami)@$(hostname)\e[0m:\e[34;1m$(pwd)\e[0m$ '    to /etc/profile
+
+PS1='\e[33;1m\u@\h: \e[31m\W\e[0m\$ '
+--------------------------------------
+Build options -> development files in target filesystem
+Packages -> Development tools -> gcc
++make
++git
+
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842090/SD+controller#SDcontroller-Zynq.2
+
+CONFIG_DEBUG_KERNEL=y
+CONFIG_DEBUG_INFO=y
+
+--------------------------------------
+1. Create a script to run in the background. Change myvar variable so it kills the login shell after the transfer is complete. Currently 120 corresponds to 1200 seconds, sufficient for a 10 MBytes file. In addition edit the 808 to match your login shell PID:
+create bg file:
+
+	myvar=120
+	while [ $myvar -gt 0 ]
+	do
+		myvar=$(( $myvar-1 ))
+		echo -e " $myvar \n"
+		ls -l
+		sleep 10
+	done
+	kill -9 808
+
+2. Launch the script in the background:
+in console type:
+
+source ./bg &
+3. Use stty to change console to raw mode and do not echo
+in console type:
+
+stty raw -echo
+
+4. Start tar to untar stdin. Note: I have to use ctrl-J since no longer work after the stty command
+in console type and ends with ctrl-j, not :
+
+tar zx -f - 1> 1.log 2> 2.log
+
+5. Start Teraterm to send binary file
+
+6. Wait for completion and the new login prompt
+----------------------------------------
+Refer to 
+linux-xlnx/Documentation/devicetree/bindings/pinctrl/xlnx,zynqmp-pinctrl.txt
+for bindings
+----------------------------------------
+https://www.96boards.org/blog/boot-linux-from-sd-card-uboot/
+
+----------------------------------------
+
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin"
+
+#if [ "$PS1" ]; then
+#        if [ "`id -u`" -eq 0 ]; then
+#                export PS1='# '
+#        else
+#                export PS1='$ '
+#        fi
+#fi
+export PS1='\e[1;32m$(whoami)@$(hostname)\e[0m:\e[34;1m$(pwd)\e[0m$ '
+export EDITOR='/bin/vim'
+
+# Source configuration files from /etc/profile.d
+for i in /etc/profile.d/*.sh ; do
+        if [ -r "$i" ]; then
+                . $i
+        fi
+done
+unset i
+-----------------------------------------
+Make 2 partitions on your SD card : 
+
+1. FAT32 - "BOOT" >> boot.bin, image.ub, system.dtb, Image files 
+2. EXT4 - "ROOTFS" >> extracted rootfs.tar.gz in this .
+
+Load kernel and device-tree:
+
+ZynqMP> fatload mmc 0:1 0x3000000 uImage
+ZynqMP> fatload mmc 0:1 0x2A00000 system.dtb
+ZynqMP> bootm 0x3000000 - 0x2A00000
+
+Tell to the kernel where the rootfs is :
+
+
+ZynqMP> setenv bootargs "earlycon earlyprintk root=/dev/mmcblk1p1 rw rootfstype=ext4 rootwait"
+
+setenv bootargs "console=ttyPS0,921600"
+--------------------------------------------
+sudo insmod --force-modversion   /usr/lib/modules/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+sudo ln -s /usr/lib/modules/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko /lib/modules/`uname -r`
+
+modprobe --dump-modversions /usr/lib/modules/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+
+modinfo /usr/lib/modules/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+
+sudo modprobe brcmfmac -v --force-modversion --force-vermagic -f 
+4.4.0-1103-raspi2
+./home/ubuntu/4.19.0-xilinx/kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
+
+801b6afc -> 8ddaff5b
+
+sudo cp /proc/kallsyms /boot/System.map-`uname -r`
+
+cat /boot/System.map-4.1.09-xilinx/ module_layout
+
+sudo modprobe brcmfmac -v
+iwconfig wlan0 essid EXCELLENCE key s:"Mtdp920dxf45"
+iwconfig wlan0 essid "EXCELLENCE" enc "Mtdp920dxf45"
+ip link set wlan0 up
+ifconfig wlan0 up
+
+iw dev wlan0 scan
+iwlist wlan0 scan
+
+killall wpa_supplicant
+wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+----
+ctrl_interface=/var/run/wpa_supplicant
+ap_scan=1
+update_config=1
+
+network={
+  ssid="EXCELLENCE"
+  psk="Mtdp920dxf45"
+}
+----
+dhcpcd -T wlan0
+
+Help:
+iwconfig wlan0 | grep Quality
+ip route -sh
+route -n
+quality_percent = (signal_strength + 110) * 10 / 7
+--------
+touch /etc/init.d/S51startup_script
+vi /etc/init.d/S51startup_script
+chmod +x /etc/init.d/S51startup_script
+
+
+#!/bin/sh
+LOCKFILE=/var/lock/subsys/
+
+start(){
+    touch ${LOCKFILE}
+	
+	echo "Startup script"
+	modprobe brcmfmac -r;
+	modprobe brcmfmac -v&
+	sleep 3
+	ifconfig wlan0 up;
+	ip link set wlan0 up;
+	killall wpa_supplicant;
+	wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf;
+	sleep 3
+	dhcpcd -T wlan0;
+	echo "Startup script done"
+}
+
+stop(){
+	# Remove lock file
+	rm ${LOCKFILE}
+	
+	echo "Shutdoun script"
+	killall wpa_supplicant;
+	modprobe brcmfmac -r;
+}
+
+case "$1" in
+    start) start;;
+    stop) stop;;
+    *)
+        echo $"Usage: $0 {start|stop}"
+        exit 1
+esac
+exit 0
+-----------------------------------------
+fdisk -l  # View
+fdisk /dev/mmcblk1
+mke2fs -j /dev/mmcblk1p2
+mkdir -p /np
+mount /dev/mmcblk1p2 /np
+df -hT
+resize2fs /dev/mmcblk1p2
+
+sudo mount -o loop,offset=1048576 /mnt/hgfs/html/ubuntu.img /mnt/sdcard
+wget 192.168.0.5/uImage
+wget 192.168.0.5/uInitrd
+
+wget 192.168.0.5/sdcard_11.img
+
+opkg print-architecture
+arch all 1
+arch noarch 1
+arch arm 10
+-----------------------------------
+systemctl enable wifi.service
+systemctl status wifi.service
+systemctl start wifi.service
+
+/etc/systemd/system/wifi.service
+
+[Unit]
+Description=Start Wireless Networking
+After=network.target
+Before=dropbear.service wpa_supplicant.service dhcpcd.service vnc.service xinit-openbox.service
+
+[Service]
+Type=oneshot
+
+ExecStart=/usr/sbin/ifconfig wlan0 up
+ExecStart=/usr/sbin/ip link set dev wlan0 up
+
+[Install]
+WantedBy=multi-user.target
+-------------------------------------
+
+/etc/systemd/system/systemd-timesyncd.service
+
+-------------------------------------
+root@lightsw:/root$ fdisk /dev/mmcblk1
+
+Welcome to fdisk (util-linux 2.34).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): p
+Disk /dev/mmcblk1: 7.13 GiB, 7650410496 bytes, 14942208 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x00000000
+
+Device         Boot Start    End Sectors  Size Id Type
+/dev/mmcblk1p1 *        1  16384   16384    8M  c W95 FAT32 (LBA)
+/dev/mmcblk1p2      16385 466944  450560  220M 83 Linux
+
+Command (m for help): d
+Partition number (1,2, default 2): 2
+
+Partition 2 has been deleted.pages/18842090/SD
+
+Command (m for help): p
+Disk /dev/mmcblk1: 7.13 GiB, 7650410496 bytes, 14942208 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x00000000
+
+Device         Boot Start   End Sectors Size Id Type
+/dev/mmcblk1p1 *        1 16384   16384   8M  c W95 FAT32 (LBA)
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 0 extended, 3 free)
+   e   extended (container for logical partitions)
+Select (default p): p
+Partition number (2-4, default 2): 2
+First sector (16385-14942207, default 18432): 16385
+: st sector, +/-sectors or +/-size{K,M,G,T,P} (16385-14942207, default 14942207):
+
+Created a new partition 2 of type 'Linux' and of size 7.1 GiB.
+Partition #2 contains a ext2 signature.
+
+Do you want to remove the signature? [Y]es/[N]o: N
+
+Command (m for help): p
+
+Disk /dev/mmcblk1: 7.13 GiB, 7650410496 bytes, 14942208 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x00000000
+
+Device         Boot Start      End  Sectors  Size Id Type
+/dev/mmcblk1p1 *        1    16384    16384    8M  c W95 FAT32 (LBA)
+/dev/mmcblk1p2      16385 14942207 14925823  7.1G 83 Linux
+
+Command (m for help): w
+The partition table has been altered.
+Syncing disks.
+
+#resize2fs /dev/mmcblk1p1 -s
+--------------------------------------
+systemd-analyze 
+systemd-analyze critical-chain
+systemctl list-jobs
+systemctl daemon-reload
+systemctl list-unit-files | grep "enabled"
+systemctl list-dependencies
+
+systemctl disable systemd-resolved.service
+systemctl enable debug-shell.service
+systemctl stop systemd-timesyncd.service
+systemctl stop systemd-time-wait-sync.service
+systemctl enable wpa_supplicant.service
+--------------------------------------
+/usr/share/X11/xorg.conf.d/xorg.conf
+
+Section "Device"
+    Identifier  "Configured Video Device"
+    Driver      "dummy"
+EndSection
+
+Section "Monitor"
+    Identifier  "Configured Monitor"
+    HorizSync 31.5-48.5
+    VertRefresh 50-70
+EndSection
+
+Section "Screen"
+    Identifier  "Default Screen"
+    Monitor     "Configured Monitor"
+    Device      "Configured Video Device"
+    DefaultDepth 24
+    SubSection "Display"
+    Depth 24
+    Modes "1024x800"
+    EndSubSection
+EndSection
+------------------------------------
+/etc/systemd/system/wpa_supplicant.service
+systemctl enable wpa_supplicant.service
+
+[Unit]
+Description=WPA supplicant
+After=wifi.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant.conf
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+systemctl enable vnc.service
+/etc/systemd/system/vnc.service
+
+[Unit]
+Description=VNC Server
+After=multi-user.target network.target
+
+[Service]
+Restart=always
+ExecStart=/usr/bin/x11vnc -forever -loop -noxdamage -repeat -rfbport 5900 -shared
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+systemctl enable xinit-openbox.service
+/etc/systemd/system/xinit-openbox.service
+
+
+[Unit]
+Description=Openbox
+After=multi-user.target
+
+[Service]
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/xinit openbox-session
+
+[Install]
+WantedBy=multi-user.target
+------------------------------------
+xinit openbox-session
+x11vnc

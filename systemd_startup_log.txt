@@ -1,0 +1,532 @@
+
+Welcome to NNLightSwitcher
+lightsw login: root
+Password:
+root@lightsw:/root$ cd ..
+root@lightsw:/$ cd newpartition
+root@lightsw:/newpartition$ ls
+lost+found     sdcard_19.img
+root@lightsw:/newpartition$ wget 192.168.0.5/sdcard_19.img
+ -c
+Connecting to 192.168.0.5 (192.168.0.5:80)
+wget: server returned error: HTTP/1.1 416 Requested Range Not Satisfiable
+root@lightsw:/newpartition$ rm sdcard_19.img
+root@lightsw:/newpartition$ wget 192.168.0.5/sdcard_19.img
+
+Connecting to 192.168.0.5 (192.168.0.5:80)
+saving to 'sdcard_19.img'
+sdcard_19.img        100% |********************************|  228M  0:00:00 ETA
+'sdcard_19.img' saved
+root@lightsw:/newpartition$ reboot
+root@lightsw:/newpartition$ rm: '/var/lock/subsys' is a directory
+Shutdoun script
+[ 3379.046583] brcmfmac: brcmf_sdio_bus_rxctl: resumed on timeout
+[ 3379.047657] brcmfmac: brcmf_set_pmk: failed to change PSK in firmware (len=0)
+[ 3379.047697] brcmfmac: _brcmf_set_multicast_list: Setting mcast_list failed, -5
+[ 3379.049538] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.050476] brcmfmac: _brcmf_set_multicast_list: Setting allmulti failed, -5
+[ 3379.051407] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.052347] brcmfmac: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, -5
+[ 3379.053405] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.054345] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.055275] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.056204] brcmfmac: _brcmf_set_multicast_list: Setting mcast_list failed, -5
+[ 3379.058058] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.058996] brcmfmac: _brcmf_set_multicast_list: Setting allmulti failed, -5
+[ 3379.059913] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.060846] brcmfmac: _brcmf_set_multicast_list: Setting BRCMF_C_SET_PROMISC failed, -5
+[ 3379.061884] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.062813] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.566584] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.567654] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.569158] brcmfmac: brcmf_fil_cmd_data: bus is down. we have nothing to do.
+[ 3379.570091] brcmfmac: brcmf_cfg80211_get_channel: chanspec failed (-5)
+Stopping dropbear sshd: OK
+Stopping dhcpcd...
+stopped /sbin/dhcpcd (pid 715)
+Stopping Xorg: start-stop-daemon: warning: killing process 690: No such process
+FAIL
+Stopping network: OK
+Stopping system message bus: done
+Saving random seed: OK
+Stopping klogd: OK
+Stopping syslogd: OK
+[ 3380.062715] EXT4-fs (mmcblk1p3): re-mounted. Opts: (null)
+umount: /dev/mmcblk1p3 busy - remounted read-only
+umount: devpts busy - remounted read-only
+umount: devtmpfs busy - remounted read-only
+[ 3380.291985] EXT4-fs (mmcblk1p2): re-mounted. Opts: (null)
+The system is going down NOW!
+Sent SIGTERM to all processes
+Sent SIGKILL to all processes
+Requesting system reboot
+[ 3382.316758] reboot: Restarting system
+
+
+U-Boot 2019.01-00275-ge69ce480e2-dirty (Dec 14 2019 - 00:25:41 +0300) Xilinx Zynq zc7010
+
+CPU:   Zynq 7z010
+Silicon: v3.1
+Model: Xilinx zc7010 board
+DRAM:  ECC disabled 512 MiB
+MMC:   mmc@e0101000: 0
+Loading Environment from SPI Flash... SF: Detected w25q32bv with page size 256 Bytes, erase size 4 KiB, total 4 MiB
+OK
+In:    serial@e0000000
+Out:   serial@e0000000
+Err:   serial@e0000000
+Hit any key to stop autoboot:  0
+Zynq> ext4read
+Unknown command 'ext4read' - try 'help'
+Zynq> help
+?       - alias for 'help'
+base    - print or set address offset
+bdinfo  - print Board Info structure
+blkcache- block cache diagnostics and control
+boot    - boot default, i.e., run 'bootcmd'
+bootd   - boot default, i.e., run 'bootcmd'
+bootefi - Boots an EFI payload from memory
+bootelf - Boot from an ELF image in memory
+bootm   - boot application image from memory
+bootvx  - Boot vxWorks from an ELF image
+bootz   - boot Linux zImage image from memory
+clk     - CLK sub-system
+cmp     - memory compare
+coninfo - print console devices and information
+cp      - memory copy
+crc32   - checksum calculation
+dcache  - enable or disable data cache
+dm      - Driver model low level access
+echo    - echo args to console
+editenv - edit environment variable
+env     - environment handling commands
+exit    - exit script
+ext2load- load binary file from a Ext2 filesystem
+ext2ls  - list files in a directory (default /)
+ext4load- load binary file from a Ext4 filesystem
+ext4ls  - list files in a directory (default /)
+ext4size- determine a file's size
+ext4write- create a file in the root directory
+false   - do nothing, unsuccessfully
+fatinfo - print information about filesystem
+fatload - load binary file from a dos filesystem
+fatls   - list files in a directory (default /)
+fatmkdir- create a directory
+fatrm   - delete a file
+fatsize - determine a file's size
+fatwrite- write file into a dos filesystem
+fdt     - flattened device tree utility commands
+fpga    - loadable FPGA image support
+fstype  - Look up a filesystem type
+go      - start application at address 'addr'
+gpio    - query and control gpio pins
+help    - print command description/usage
+i2c     - I2C sub-system
+icache  - enable or disable instruction cache
+iminfo  - print header information for application image
+imxtract- extract a part of a multi-image
+itest   - return true/false on integer compare
+led     - manage LEDs
+load    - load binary file from a filesystem
+loadb   - load binary file over serial line (kermit mode)
+loads   - load S-Record file over serial line
+loadx   - load binary file over serial line (xmodem mode)
+loady   - load binary file over serial line (ymodem mode)
+loop    - infinite loop on address range
+ls      - list files in a directory (default /)
+md      - memory display
+mm      - memory modify (auto-incrementing address)
+mmc     - MMC sub system
+mmcinfo - display MMC info
+mtest   - simple RAM read/write test
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+part    - disk partition related commands
+printenv- print environment variables
+reset   - Perform RESET of the CPU
+run     - run commands in an environment variable
+save    - save file to a filesystem
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+sf      - SPI flash sub-system
+showvar - print local hushshell variables
+size    - determine a file's size
+sleep   - delay execution for some time
+source  - run script from memory
+spl     - SPL configuration
+test    - minimal test like /bin/sh
+true    - do nothing, successfully
+usb     - USB sub-system
+version - print monitor, compiler and linker version
+zynq    - Zynq specific commands
+Zynq> ext4load
+ext4load - load binary file from a Ext4 filesystem
+
+Usage:
+ext4load <interface> [<dev[:part]> [addr [filename [bytes [pos]]]]]
+    - load binary file 'filename' from 'dev' on 'interface'
+      to address 'addr' from ext4 filesystem
+Zynq> ext4load mmc 0:3 0x1000000 sdcard_19.img
+239075840 bytes read in 20262 ms (11.3 MiB/s)
+Zynq> <INTERRUPT>
+Zynq> <INTERRUPT>
+Zynq> mmc erase 0x0 0x72400
+
+MMC erase: dev # 0, block # 0, count 467968 ... 467968 blocks erased: OK
+Zynq> mmc write 0x1000000 0x0 0x72001
+
+MMC write: dev # 0, block # 0, count 466945 ... 466945 blocks written: OK
+Zynq> <INTERRUPT>
+Zynq> boot
+3811392 bytes read in 332 ms (10.9 MiB/s)
+13901 bytes read in 15 ms (904.3 KiB/s)
+## Booting kernel from Legacy Image at 02000000 ...
+   Image Name:   Linux-4.19.0-xilinx
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3811328 Bytes = 3.6 MiB
+   Load Address: 00008000
+   Entry Point:  00008000
+   Verifying Checksum ... OK
+## Flattened Device Tree blob at 01f00000
+   Booting using the fdt blob at 0x1f00000
+   Loading Kernel Image ... OK
+   Loading Device Tree to 1eb36000, end 1eb3c64c ... OK
+
+Starting kernel ...
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.19.0-xilinx (stanislav@stanislav-pc) (gcc version 8.3.0 (Buildroot 2019.11-rc3-dirty)) #1 SMP PREEMPT Tue Dec 17 22:05:27 MSK 2019
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] OF: fdt: Machine model: Xilinx zc7010 board
+[    0.000000] earlycon: cdns0 at MMIO 0xe0000000 (options '921600n8')
+[    0.000000] bootconsole [cdns0] enabled
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] cma: Reserved 16 MiB at 0x1f000000
+[    0.000000] random: get_random_bytes called from start_kernel+0x80/0x3c8 with crng_init=0
+[    0.000000] percpu: Embedded 16 pages/cpu @(ptrval) s35916 r8192 d21428 u65536
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 493136K/524288K available (6144K kernel code, 182K rwdata, 1468K rodata, 1024K init, 129K bss, 14768K reserved, 16384K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (7136 kB)
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 183 kB)
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   ( 130 kB)
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000]  Tasks RCU enabled.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000000] efuse mapped to (ptrval)
+[    0.000000] slcr mapped to (ptrval)
+[    0.000000] L2C: platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C: DT/platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C-310 erratum 769419 enabled
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9
+[    0.000000] L2C-310 full line of zeros enabled for Cortex-A9
+[    0.000000] L2C-310 ID prefetch enabled, offset 1 lines
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled
+[    0.000000] L2C-310 cache controller enabled, 8 ways, 512 kB
+[    0.000000] L2C-310: CACHE_ID 0x410000c8, AUX_CTRL 0x76760001
+[    0.000000] zynq_clock_init: clkc starts at (ptrval)
+[    0.000000] Zynq clock init
+[    0.000011] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 4398046511103ns
+[    0.000327] clocksource: arm_global_timer: mask: 0xffffffffffffffff max_cycles: 0x4ce07af025, max_idle_ns: 440795209040 ns
+[    0.001708] Switching to timer-based delay loop, resolution 3ns
+[    0.002515] clocksource: ttc_clocksource: mask: 0xffff max_cycles: 0xffff, max_idle_ns: 537538477 ns
+[    0.003587] timer #0 at (ptrval), irq=17
+[    0.004457] Console: colour dummy device 80x30
+[    0.004596] console [tty0] enabled
+[    0.005015] bootconsole [cdns0] disabled
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.19.0-xilinx (stanislav@stanislav-pc) (gcc version 8.3.0 (Buildroot 2019.11-rc3-dirty)) #1 SMP PREEMPT Tue Dec 17 22:05:27 MSK 2019
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] OF: fdt: Machine model: Xilinx zc7010 board
+[    0.000000] earlycon: cdns0 at MMIO 0xe0000000 (options '921600n8')
+[    0.000000] bootconsole [cdns0] enabled
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] cma: Reserved 16 MiB at 0x1f000000
+[    0.000000] random: get_random_bytes called from start_kernel+0x80/0x3c8 with crng_init=0
+[    0.000000] percpu: Embedded 16 pages/cpu @(ptrval) s35916 r8192 d21428 u65536
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 130048
+[    0.000000] Kernel command line: earlycon earlyprintk root=/dev/mmcblk1p2 rw rootfstype=ext4 rootwait
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 493136K/524288K available (6144K kernel code, 182K rwdata, 1468K rodata, 1024K init, 129K bss, 14768K reserved, 16384K cma-reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xff800000   ( 496 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0x(ptrval) - 0x(ptrval)   (7136 kB)
+[    0.000000]       .init : 0x(ptrval) - 0x(ptrval)   (1024 kB)
+[    0.000000]       .data : 0x(ptrval) - 0x(ptrval)   ( 183 kB)
+[    0.000000]        .bss : 0x(ptrval) - 0x(ptrval)   ( 130 kB)
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000] rcu:     RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000]  Tasks RCU enabled.
+[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000000] efuse mapped to (ptrval)
+[    0.000000] slcr mapped to (ptrval)
+[    0.000000] L2C: platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C: DT/platform modifies aux control register: 0x72360000 -> 0x72760000
+[    0.000000] L2C-310 erratum 769419 enabled
+[    0.000000] L2C-310 enabling early BRESP for Cortex-A9
+[    0.000000] L2C-310 full line of zeros enabled for Cortex-A9
+[    0.000000] L2C-310 ID prefetch enabled, offset 1 lines
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled
+[    0.000000] L2C-310 cache controller enabled, 8 ways, 512 kB
+[    0.000000] L2C-310: CACHE_ID 0x410000c8, AUX_CTRL 0x76760001
+[    0.000000] zynq_clock_init: clkc starts at (ptrval)
+[    0.000000] Zynq clock init
+[    0.000011] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 4398046511103ns
+[    0.000327] clocksource: arm_global_timer: mask: 0xffffffffffffffff max_cycles: 0x4ce07af025, max_idle_ns: 440795209040 ns
+[    0.001708] Switching to timer-based delay loop, resolution 3ns
+[    0.002515] clocksource: ttc_clocksource: mask: 0xffff max_cycles: 0xffff, max_idle_ns: 537538477 ns
+[    0.003587] timer #0 at (ptrval), irq=17
+[    0.004457] Console: colour dummy device 80x30
+[    0.004596] console [tty0] enabled
+[    0.005015] bootconsole [cdns0] disabled
+[    0.005518] Calibrating delay loop (skipped), value calculated using timer frequency.. 666.66 BogoMIPS (lpj=3333333)
+[    0.005557] pid_max: default: 32768 minimum: 301
+[    0.005753] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.005782] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.006387] CPU: Testing write buffer coherency: ok
+[    0.006434] CPU0: Spectre v2: using BPIALL workaround
+[    0.006667] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.064199] Setting up static identity map for 0x100000 - 0x100060
+[    0.084153] rcu: Hierarchical SRCU implementation.
+[    0.124150] smp: Bringing up secondary CPUs ...
+[    0.204518] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.204527] CPU1: Spectre v2: using BPIALL workaround
+[    0.204685] smp: Brought up 1 node, 2 CPUs
+[    0.204709] SMP: Total of 2 processors activated (1333.33 BogoMIPS).
+[    0.204730] CPU: All CPU(s) started in SVC mode.
+[    0.205762] devtmpfs: initialized
+[    0.208908] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.209361] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.209405] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.210469] pinctrl core: initialized pinctrl subsystem
+[    0.211444] NET: Registered protocol family 16
+[    0.216451] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.217626] cpuidle: using governor menu
+[    0.224316] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.224367] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.224496] zynq-ocm f800c000.ocmc: can't request region for resource [mem 0xfffc0000-0xffffffff]
+[    0.224552] zynq-ocm: probe of f800c000.ocmc failed with error -16
+[    0.224805] zynq-pinctrl 700.pinctrl: zynq pinctrl initialized
+[    0.225448] e0000000.serial: ttyPS0 at MMIO 0xe0000000 (irq = 25, base_baud = 6249999) is a xuartps
+[    0.289203] console [ttyPS0] enabled
+[    0.290220] xuartps e0001000.serial: No serial alias passed. Using the first free id
+[    0.291235] xuartps e0001000.serial: Checking id 0
+[    0.291994] e0001000.serial: ttyPS1 at MMIO 0xe0001000 (irq = 26, base_baud = 6249999) is a xuartps
+[    0.315994] vgaarb: loaded
+[    0.316706] SCSI subsystem initialized
+[    0.317436] media: Linux media interface: v0.10
+[    0.318083] videodev: Linux video capture interface: v2.00
+[    0.318858] pps_core: LinuxPPS API ver. 1 registered
+[    0.319507] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.320712] PTP clock support registered
+[    0.321278] EDAC MC: Ver: 3.0.0
+[    0.324572] FPGA manager framework
+[    0.326302] clocksource: Switched to clocksource arm_global_timer
+[    0.338202] NET: Registered protocol family 2
+[    0.339507] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes)
+[    0.340530] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.341485] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.342389] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.343282] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.344066] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.345035] NET: Registered protocol family 1
+[    0.346428] RPC: Registered named UNIX socket transport module.
+[    0.347205] RPC: Registered udp transport module.
+[    0.347817] RPC: Registered tcp transport module.
+[    0.348427] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.349756] hw perfevents: no interrupt-affinity property for /pmu@f8891000, guessing.
+[    0.350987] hw perfevents: enabled with armv7_cortex_a9 PMU driver, 7 counters available
+[    0.353447] Initialise system trusted keyrings
+[    0.354186] workingset: timestamp_bits=30 max_order=17 bucket_order=0
+[    0.355802] jffs2: version 2.2. (NAND) (SUMMARY)  Â© 2001-2006 Red Hat, Inc.
+[    0.358349] Key type asymmetric registered
+[    0.358899] Asymmetric key parser 'x509' registered
+[    0.359549] io scheduler noop registered
+[    0.360062] io scheduler deadline registered
+[    0.360671] io scheduler cfq registered (default)
+[    0.361286] io scheduler mq-deadline registered
+[    0.361875] io scheduler kyber registered
+[    0.364355] dma-pl330 f8003000.dmac: Loaded driver for PL330 DMAC-241330
+[    0.365246] dma-pl330 f8003000.dmac:         DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.376981] brd: module loaded
+[    0.383183] loop: module loaded
+[    0.385842] libphy: Fixed MDIO Bus: probed
+[    0.391058] i2c /dev entries driver
+[    0.393487] cdns-wdt f8005000.watchdog: Xilinx Watchdog Timer at (ptrval) with timeout 10s
+[    0.394931] EDAC MC: ECC not enabled
+[    0.395575] Xilinx Zynq CpuIdle Driver started
+[    0.397087] sdhci: Secure Digital Host Controller Interface driver
+[    0.397897] sdhci: Copyright(c) Pierre Ossman
+[    0.398464] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.425324] mmc0: SDHCI controller on e0100000.mmc [e0100000.mmc] using ADMA
+[    0.441315] mmc0: queuing unknown CIS tuple 0x80 (2 bytes)
+[    0.443559] mmc0: queuing unknown CIS tuple 0x80 (3 bytes)
+[    0.445794] mmc0: queuing unknown CIS tuple 0x80 (3 bytes)
+[    0.449286] mmc0: queuing unknown CIS tuple 0x80 (7 bytes)
+[    0.452431] mmc0: queuing unknown CIS tuple 0x80 (6 bytes)
+[    0.452620] mmc1: SDHCI controller on e0101000.mmc [e0101000.mmc] using ADMA
+[    0.454993] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.458497] fpga_manager fpga0: Xilinx Zynq FPGA Manager registered
+[    0.460175] NET: Registered protocol family 10
+[    0.461743] Segment Routing with IPv6
+[    0.462353] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    0.463970] NET: Registered protocol family 17
+[    0.464810] zynq_pm_remap_ocm: OCM pool is not available
+[    0.465529] zynq_pm_suspend_init: Unable to map OCM.
+[    0.466210] Registering SWP/SWPB emulation handler
+[    0.467595] Loading compiled-in X.509 certificates
+[    0.468647] of-fpga-region fpga-full: FPGA Region probed
+[    0.469581] hctosys: unable to open rtc device (rtc0)
+[    0.470265] of_cfs_init
+[    0.470668] of_cfs_init: OK
+[    0.471767] Waiting for root device /dev/mmcblk1p2...
+[    0.497118] random: fast init done
+[    0.497720] mmc1: new high speed MMC card at address 0001
+[    0.499269] mmcblk1: mmc1:0001 Q2J55L 7.13 GiB
+[    0.500572] mmcblk1boot0: mmc1:0001 Q2J55L partition 1 2.00 MiB
+[    0.502060] mmcblk1boot1: mmc1:0001 Q2J55L partition 2 2.00 MiB
+[    0.503138] mmcblk1rpmb: mmc1:0001 Q2J55L partition 3 4.00 MiB, chardev (244:0)
+[    0.505613]  mmcblk1: p1 p2
+[    0.522546] mmc0: new high speed SDIO card at address 0001
+[    0.541428] EXT4-fs warning (device mmcblk1p2): ext4_update_dynamic_rev:831: updating to rev 1 because of new feature flag, running e2fsck is recommended
+[    0.545100] EXT4-fs (mmcblk1p2): mounted filesystem without journal. Opts: (null)
+[    0.546112] VFS: Mounted root (ext4 filesystem) on device 179:2.
+[    0.552626] devtmpfs: mounted
+[    0.556185] Freeing unused kernel memory: 1024K
+[    0.557156] Run /sbin/init as init process
+[    1.191231] systemd[1]: System time before build time, advancing clock.
+[    1.233521] systemd[1]: systemd 243 running in system mode. (+PAM -AUDIT -SELINUX -IMA -APPARMOR -SMACK +SYSVINIT +UTMP -LIBCRYPTSETUP +GCRYPT -GNUTLS -ACL -XZ +LZ4 -SECCOMP +BLKID -ELFUTILS +KMOD -IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[    1.236963] systemd[1]: Detected architecture arm.
+
+Welcome to Buildroot 2019.11-rc3!
+
+[    1.281751] systemd[1]: Set hostname to <lightsw>.
+[    1.295892] random: systemd: uninitialized urandom read (16 bytes read)
+[    1.296865] systemd[1]: Initializing machine ID from random generator.
+[    1.549202] systemd[1]: /usr/lib/systemd/system/dbus-org.freedesktop.timedate1.service points to "systemd-timedated.servic" which is not a valid unit name: Invalid cross-device link
+[    1.552593] systemd[1]: /usr/lib/systemd/system/dbus-org.freedesktop.portable1.service points to "systemd-portabled.servic" which is not a valid unit name: Invalid cross-device link
+[    1.559806] systemd[1]: /usr/lib/systemd/system/dbus-org.freedesktop.hostname1.service points to "systemd-hostnamed.servic" which is not a valid unit name: Invalid cross-device link
+[    1.594785] systemd[1]: sysinit.target: Wants dependency dropin /usr/lib/systemd/system/sysinit.target.wants/systemd-udevd.service target ../../../../..//usr/lib/systemd/system/systemd-udevd.servic has different name
+[    1.806174] systemd[1]: /usr/lib/systemd/system/dhcpcd.service:8: PIDFile= references a path below legacy directory /var/run/, updating /var/run/dhcpcd.pid â†’ /run/dhcpcd.pid; please update the unit file accordingly.
+[    1.812000] systemd[1]: /usr/lib/systemd/system/dbus.socket:5: ListenStream= references a path below legacy directory /var/run/, updating /var/run/dbus/system_bus_socket â†’ /run/dbus/system_bus_socket; please update the unit file accordingly.
+[    1.921871] random: systemd: uninitialized urandom read (16 bytes read)
+[  OK  ] Created slice system-serial\x2dgetty.slice.
+[    1.946606] random: systemd: uninitialized urandom read (16 bytes read)
+[  OK  ] Started Dispatch Password â€¦ts to Console Directory Watch.
+[  OK  ] Started Forward Password Râ€¦uests to Wall Directory Watch.
+[  OK  ] Reached target Paths.
+[  OK  ] Reached target Remote File Systems.
+[  OK  ] Reached target Slices.
+[  OK  ] Reached target Swap.
+[  OK  ] Listening on initctl Compatibility Named Pipe.
+[  OK  ] Listening on Journal Socket (/dev/log).
+[  OK  ] Listening on Journal Socket.
+[  OK  ] Listening on Network Service Netlink Socket.
+[  OK  ] Listening on udev Control Socket.
+[  OK  ] Listening on udev Kernel Socket.
+         Mounting Temporary Directory (/tmp)...
+         Starting Create list of stâ€¦odes for the current kernel...
+         Starting Journal Service...
+         Starting Load Kernel Modules...
+         Starting Remount Root and Kernel File Systems...
+         Starting Wait Until Kernel Time Synchronized...
+         Starting udev Coldplug all Devices...
+[  OK  ] Started Journal Service.
+[    2.478981] EXT4-fs (mmcblk1p2): re-mounted. Opts: (null)
+[  OK  ] Mounted Temporary Directory (/tmp).
+[  OK  ] Started Create list of staâ€¦ nodes for the current kernel.
+[  OK  ] Started Load Kernel Modules.
+[  OK  ] Started Remount Root and Kernel File Systems.
+         Mounting Kernel Configuration File System...
+         Starting Flush Journal to Persistent Storage...
+         Starting Apply Kernel Variables...
+[    2.670111] systemd-journald[648]: Received client request to flush runtime journal.
+
+[  OK  ] Mounted Kernel Configuration File System.
+[  OK  ] Started Apply Kernel Variables.
+[  OK  ] Started Create Static Device Nodes in /dev.
+[  OK  ] Reached target Local File Systems (Pre).
+[  OK  ] Reached target Local File Systems.
+         Starting udev Kernel Device Manager...
+[  OK  ] Started Flush Journal to Persistent Storage.
+         Starting Create Volatile Files and Directories...
+[  OK  ] Started udev Coldplug all Devices.
+[  OK  ] Started Create Volatile Files and Directories.
+[  OK  ] Started udev Kernel Device Manager.
+         Starting Rebuild Journal Catalog...
+         Starting Network Service...
+         Starting Network Time Synchronization...
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Started Rebuild Journal Catalog.
+[  OK  ] Started Network Service.
+         Starting Network Name Resolution...
+         Starting Update is Completed...
+[  OK  ] Started Update is Completed.
+[  OK  ] Found device /dev/ttyPS0.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target System Time Set.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+[  OK  ] Started D-Bus System Message Bus.
+[    3.820658] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    3.946009] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    4.181362] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[  OK  ] Listening on Load/Save RF â€¦itch Status /dev/rfkill Watch.
+[    5.041542] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[    5.086058] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Feb 27 2018 03:15:32 version 7.45.154 (r684107 CY) FWID 01-4fbe0b04
+         Starting Load/Save RF Kill Switch Status...
+[  OK  ] Started Load/Save RF Kill Switch Status.
+[    5.230518] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[ ***  ] (2 of 2) A start job is running forâ€¦Synchronized (1min 42s / no limit)
+[  104.843720] random: crng init done
+[FAILED] Failed to start Network Name Resolution.
+See 'systemctl status systemd-resolved.service' for details.
+[  OK  ] Stopped Network Name Resolution.
+         Starting Network Name Resolution...
+[  OK  ] Started Network Name Resolution.
+[  OK  ] Reached target Network.
+[  OK  ] Reached target Host and Network Name Lookups.
+         Starting DHCP client...
+         Starting Dropbear SSH daemon...
+         Starting Permit User Sessions...
+[  OK  ] Started Permit User Sessions.
+[  OK  ] Started Serial Getty on ttyPS0.
+[  OK  ] Reached target Login Prompts.
+[  105.550794] 8021q: 802.1Q VLAN Support v1.8
+[  OK  ] Started Dropbear SSH daemon.
+[  OK  ] Started DHCP client.
+[  OK  ] Reached target Multi-User System.
+         Starting Update UTMP about System Runlevel Changes...
+[  OK  ] Started Update UTMP about System Runlevel Changes.
+
+Welcome to NNLightSwitcher
+lightsw login: root
+Password:
+Last login: Tue Nov 19 10:09:31 on ttyPS0
+#

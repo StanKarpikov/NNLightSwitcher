@@ -1,0 +1,23 @@
+apt-get install debootstrap
+apt-get install qemu-user-static
+
+sudo qemu-debootstrap --no-check-gpg --variant=minbase --arch=arm64 buster rootfs
+
+sudo debootstrap --no-check-gpg --verbose --arch=arm64 --foreign --variant=minbase buster rootfs
+sudo chroot rootfs /debootstrap/debootstrap --second-stage
+qemu-aarch64-static
+
+sudo cp /usr/bin/qemu-user-static rootfs/usr/bin/
+sudo cp /etc/resolv.conf rootfs/etc
+
+sudo chroot rootfs
+
+apt-get update
+
+Enable the serial console, Debian sysvinit way
+echo T0:2345:respawn:/sbin/getty -L ttyS0 115200 vt100 >> /etc/inittab
+
+exit
+
+sudo rm rootfs/etc/resolv.conf
+sudo rm rootfs/usr/bin/qemu-user-static
