@@ -18,35 +18,34 @@ preplace inst processing_system7_0_axi_periph1 -pg 1 -lvl 2 -x 980 -y 1150 -defa
 preplace inst resets1 -pg 1 -lvl 2 -x 980 -y 890 -defaultsOSRD
 preplace inst video_out -pg 1 -lvl 2 -x 980 -y 570 -defaultsOSRD
 preplace inst xlconcat_0 -pg 1 -lvl 2 -x 980 -y 730 -defaultsOSRD
-preplace netloc audio_pwm_l_out 1 2 1 1370 -60n
-preplace netloc audio_pwm_r_out 1 2 1 1350 -40n
-preplace netloc processing_system7_0_FCLK_CLK1 1 1 2 160 -260 1260
-preplace netloc processing_system7_0_FCLK_CLK2 1 1 2 190 -250 1250J
-preplace netloc processing_system7_0_FCLK_CLK3 1 1 2 200 -270 1290
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 180J -240 1270J
-preplace netloc rst_processing_system7_0_50M_interconnect_aresetn 1 1 2 250 810 1220
-preplace netloc rst_processing_system7_0_50M_peripheral_aresetn 1 1 2 200 820 1210
-preplace netloc video_out_hdmi_clk_n 1 2 1 1340J 540n
-preplace netloc video_out_hdmi_clk_p 1 2 1 1330J 560n
-preplace netloc video_out_hdmi_data_n 1 2 1 1320J 580n
-preplace netloc video_out_hdmi_data_p 1 2 1 1310J 600n
-preplace netloc video_out_mm2s_introut 1 1 2 260 800 1210J
-preplace netloc xlconcat_0_dout 1 1 2 170 -280 1300
+preplace netloc audio_pwm_l_out 1 2 1 1340 -60n
+preplace netloc audio_pwm_r_out 1 2 1 1320 -40n
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 2 160 -240 1250
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 2 250 420 1220J
+preplace netloc processing_system7_0_FCLK_CLK3 1 1 2 170 -250 1260
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 220J 430 1210J
+preplace netloc rst_processing_system7_0_50M_interconnect_aresetn 1 1 2 260 810 1220
+preplace netloc rst_processing_system7_0_50M_peripheral_aresetn 1 1 2 170 820 1210
+preplace netloc video_out_hdmi_clk_n 1 2 1 1310J 540n
+preplace netloc video_out_hdmi_clk_p 1 2 1 1300J 560n
+preplace netloc video_out_hdmi_data_n 1 2 1 1290J 580n
+preplace netloc video_out_hdmi_data_p 1 2 1 1280J 600n
+preplace netloc video_out_mm2s_introut 1 1 2 270 800 1210J
+preplace netloc xlconcat_0_dout 1 1 2 240 450 1220
 preplace netloc Vp_Vn_1 1 0 2 -100J -70 NJ
-preplace netloc audio_DMA_RX_REQ 1 1 2 230 -200 1210
-preplace netloc audio_DMA_TX_REQ 1 1 2 220 -230 1240
-preplace netloc processing_system7_0_DDR1 1 2 1 1360 100n
-preplace netloc processing_system7_0_DMA0_ACK 1 1 2 240 -220 1230
-preplace netloc processing_system7_0_DMA1_ACK 1 1 2 250 -210 1220
-preplace netloc processing_system7_0_FIXED_IO1 1 2 1 1340 120n
-preplace netloc processing_system7_0_GPIO_0 1 2 1 1380 80n
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 240 440 1210J
-preplace netloc processing_system7_0_axi_periph_M00_AXI 1 1 2 220 1370 1230
-preplace netloc processing_system7_0_axi_periph_M02_AXI 1 1 2 260 -190 1280
-preplace netloc processing_system7_0_axi_periph_M04_AXI 1 1 2 230 1380 1220
-preplace netloc processing_system7_0_axi_periph_M05_AXI 1 1 2 210 1390 1210
-preplace netloc video_out_M00_AXI 1 1 2 260 450 1210J
-preplace netloc video_out_M01_AXI 1 1 1 N 220
+preplace netloc audio_DMA_TX_REQ 1 1 2 230 -220 1230
+preplace netloc audio_DMA_RX_REQ 1 1 2 240 -200 1210
+preplace netloc video_out_M00_AXI 1 1 2 230 440 1230J
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 1 2 200 1370 1230
+preplace netloc processing_system7_0_axi_periph_M02_AXI 1 1 2 270 -190 1270
+preplace netloc processing_system7_0_axi_periph_M04_AXI 1 1 2 210 1380 1220
+preplace netloc processing_system7_0_axi_periph_M05_AXI 1 1 2 180 1390 1210
+preplace netloc processing_system7_0_DDR1 1 2 1 1330 120n
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 190 40 1210J
+preplace netloc processing_system7_0_DMA0_ACK 1 1 2 260 -210 1220
+preplace netloc processing_system7_0_GPIO_0 1 2 1 1350 100n
+preplace netloc processing_system7_0_FIXED_IO1 1 2 1 1310 140n
+preplace netloc processing_system7_0_DMA1_ACK 1 1 2 250 -230 1240
 levelinfo -pg 1 -120 140 980 2070
 pagesize -pg 1 -db -bbox -sgen -220 -520 2230 1520
 "
