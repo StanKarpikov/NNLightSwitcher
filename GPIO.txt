@@ -25,4 +25,22 @@ Table 6-4: Boot Mode MIO Strapping Pins
 QSPI boot: R51 (QSPI IO3) -> 1 (R52)
 JTAG boot: R51 (QSPI IO3) -> 0
 
-WiFi 
+WiFi
+
+Audio (AVCC 1.8):
+AD8_P E11 Right
+AD8_N E12 Left
+
+G7, H8 - Dual ADC (NCot Connected)
+
+HDMI (TMS 3.3):
+TX0_N P8
+TX0_P P9
+TX1_N R10
+TX1_P P10
+TX2_N R11
+TX2_P P11
+TXC_N R7
+TXC_P R8
+CEC K12
+IRQ D8

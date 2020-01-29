@@ -1,20 +1,40 @@
 {
-   ExpandedHierarchyInLayout: "",
-   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
 #  -string -flagsOSRD
-preplace port s_axi_aclk -pg 1 -y -300 -defaultsOSRD
-preplace port S00_AXI -pg 1 -y 110 -defaultsOSRD
-preplace port s_axi_lite -pg 1 -y -340 -defaultsOSRD
-preplace port s_axi_aresetn -pg 1 -y -280 -defaultsOSRD
-preplace inst axis_to_i2s_0 -pg 1 -lvl 2 -y -340 -defaultsOSRD
-preplace inst xadc_wiz_0 -pg 1 -lvl 1 -y -310 -defaultsOSRD
-preplace inst i2s_to_pwm_0 -pg 1 -lvl 4 -y -20 -defaultsOSRD
-preplace inst axi_i2s_adi_0 -pg 1 -lvl 3 -y -40 -defaultsOSRD
-preplace netloc Conn1 1 0 1 NJ
-preplace netloc Conn2 1 0 3 -30 -110 N -110 N
-preplace netloc s_axi_aclk_1 1 0 4 -30J -500 N -500 540 80 810
-preplace netloc s_axi_aresetn_1 1 0 3 -20J -490 N -490 530
-levelinfo -pg 1 -50 130 410 680 990 1420 -top -680 -bot 360
-",
+preplace port DMA_RX_ACK -pg 1 -lvl 0 -x -50 -y 150 -defaultsOSRD
+preplace port DMA_RX_REQ -pg 1 -lvl 5 -x 1200 -y -110 -defaultsOSRD
+preplace port DMA_TX_ACK -pg 1 -lvl 0 -x -50 -y 130 -defaultsOSRD
+preplace port DMA_TX_REQ -pg 1 -lvl 5 -x 1200 -y -130 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -50 -y 110 -defaultsOSRD
+preplace port Vp_Vn -pg 1 -lvl 0 -x -50 -y -340 -defaultsOSRD
+preplace port audio_clk -pg 1 -lvl 0 -x -50 -y 170 -defaultsOSRD
+preplace port axi_aclk -pg 1 -lvl 0 -x -50 -y -320 -defaultsOSRD
+preplace port pwm_l_out -pg 1 -lvl 5 -x 1200 -y -30 -defaultsOSRD
+preplace port pwm_r_out -pg 1 -lvl 5 -x 1200 -y -10 -defaultsOSRD
+preplace portBus axi_resetn -pg 1 -lvl 0 -x -50 -y -280 -defaultsOSRD
+preplace inst axi_i2s_adi_0 -pg 1 -lvl 3 -x 760 -y -40 -defaultsOSRD
+preplace inst axis_to_i2s_0 -pg 1 -lvl 2 -x 430 -y -340 -defaultsOSRD
+preplace inst i2s_to_pwm_0 -pg 1 -lvl 4 -x 1070 -y -20 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 1 -x 130 -y -310 -defaultsOSRD
+preplace netloc BCLK 1 1 3 290 180 NJ 180 940
+preplace netloc DATA_CLK_I_1 1 0 3 NJ 170 NJ 170 600J
+preplace netloc LRCLK 1 1 3 300 190 NJ 190 930
+preplace netloc i2s_to_pwm_0_pwm_l_out 1 4 1 NJ -30
+preplace netloc i2s_to_pwm_0_pwm_r_out 1 4 1 NJ -10
+preplace netloc m_axis_resetn_1 1 0 3 -30 -200 280 -50 560
+preplace netloc play_sdata 1 3 1 920 -10n
+preplace netloc rec_sdata 1 2 1 580 -340n
+preplace netloc s_axis_aclk_1 1 0 4 -20 -190 270 -40 580 120 950J
+preplace netloc xadc_wiz_0_M_AXIS 1 1 1 260 -380n
+preplace netloc Conn5 1 0 3 NJ 150 NJ 150 590J
+preplace netloc Conn2 1 0 3 N 130 N 130 570
+preplace netloc Conn6 1 0 3 NJ 110 NJ 110 550
+preplace netloc Conn3 1 3 2 920J -130 NJ
+preplace netloc Conn4 1 3 2 950J -110 NJ
+preplace netloc Vp_Vn_1 1 0 1 -20 -340n
+levelinfo -pg 1 -50 130 430 760 1070 1200
+pagesize -pg 1 -db -bbox -sgen -200 -680 1350 360
+"
 }
 0

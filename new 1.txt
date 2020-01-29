@@ -1,0 +1,21 @@
+setenv fdt_addr_r 0x02000000
+setenv kernel_addr_r 0x02100000
+setenv ramdisk_addr_r 0x0A000000
+
+fatload mmc 0 ${fdt_addr_r} devicetree.dtb
+
+fdt addr ${fdt_addr_r}
+#fdt get value bootargs /chosen bootargs
+setenv bootargs "earlycon earlyprintk"
+
+setenv bootargs "earlycon earlyprintk net.ifnames=0 dwc_otg.lpm_enable=0 console=ttyS0,921600 root=/dev/mmcblk1p2=writable rootfstype=ext4 elevator=deadline rootwait fixrtc"
+
+mw.w ${kernel_addr_r} 0x8b1f  # little endian
+load mmc 0:1 ${ramdisk_addr_r} vmlinuz
+kernel_size=${filesize}
+cp.b ${ramdisk_addr_r} ${kernel_addr_r} ${kernel_size}
+
+load mmc 0:1 ${ramdisk_addr_r} initrd.img
+ramdisk_size=${filesize}
+bootz ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}
+
